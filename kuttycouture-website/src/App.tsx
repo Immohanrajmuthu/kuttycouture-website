@@ -1,9 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { MainLayout } from "./layouts/MainLayout";
 import { Hero } from "./components/sections/Hero";
+import { ShopByCategory } from "./components/sections/ShopByCategory";
 
 function HomePage() {
-  return <Hero />;
+   return (
+    <>
+      <Hero />
+      <ShopByCategory />
+    </>
+  );
 }
 
 function CollectionsPage() {
