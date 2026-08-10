@@ -1,9 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { MainLayout } from "./layouts/MainLayout";
 import { Hero } from "./components/sections/Hero";
+import { ShopByCategory } from "./components/sections/ShopByCategory";
+import {FeaturedProducts} from "./components/sections/FeaturedProducts";
+import { AboutKuttyCouture } from "./components/sections/AboutKuttyCouture";
 
 function HomePage() {
-  return <Hero />;
+   return (
+    <>
+      <Hero />
+      <ShopByCategory />
+      <FeaturedProducts />
+      <AboutKuttyCouture />
+    </>
+  );
 }
 
 function CollectionsPage() {
