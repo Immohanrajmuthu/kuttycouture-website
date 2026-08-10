@@ -3,6 +3,7 @@ import { MainLayout } from "./layouts/MainLayout";
 import { Hero } from "./components/sections/Hero";
 import { ShopByCategory } from "./components/sections/ShopByCategory";
 import {FeaturedProducts} from "./components/sections/FeaturedProducts";
+import { AboutKuttyCouture } from "./components/sections/AboutKuttyCouture";
 
 function HomePage() {
    return (
@@ -10,6 +11,7 @@ function HomePage() {
       <Hero />
       <ShopByCategory />
       <FeaturedProducts />
+      <AboutKuttyCouture />
     </>
   );
 }

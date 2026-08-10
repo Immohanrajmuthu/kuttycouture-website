@@ -1,5 +1,5 @@
 import accessoriesImage from "../../assets/collections/accessories/Delicate Gold Flower Necklace.png";
-import babyWearImage from "../../assets/collections/baby-wears/FS Set-Model 1.png";
+import babyWearImage from "../../assets/collections/baby-wears/Kids-wear.png";
 
 const collections = [
   {
