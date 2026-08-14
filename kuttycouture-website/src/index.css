@@ -9,6 +9,11 @@
   --kc-accent: #d8a39a;
   --kc-border: #eaded9;
 
+  /* Availability */
+  --kc-availability-available: var(--kc-primary);
+  --kc-availability-limited: #8a5a2b;
+  --kc-availability-unavailable: var(--kc-muted);
+
   --kc-radius-sm: 8px;
   --kc-radius-md: 14px;
   --kc-radius-lg: 24px;
