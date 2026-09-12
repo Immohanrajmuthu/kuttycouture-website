@@ -5,6 +5,12 @@ type ProductEnquiryOptions = {
   useLowStockWording?: boolean;
 };
 
+const whatsappBaseUrl = "https://wa.me/918610971628";
+
+export function getWhatsAppUrl(message: string): string {
+  return `${whatsappBaseUrl}?text=${encodeURIComponent(message)}`;
+}
+
 export function getProductEnquiryMessage(
   product: Product,
   { size, useLowStockWording = false }: ProductEnquiryOptions = {},
@@ -28,7 +34,5 @@ export function getProductEnquiryUrl(
   product: Product,
   options?: ProductEnquiryOptions,
 ): string {
-  return `https://wa.me/918610971628?text=${encodeURIComponent(
-    getProductEnquiryMessage(product, options),
-  )}`;
+  return getWhatsAppUrl(getProductEnquiryMessage(product, options));
 }
