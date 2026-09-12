@@ -1,11 +1,9 @@
 import type { Product } from "../types/product";
 
 // Product images
-import floralPendant from "../assets/products/accessories/floral-pendant-necklace.png";
-import crossPendant from "../assets/products/accessories/cross-pendant-necklace.png";
-import heartNecklace from "../assets/products/accessories/double-layer-heart-necklace.png";
-import leafPendant from "../assets/products/accessories/leaf-feather-pendant-necklace.png";
-import pinkStonePendant from "../assets/products/accessories/pink-stone-pendant-necklace.png";
+import hero100004 from "../assets/products/accessories/pink-stone-pendant-necklace-hero-100004.png";
+import model100004 from "../assets/products/accessories/pink-stone-pendant-necklace-model-100004.png";
+import detail100004 from "../assets/products/accessories/pink-stone-pendant-necklace-detail-100004.png";
 import goldBarNecklace from "../assets/products/accessories/gold-bar-stone-necklace.png";
 
 import lollipopFrock from "../assets/products/clothing/lollipop-ice-cream-frock.png";
@@ -13,122 +11,175 @@ import abcFullSleeveSet from "../assets/products/clothing/abc-full-sleeve-set.pn
 import puppyJablaSet from "../assets/products/clothing/puppy-jabla-shorts-set.png";
 import starKnotFrock from "../assets/products/clothing/star-knot-frock.png";
 
+//SKU-100000
+import hero100000 from "../assets/products/accessories/gold-clover-charm-necklace-hero-100000.png";
+import model100000 from "../assets/products/accessories/gold-clover-charm-necklace-model-100000.png";
+import detail100000 from "../assets/products/accessories/gold-clover-charm-necklace-detail-100000.png";
+
+//SKU-100001
+import hero100001 from "../assets/products/accessories/golden-butterfly-necklace-hero-100001.png";
+import model100001 from "../assets/products/accessories/golden-butterfly-necklace-model-100001.png";
+import detail100001 from "../assets/products/accessories/golden-butterfly-necklace-detail-100001.png";
+
+//SKU-100002
+import hero100002 from "../assets/products/accessories/golden-twin-hearts-necklace-hero-100002.png";
+import model100002 from "../assets/products/accessories/golden-twin-hearts-necklace-model-100002.png";
+import detail100002 from "../assets/products/accessories/golden-twin-hearts-necklace-detail-100002.png";
+
+//SKU-100003
+import hero100003 from "../assets/products/accessories/golden-heart-layers-necklace-hero-100003.png";
+import model100003 from "../assets/products/accessories/golden-heart-layers-necklace-model-100003.png";
+import detail100003 from "../assets/products/accessories/golden-heart-layers-necklace-detail-100003.png";
+
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
   // ---------------------------------------------------------------------------
 
   {
-    id: "floral-pendant-necklace",
-    name: "Floral Pendant Necklace",
+    id: "Gold-Clover-Charm-Necklace-100000",
+    name: "Gold Clover Charm Necklace",
     sku: 100000,
-    stockCount: 10,
+    stockCount: 1,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
-      "A delicate floral pendant designed for simple, everyday elegance.",
+      "Elegant gold chain necklace featuring delicate floral motifs and a sparkling four-petal crystal pendant.",
 
-    price: 399,
+    price: null,
     availability: "out-of-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
     images: [
       {
-        src: floralPendant,
-        alt: "Gold-tone floral pendant necklace displayed on a pink jewellery stand.",
+        src: hero100000,
+        alt: "Gold chain necklace with floral motifs and a sparkling four-petal crystal pendant, displayed on a white beaded ring against a soft white textured background.",
+      },
+      {
+        src: model100000,
+        alt: "Close-up of a woman wearing a delicate gold chain necklace with floral motifs, small gemstone accents, and a sparkling four-petal floral pendant, styled with a white ruffled top.",
+      },
+      {
+        src: detail100000,
+        alt: "Gold chain necklace with floral motifs and a sparkling four-petal crystal pendant, displayed on a white beaded ring against a soft white textured background.",
       },
     ],
   },
 
   {
-    id: "cross-pendant-necklace",
-    name: "Cross Pendant Necklace",
+    id: "golden-butterfly-necklace",
+    name: "Golden Butterfly Necklace",
     sku: 100001,
-    stockCount: 10,
+    stockCount: 1,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
-      "A simple cross pendant necklace with a delicate chain for everyday wear.",
+      "Delicate gold butterfly necklace adorned with sparkling crystal accents.",
 
     price: null,
-    availability: "low-stock",
+    availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
     images: [
       {
-        src: crossPendant,
-        alt: "Gold-tone cross pendant necklace displayed on a pink jewellery stand.",
+        src: hero100001,
+        alt: "Gold chain necklace with a butterfly centerpiece and sparkling crystal stones, displayed on a white beaded jewelry holder against a soft white background.",
+      },
+      {
+        src: model100001,
+        alt: "Close-up of a woman wearing a delicate gold chain necklace with a butterfly centerpiece and sparkling crystal stones, styled with a white ruffled top.",
+      },
+      {
+        src: detail100001,
+        alt: "Gold chain necklace with a butterfly centerpiece and sparkling crystal stones, displayed on a white beaded jewelry holder against a soft white background.",
       },
     ],
   },
 
   {
-    id: "double-layer-heart-necklace",
-    name: "Double-layer Heart Necklace",
+    id: "golden-twin-hearts-necklace",
+    name: "Golden Twin Hearts Necklace",
     sku: 100002,
-    stockCount: 10,
+    stockCount: 1,
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
-      "A delicate double-layer necklace featuring a simple heart pendant.",
+      "A elegant golden necklace featuring two interlocking heart pendants.",
 
     price: null,
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
     images: [
       {
-        src: heartNecklace,
-        alt: "Double-layer gold-tone heart necklace displayed on a white heart-shaped stand.",
+        src: hero100002,
+        alt: "Golden twin hearts necklace displayed on a white jewellery stand.",
+      },
+      {
+        src: model100002,
+        alt: "Close-up of a woman wearing a delicate golden necklace with two interlocking heart pendants, styled with a white ruffled top.",
+      },
+      {
+        src: detail100002,
+        alt: "Golden twin hearts necklace displayed on a white jewellery stand.",
       },
     ],
   },
 
   {
-    id: "leaf-feather-pendant-necklace",
-    name: "Leaf/Feather Pendant Necklace",
+    id: "golden-heart-layers-necklace",
+    name: "Golden Heart Layers Necklace",
     sku: 100003,
-    stockCount: 10,
+    stockCount: 1,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
-      "A graceful pendant necklace featuring a delicate leaf-inspired design.",
+      "A stylish golden necklace featuring layered heart pendants for a chic and elegant look.",
 
     price: null,
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
     images: [
       {
-        src: leafPendant,
-        alt: "Gold-tone leaf-inspired pendant necklace displayed on a pink jewellery stand.",
+        src: hero100003,
+        alt: "Layered gold-tone necklace with two polished heart pendants displayed on a pink velvet stand.",
+      },
+      {
+        src: model100003,
+        alt: "Close-up of a model wearing a layered gold-tone necklace with two heart pendants over a white top.",
+      },
+      {
+        src: detail100003,
+        alt: "Close-up of two polished heart pendants and the textured gold-tone chain against pink fabric.",
       },
     ],
   },
@@ -139,7 +190,7 @@ export const products: Product[] = [
     sku: 100004,
     stockCount: 10,
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -149,14 +200,22 @@ export const products: Product[] = [
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / special occasions",
+    occasionTags: ["Everyday", "special occasions"],
 
     offerAvailable: true,
 
     images: [
       {
-        src: pinkStonePendant,
-        alt: "Gold-tone necklace with a small pink stone pendant displayed on a jewellery stand.",
+        src: hero100004,
+        alt: "Gold-tone necklace with a petite pink crystal pendant displayed on a white heart-shaped beaded jewellery holder.",
+      },
+      {
+        src: model100004,
+        alt: "Close-up of a woman wearing a delicate gold-tone necklace with a petite pink crystal pendant and a white ruffled top.",
+      },
+      {
+        src: detail100004,
+        alt: "Macro detail of a delicate gold-tone chain and petite pink crystal pendant displayed over ivory satin.",
       },
     ],
   },
@@ -168,7 +227,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -178,7 +237,7 @@ export const products: Product[] = [
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
@@ -201,7 +260,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "frock",
+    productType: "frock",
     audience: ["baby"],
 
     shortDescription:
@@ -217,7 +276,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     pattern: "Lollipop & ice-cream print",
 
     offerAvailable: true,
@@ -237,7 +296,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "full-sleeve-set",
+    productType: "full-sleeve-set",
     audience: ["baby"],
 
     shortDescription:
@@ -253,7 +312,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     setContents: "Full-sleeve top and matching bottom",
     pattern: "Learning-themed print",
 
@@ -274,7 +333,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "jabla-shorts-set",
+    productType: "jabla-shorts-set",
     audience: ["baby"],
 
     shortDescription:
@@ -290,7 +349,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     setContents: "Jabla top and matching shorts",
     pattern: "Puppy print",
 
@@ -311,7 +370,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "knot-frock",
+    productType: "knot-frock",
     audience: ["baby"],
 
     shortDescription:
@@ -327,7 +386,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     pattern: "Star print",
 
     offerAvailable: true,
