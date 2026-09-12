@@ -25,7 +25,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -35,7 +35,7 @@ export const products: Product[] = [
     availability: "out-of-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
@@ -54,7 +54,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -64,7 +64,7 @@ export const products: Product[] = [
     availability: "low-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
@@ -82,7 +82,7 @@ export const products: Product[] = [
     sku: 100002,
     stockCount: 10,
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -92,7 +92,7 @@ export const products: Product[] = [
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
@@ -111,7 +111,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -121,7 +121,7 @@ export const products: Product[] = [
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
@@ -139,7 +139,7 @@ export const products: Product[] = [
     sku: 100004,
     stockCount: 10,
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -149,7 +149,7 @@ export const products: Product[] = [
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / special occasions",
+    occasionTags: ["Everyday", "special occasions"],
 
     offerAvailable: true,
 
@@ -168,7 +168,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "accessories",
-    type: "necklace",
+    productType: "necklace",
     audience: ["women", "kids"],
 
     shortDescription:
@@ -178,7 +178,7 @@ export const products: Product[] = [
     availability: "in-stock",
 
     material: "Stainless steel",
-    styleOccasion: "Everyday / casual",
+    occasionTags: ["Everyday", "casual"],
 
     offerAvailable: true,
 
@@ -201,7 +201,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "frock",
+    productType: "frock",
     audience: ["baby"],
 
     shortDescription:
@@ -217,7 +217,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     pattern: "Lollipop & ice-cream print",
 
     offerAvailable: true,
@@ -237,7 +237,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "full-sleeve-set",
+    productType: "full-sleeve-set",
     audience: ["baby"],
 
     shortDescription:
@@ -253,7 +253,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     setContents: "Full-sleeve top and matching bottom",
     pattern: "Learning-themed print",
 
@@ -274,7 +274,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "jabla-shorts-set",
+    productType: "jabla-shorts-set",
     audience: ["baby"],
 
     shortDescription:
@@ -290,7 +290,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     setContents: "Jabla top and matching shorts",
     pattern: "Puppy print",
 
@@ -311,7 +311,7 @@ export const products: Product[] = [
     stockCount: 10,
 
     category: "clothing",
-    type: "knot-frock",
+    productType: "knot-frock",
     audience: ["baby"],
 
     shortDescription:
@@ -327,7 +327,7 @@ export const products: Product[] = [
     ],
 
     fabric: "Muslin",
-    styleOccasion: "Everyday wear",
+    occasionTags: ["Everyday", "casual"],
     pattern: "Star print",
 
     offerAvailable: true,

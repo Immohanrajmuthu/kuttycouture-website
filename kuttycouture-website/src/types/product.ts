@@ -23,7 +23,7 @@ export interface Product {
   stockCount: number;
 
   category: ProductCategory;
-  type: string;
+  productType: string;
   audience?: string[];
 
   shortDescription: string;
@@ -36,7 +36,7 @@ export interface Product {
   material?: string;
   fabric?: string;
 
-  styleOccasion?: string;
+  occasionTags?: string[];
   setContents?: string;
   pattern?: string;
   careInformation?: string;
