@@ -8,7 +8,7 @@ const collections = [
     image: accessoriesImage,
     imageAlt:
       "Gold flower necklace displayed as part of the KuttyCouture accessories collection.",
-    href: "/collections/accessories",
+    href: "/collections",
     linkLabel: "Explore Accessories",
   },
   {
@@ -18,7 +18,7 @@ const collections = [
     image: babyWearImage,
     imageAlt:
       "Baby wearing a muslin clothing set from the KuttyCouture baby-wear collection.",
-    href: "/collections/baby-wear",
+    href: "/collections",
     linkLabel: "Explore Baby Wear",
   },
 ];
