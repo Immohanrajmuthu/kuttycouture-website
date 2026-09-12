@@ -1,4 +1,6 @@
 import type { Product } from "../../types/product";
+import { Link } from "react-router-dom";
+import { getCareGuideAnchor } from "../../utils/productCare";
 
 type ProductDetailsProps = {
   product: Product;
@@ -24,6 +26,7 @@ function formatList(values: string[] | undefined): string | undefined {
 }
 
 export function ProductDetails({ product }: ProductDetailsProps) {
+  const careGuideAnchor = getCareGuideAnchor(product);
   const details: Detail[] = [
     { label: "Product type", value: formatValue(product.productType) },
     { label: "Audience", value: formatList(product.audience) },
@@ -63,6 +66,15 @@ export function ProductDetails({ product }: ProductDetailsProps) {
           </div>
         ))}
       </dl>
+
+      <div className="mt-6 border-t border-[var(--kc-border)] pt-5">
+        <Link
+          to={`/care-guide#${careGuideAnchor}`}
+          className="rounded-sm text-sm font-medium text-[var(--kc-primary)] transition-colors hover:text-[var(--kc-text)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--kc-primary)] focus-visible:ring-offset-2"
+        >
+          How to care for this product →
+        </Link>
+      </div>
     </section>
   );
 }

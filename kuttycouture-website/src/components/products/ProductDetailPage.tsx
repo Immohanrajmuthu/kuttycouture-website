@@ -1,8 +1,11 @@
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { products } from "../../data/products";
+import { getRelatedProducts } from "../../utils/relatedProducts";
 import { ProductDetails } from "./ProductDetails";
 import { ProductGallery } from "./ProductGallery";
 import { ProductPrimaryInfo } from "./ProductPrimaryInfo";
+import { RelatedProducts } from "./RelatedProducts";
 import { Container } from "../ui/Container";
 
 function getProductBySku(skuParam: string | undefined) {
@@ -22,6 +25,10 @@ function getProductBySku(skuParam: string | undefined) {
 export function ProductDetailPage() {
   const { sku } = useParams();
   const product = getProductBySku(sku);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [sku]);
 
   if (!product) {
     return (
@@ -49,6 +56,8 @@ export function ProductDetailPage() {
     );
   }
 
+  const relatedProducts = getRelatedProducts(product, products);
+
   return (
     <section aria-labelledby="product-heading" className="py-14 sm:py-16 lg:py-20">
       <Container>
@@ -58,6 +67,7 @@ export function ProductDetailPage() {
         </div>
 
         <ProductDetails product={product} />
+        <RelatedProducts products={relatedProducts} />
       </Container>
     </section>
   );
