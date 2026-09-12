@@ -5,6 +5,8 @@ import { ShopByCategory } from "./components/sections/ShopByCategory";
 import {FeaturedProducts} from "./components/sections/FeaturedProducts";
 import { AboutKuttyCouture } from "./components/sections/AboutKuttyCouture";
 import { ProductCard } from "./components/products/ProductCard";
+import { ProductDetailPage } from "./components/products/ProductDetailPage";
+import { CareGuidePage } from "./pages/CareGuidePage";
 import { products } from "./data/products";
 
 function HomePage() {
@@ -71,6 +73,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
+          <Route path="/products/:sku" element={<ProductDetailPage />} />
+          <Route path="/care-guide" element={<CareGuidePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
