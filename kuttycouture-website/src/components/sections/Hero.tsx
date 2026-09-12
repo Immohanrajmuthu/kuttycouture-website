@@ -1,4 +1,5 @@
 import heroImage from "../../assets/hero/kuttycouture-hero.png";
+import { getWhatsAppUrl } from "../../utils/productEnquiry";
 
 export function Hero() {
   return (
@@ -39,6 +40,10 @@ export function Hero() {
 }
 
 function HeroContent() {
+  const whatsappUrl = getWhatsAppUrl(
+    "Hi KuttyCouture! I would like to inquire about your products.",
+  );
+
   return (
     <div className="max-w-[440px]">
       <h1
@@ -63,7 +68,7 @@ function HeroContent() {
         </a>
 
         <a
-          href="https://wa.me/YOUR_NUMBER"
+          href={whatsappUrl}
           target="_blank"
           rel="noreferrer"
           className="inline-flex min-h-11 items-center justify-center rounded-full border border-[var(--kc-primary)] bg-white px-6 py-3 text-sm font-medium text-[var(--kc-primary)] transition-colors hover:bg-[var(--kc-background)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--kc-primary)] focus-visible:ring-offset-2"

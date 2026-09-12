@@ -7,6 +7,7 @@ import { AboutKuttyCouture } from "./components/sections/AboutKuttyCouture";
 import { ProductCard } from "./components/products/ProductCard";
 import { ProductDetailPage } from "./components/products/ProductDetailPage";
 import { CareGuidePage } from "./pages/CareGuidePage";
+import { NotFoundPage } from "./pages/NotFoundPage";
 import { products } from "./data/products";
 
 function HomePage() {
@@ -77,6 +78,7 @@ function App() {
           <Route path="/care-guide" element={<CareGuidePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>
