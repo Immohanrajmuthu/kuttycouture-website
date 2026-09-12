@@ -39,7 +39,7 @@ export const products: Product[] = [
 
   {
     id: "Gold-Clover-Charm-Necklace-100000",
-    name: "Gold-Clover-Charm-Necklace",
+    name: "Gold Clover Charm Necklace",
     sku: 100000,
     stockCount: 1,
 
@@ -56,7 +56,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: false,
+    offerAvailable: true,
 
     images: [
       {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: false,
+    offerAvailable: true,
 
     images: [
       {

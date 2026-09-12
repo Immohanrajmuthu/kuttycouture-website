@@ -1,31 +1,10 @@
 import type { Product } from "../../types/product";
 import { Link } from "react-router-dom";
+import { getAvailabilityClassName, getAvailabilityLabel } from "../../utils/productAvailability";
+import { getProductEnquiryUrl } from "../../utils/productEnquiry";
 
 interface ProductCardProps {
   product: Product;
-}
-
-function getAvailabilityLabel(availability: Product["availability"]): string {
-  switch (availability) {
-    case "in-stock":
-      return "Available";
-
-    case "low-stock":
-      return "Limited Availability";
-
-    case "out-of-stock":
-      return "Currently Unavailable";
-  }
-}
-
-function getWhatsAppMessage(product: Product): string {
-  const whatsappMessage =
-    product.availability === "out-of-stock"
-      ? `Hi KuttyCouture, I'm interested in ${product.name} (SKU: ${product.sku}). I see it's currently unavailable. Could you let me know if it will be available again?`
-      : `Hi KuttyCouture, I'm interested in ${product.name} (SKU: ${product.sku}). Is it available?`;
-
-  return whatsappMessage;
-  // return `Hi KuttyCouture, I'm interested in ${product.name} (SKU: ${product.sku}). Is it available?`;
 }
 
 export function ProductCard({ product }: ProductCardProps) {
@@ -33,9 +12,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
   const isAvailable = product.availability !== "out-of-stock";
 
-  const whatsappUrl = `https://wa.me/918610971628?text=${encodeURIComponent(
-    getWhatsAppMessage(product),
-  )}`;
+  const whatsappUrl = getProductEnquiryUrl(product);
   const productUrl = `/products/${product.sku}`;
 
   return (
@@ -82,13 +59,7 @@ export function ProductCard({ product }: ProductCardProps) {
         {/* Availability and offer */}
         <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
           <span
-            className={`text-sm font-medium ${
-              product.availability === "in-stock"
-                ? "text-[var(--kc-availability-available)]"
-                : product.availability === "low-stock"
-                  ? "text-[var(--kc-availability-limited)]"
-                  : "text-[var(--kc-availability-unavailable)]"
-            }`}
+            className={`text-sm font-medium ${getAvailabilityClassName(product.availability)}`}
           >
             {availabilityLabel}
           </span>

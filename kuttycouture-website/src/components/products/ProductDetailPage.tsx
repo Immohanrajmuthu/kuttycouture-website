@@ -1,6 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import { products } from "../../data/products";
+import { ProductDetails } from "./ProductDetails";
 import { ProductGallery } from "./ProductGallery";
+import { ProductPrimaryInfo } from "./ProductPrimaryInfo";
 import { Container } from "../ui/Container";
 
 function getProductBySku(skuParam: string | undefined) {
@@ -50,30 +52,12 @@ export function ProductDetailPage() {
   return (
     <section aria-labelledby="product-heading" className="py-14 sm:py-16 lg:py-20">
       <Container>
-        <h1
-          id="product-heading"
-          className="text-3xl font-semibold tracking-tight text-[var(--kc-text)] sm:text-4xl"
-        >
-          {product.name}
-        </h1>
-
-        <p className="mt-2 text-sm text-[var(--kc-muted)]">SKU: {product.sku}</p>
-
-        <div className="mt-10 grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-6 lg:grid-cols-2">
           <ProductGallery images={product.images} productName={product.name} />
-
-          <section
-            aria-labelledby="product-information-placeholder-heading"
-            className="rounded-[var(--kc-radius-lg)] border border-[var(--kc-border)] bg-[var(--kc-surface)] p-6"
-          >
-            <h2
-              id="product-information-placeholder-heading"
-              className="text-lg font-semibold text-[var(--kc-text)]"
-            >
-              Product information
-            </h2>
-          </section>
+          <ProductPrimaryInfo key={product.sku} product={product} />
         </div>
+
+        <ProductDetails product={product} />
       </Container>
     </section>
   );
