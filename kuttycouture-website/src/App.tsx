@@ -7,6 +7,8 @@ import { AboutKuttyCouture } from "./components/sections/AboutKuttyCouture";
 import { ProductCard } from "./components/products/ProductCard";
 import { ProductDetailPage } from "./components/products/ProductDetailPage";
 import { CareGuidePage } from "./pages/CareGuidePage";
+import { AboutPage } from "./pages/AboutPage";
+import { ContactPage } from "./pages/ContactPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { products } from "./data/products";
 
@@ -57,14 +59,6 @@ function CollectionsPage() {
       </div>
     </section>
   );
-}
-
-function AboutPage() {
-  return <>About KuttyCouture</>;
-}
-
-function ContactPage() {
-  return <>Contact KuttyCouture</>;
 }
 
 function App() {

@@ -130,6 +130,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
                   src={image.src}
                   alt={image.alt}
                   className="aspect-square w-full object-cover"
+                  loading={index === 0 ? "eager" : "lazy"}
                 />
               </button>
             ))}
@@ -180,6 +181,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
                       src={image.src}
                       alt=""
                       className="size-20 object-cover"
+                      loading="lazy"
                     />
                     {isSelected && <span className="sr-only">Selected image</span>}
                   </button>

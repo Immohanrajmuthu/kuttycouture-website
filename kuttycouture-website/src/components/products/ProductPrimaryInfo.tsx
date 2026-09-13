@@ -37,7 +37,7 @@ export function ProductPrimaryInfo({ product }: ProductPrimaryInfoProps) {
           {getAvailabilityLabel(product.availability)}
         </span>
 
-        {product.offerAvailable && (
+        {product.offerAvailable && product.availability !== "out-of-stock" && (
           <span className="text-xs text-[var(--kc-muted)]">
             · Multi-item offer available
           </span>
