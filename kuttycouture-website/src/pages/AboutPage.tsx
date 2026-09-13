@@ -1,4 +1,4 @@
-import founderStoryImage from "../assets/about/kuttycouture-story.webp";
+import kuttyCoutureLogo from "../assets/logo/Kutty-couture round sticker - 2.5MB.png";
 import { Container } from "../components/ui/Container";
 
 const principles = [
@@ -43,11 +43,11 @@ export function AboutPage() {
         </div>
 
         <div className="mt-10 grid items-start gap-8 lg:mt-12 lg:grid-cols-2 lg:gap-12">
-          <div className="overflow-hidden rounded-[var(--kc-radius-lg)] border border-[var(--kc-border)] bg-[var(--kc-surface)]">
+          <div className="flex items-center justify-center rounded-[var(--kc-radius-lg)] border border-[var(--kc-border)] bg-[var(--kc-surface)] p-8 sm:p-10 lg:p-12">
             <img
-              src={founderStoryImage}
-              alt="KuttyCouture founder sharing a joyful moment with her young daughter."
-              className="h-auto w-full"
+              src={kuttyCoutureLogo}
+              alt="KuttyCouture"
+              className="h-auto w-full max-w-[260px] sm:max-w-[320px]"
             />
           </div>
 

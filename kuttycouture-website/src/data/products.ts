@@ -256,7 +256,7 @@ export const products: Product[] = [
   {
     id: "lollipop-ice-cream-printed-frock",
     name: "Lollipop & Ice-cream Printed Frock",
-    sku: 100006,
+    sku: 200000,
     stockCount: 10,
 
     category: "clothing",
@@ -267,7 +267,7 @@ export const products: Product[] = [
       "A playful muslin frock featuring colourful lollipop and ice-cream prints.",
 
     price: null,
-    availability: "in-stock",
+    availability: "out-of-stock",
 
     sizes: [
       "S (0–3 Months)",
@@ -292,7 +292,7 @@ export const products: Product[] = [
   {
     id: "abc-learning-full-sleeve-set",
     name: "ABC/Learning Print Full-sleeve Set",
-    sku: 100007,
+    sku: 200001,
     stockCount: 10,
 
     category: "clothing",
@@ -329,7 +329,7 @@ export const products: Product[] = [
   {
     id: "puppy-print-jabla-shorts-set",
     name: "Puppy Print Jabla/Shorts Set",
-    sku: 100008,
+    sku: 200002,
     stockCount: 10,
 
     category: "clothing",
@@ -366,7 +366,7 @@ export const products: Product[] = [
   {
     id: "star-print-knot-frock",
     name: "Star Print Knot Frock",
-    sku: 100009,
+    sku: 200003,
     stockCount: 10,
 
     category: "clothing",
