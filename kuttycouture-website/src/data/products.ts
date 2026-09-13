@@ -4,6 +4,7 @@ import type { Product } from "../types/product";
 import hero100004 from "../assets/products/accessories/pink-stone-pendant-necklace-hero-100004.webp";
 import model100004 from "../assets/products/accessories/pink-stone-pendant-necklace-model-100004.webp";
 import detail100004 from "../assets/products/accessories/pink-stone-pendant-necklace-detail-100004.webp";
+
 import goldBarNecklace from "../assets/products/accessories/gold-bar-stone-necklace.webp";
 
 import lollipopFrock from "../assets/products/clothing/lollipop-ice-cream-frock.webp";
@@ -31,6 +32,20 @@ import hero100003 from "../assets/products/accessories/golden-heart-layers-neckl
 import model100003 from "../assets/products/accessories/golden-heart-layers-necklace-model-100003.webp";
 import detail100003 from "../assets/products/accessories/golden-heart-layers-necklace-detail-100003.webp";
 
+// SKU-100006
+import hero100006 from "../assets/products/accessories/bow-necklace-hero-100006.webp";
+import model100006 from "../assets/products/accessories/bow-necklace-model-100006.webp";
+import detail100006 from "../assets/products/accessories/bow-necklace-detail-100006.webp";
+
+// SKU-100007
+import hero100007 from "../assets/products/accessories/floral-bracelet-hero-100007.webp";
+import model100007 from "../assets/products/accessories/floral-bracelet-model-100007.webp";
+import detail100007 from "../assets/products/accessories/floral-bracelet-detail-100007.webp";
+
+// SKU-100008
+import hero100008 from "../assets/products/accessories/heart-bracelet-hero-100008.webp";
+import model100008 from "../assets/products/accessories/heart-bracelet-model-100008.webp";
+import detail100008 from "../assets/products/accessories/heart-bracelet-detail-100008.webp";
 
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
@@ -245,6 +260,117 @@ export const products: Product[] = [
       {
         src: goldBarNecklace,
         alt: "Delicate gold-tone necklace with a small bar detail displayed on a white jewellery stand.",
+      },
+    ],
+  },
+
+  {
+    id: "golden-bow-lariat-necklace",
+    name: "Golden Bow Lariat Necklace",
+    sku: 100006,
+    stockCount: 1,
+
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A delicate gold-tone lariat necklace adorned with seven graceful bow charms.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+
+    offerAvailable: false,
+
+    images: [
+      {
+        src: hero100006,
+        alt: "Gold-tone lariat necklace with seven bow charms displayed on a burgundy velvet jewellery stand.",
+      },
+      {
+        src: model100006,
+        alt: "Close-up of a woman wearing a gold-tone lariat necklace with seven delicate bow charms and an ivory ruffled top.",
+      },
+      {
+        src: detail100006,
+        alt: "Macro detail of a gold-tone seven-bow lariat necklace displayed on burgundy velvet and ivory satin.",
+      },
+    ],
+  },
+
+  {
+    id: "golden-floral-bracelet",
+    name: "Golden Floral Bracelet",
+    sku: 100007,
+    stockCount: 1,
+
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A refined gold-tone bracelet with four sparkling floral crystal motifs.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+
+    offerAvailable: false,
+
+    images: [
+      {
+        src: hero100007,
+        alt: "Gold-tone mesh bracelet with four sparkling floral crystal motifs displayed on a cream jewellery pillow.",
+      },
+      {
+        src: model100007,
+        alt: "Close-up of a woman wearing a gold-tone mesh bracelet with four sparkling floral crystal motifs.",
+      },
+      {
+        src: detail100007,
+        alt: "Macro detail of a gold-tone mesh bracelet with four sparkling floral crystal motifs on a cream jewellery pillow.",
+      },
+    ],
+  },
+
+  {
+    id: "golden-double-heart-bracelet",
+    name: "Golden Double Heart Bracelet",
+    sku: 100008,
+    stockCount: 1,
+
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A delicate gold-tone bracelet with a linked double-heart centre and sparkling crystal accents.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+
+    offerAvailable: false,
+
+    images: [
+      {
+        src: hero100008,
+        alt: "Gold-tone bracelet with a linked double-heart centre and crystal accents displayed on a white beaded jewellery holder.",
+      },
+      {
+        src: model100008,
+        alt: "Close-up of a woman wearing a gold-tone double-heart bracelet with two sparkling crystal accents.",
+      },
+      {
+        src: detail100008,
+        alt: "Macro detail of a gold-tone double-heart bracelet with two sparkling crystal accents displayed on ivory satin.",
       },
     ],
   },
