@@ -1,9 +1,9 @@
-import bowNecklace from "../../assets/products/bow-necklace.png";
-import floralBracelet from "../../assets/products/floral-bracelet.png";
-import rectangleNecklace from "../../assets/products/rectangle-necklace.png";
-import heartBracelet from "../../assets/products/heart-bracelet.png";
-import muslinJablaSet from "../../assets/products/muslin-jabla-shorts.png";
-import muslinKnotFrock from "../../assets/products/muslin-knot-frock.png";
+import bowNecklace from "../../assets/products/bow-necklace.webp";
+import floralBracelet from "../../assets/products/floral-bracelet.webp";
+import rectangleNecklace from "../../assets/products/rectangle-necklace.webp";
+import heartBracelet from "../../assets/products/heart-bracelet.webp";
+import muslinJablaSet from "../../assets/products/muslin-jabla-shorts.webp";
+import muslinKnotFrock from "../../assets/products/muslin-knot-frock.webp";
 
 const featuredProducts = [
   {

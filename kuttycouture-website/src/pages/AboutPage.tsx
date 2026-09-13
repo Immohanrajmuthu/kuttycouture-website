@@ -1,4 +1,4 @@
-import founderStoryImage from "../assets/about/kuttycouture-story.jpg";
+import founderStoryImage from "../assets/about/kuttycouture-story.webp";
 import { Container } from "../components/ui/Container";
 
 const principles = [

@@ -1,35 +1,35 @@
 import type { Product } from "../types/product";
 
 // Product images
-import hero100004 from "../assets/products/accessories/pink-stone-pendant-necklace-hero-100004.png";
-import model100004 from "../assets/products/accessories/pink-stone-pendant-necklace-model-100004.png";
-import detail100004 from "../assets/products/accessories/pink-stone-pendant-necklace-detail-100004.png";
-import goldBarNecklace from "../assets/products/accessories/gold-bar-stone-necklace.png";
+import hero100004 from "../assets/products/accessories/pink-stone-pendant-necklace-hero-100004.webp";
+import model100004 from "../assets/products/accessories/pink-stone-pendant-necklace-model-100004.webp";
+import detail100004 from "../assets/products/accessories/pink-stone-pendant-necklace-detail-100004.webp";
+import goldBarNecklace from "../assets/products/accessories/gold-bar-stone-necklace.webp";
 
-import lollipopFrock from "../assets/products/clothing/lollipop-ice-cream-frock.png";
-import abcFullSleeveSet from "../assets/products/clothing/abc-full-sleeve-set.png";
-import puppyJablaSet from "../assets/products/clothing/puppy-jabla-shorts-set.png";
-import starKnotFrock from "../assets/products/clothing/star-knot-frock.png";
+import lollipopFrock from "../assets/products/clothing/lollipop-ice-cream-frock.webp";
+import abcFullSleeveSet from "../assets/products/clothing/abc-full-sleeve-set.webp";
+import puppyJablaSet from "../assets/products/clothing/puppy-jabla-shorts-set.webp";
+import starKnotFrock from "../assets/products/clothing/star-knot-frock.webp";
 
 //SKU-100000
-import hero100000 from "../assets/products/accessories/gold-clover-charm-necklace-hero-100000.png";
-import model100000 from "../assets/products/accessories/gold-clover-charm-necklace-model-100000.png";
-import detail100000 from "../assets/products/accessories/gold-clover-charm-necklace-detail-100000.png";
+import hero100000 from "../assets/products/accessories/gold-clover-charm-necklace-hero-100000.webp";
+import model100000 from "../assets/products/accessories/gold-clover-charm-necklace-model-100000.webp";
+import detail100000 from "../assets/products/accessories/gold-clover-charm-necklace-detail-100000.webp";
 
 //SKU-100001
-import hero100001 from "../assets/products/accessories/golden-butterfly-necklace-hero-100001.png";
-import model100001 from "../assets/products/accessories/golden-butterfly-necklace-model-100001.png";
-import detail100001 from "../assets/products/accessories/golden-butterfly-necklace-detail-100001.png";
+import hero100001 from "../assets/products/accessories/golden-butterfly-necklace-hero-100001.webp";
+import model100001 from "../assets/products/accessories/golden-butterfly-necklace-model-100001.webp";
+import detail100001 from "../assets/products/accessories/golden-butterfly-necklace-detail-100001.webp";
 
 //SKU-100002
-import hero100002 from "../assets/products/accessories/golden-twin-hearts-necklace-hero-100002.png";
-import model100002 from "../assets/products/accessories/golden-twin-hearts-necklace-model-100002.png";
-import detail100002 from "../assets/products/accessories/golden-twin-hearts-necklace-detail-100002.png";
+import hero100002 from "../assets/products/accessories/golden-twin-hearts-necklace-hero-100002.webp";
+import model100002 from "../assets/products/accessories/golden-twin-hearts-necklace-model-100002.webp";
+import detail100002 from "../assets/products/accessories/golden-twin-hearts-necklace-detail-100002.webp";
 
 //SKU-100003
-import hero100003 from "../assets/products/accessories/golden-heart-layers-necklace-hero-100003.png";
-import model100003 from "../assets/products/accessories/golden-heart-layers-necklace-model-100003.png";
-import detail100003 from "../assets/products/accessories/golden-heart-layers-necklace-detail-100003.png";
+import hero100003 from "../assets/products/accessories/golden-heart-layers-necklace-hero-100003.webp";
+import model100003 from "../assets/products/accessories/golden-heart-layers-necklace-model-100003.webp";
+import detail100003 from "../assets/products/accessories/golden-heart-layers-necklace-detail-100003.webp";
 
 
 export const products: Product[] = [
