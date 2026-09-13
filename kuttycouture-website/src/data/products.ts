@@ -56,7 +56,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: true,
+    offerAvailable: false,
 
     images: [
       {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: true,
+    offerAvailable: false,
 
     images: [
       {
@@ -121,7 +121,7 @@ export const products: Product[] = [
     audience: ["women", "kids"],
 
     shortDescription:
-      "A elegant golden necklace featuring two interlocking heart pendants.",
+      "An elegant golden necklace featuring two interlocking heart pendants.",
 
     price: null,
     availability: "in-stock",
@@ -129,7 +129,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: true,
+    offerAvailable: false,
 
     images: [
       {
@@ -166,7 +166,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: true,
+    offerAvailable: false,
 
     images: [
       {
@@ -202,7 +202,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "special occasions"],
 
-    offerAvailable: true,
+    offerAvailable: false,
 
     images: [
       {
@@ -239,7 +239,7 @@ export const products: Product[] = [
     material: "Stainless steel",
     occasionTags: ["Everyday", "casual"],
 
-    offerAvailable: true,
+    offerAvailable: false,
 
     images: [
       {
