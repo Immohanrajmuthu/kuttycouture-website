@@ -1,11 +1,10 @@
 import type { Product } from "../types/product";
 
 // Product images
-import hero100004 from "../assets/products/accessories/pink-stone-pendant-necklace-hero-100004.webp";
-import model100004 from "../assets/products/accessories/pink-stone-pendant-necklace-model-100004.webp";
-import detail100004 from "../assets/products/accessories/pink-stone-pendant-necklace-detail-100004.webp";
 
-import goldBarNecklace from "../assets/products/accessories/gold-bar-stone-necklace.webp";
+import hero100005 from "../assets/products/accessories/golden-polished-disc-necklace-hero-100005.webp";
+import model100005 from "../assets/products/accessories/golden-polished-disc-necklace-model-100005.webp";
+import detail100005 from "../assets/products/accessories/golden-polished-disc-necklace-detail-100005.webp";
 
 import lollipopFrock from "../assets/products/clothing/lollipop-ice-cream-frock.webp";
 import abcFullSleeveSet from "../assets/products/clothing/abc-full-sleeve-set.webp";
@@ -27,6 +26,11 @@ import hero100002 from "../assets/products/accessories/golden-twin-hearts-neckla
 import model100002 from "../assets/products/accessories/golden-twin-hearts-necklace-model-100002.webp";
 import detail100002 from "../assets/products/accessories/golden-twin-hearts-necklace-detail-100002.webp";
 
+//SKU-100004
+import hero100004 from "../assets/products/accessories/pink-stone-pendant-necklace-hero-100004.webp";
+import model100004 from "../assets/products/accessories/pink-stone-pendant-necklace-model-100004.webp";
+import detail100004 from "../assets/products/accessories/pink-stone-pendant-necklace-detail-100004.webp";
+
 //SKU-100003
 import hero100003 from "../assets/products/accessories/golden-heart-layers-necklace-hero-100003.webp";
 import model100003 from "../assets/products/accessories/golden-heart-layers-necklace-model-100003.webp";
@@ -46,6 +50,11 @@ import detail100007 from "../assets/products/accessories/floral-bracelet-detail-
 import hero100008 from "../assets/products/accessories/heart-bracelet-hero-100008.webp";
 import model100008 from "../assets/products/accessories/heart-bracelet-model-100008.webp";
 import detail100008 from "../assets/products/accessories/heart-bracelet-detail-100008.webp";
+
+// SKU-100009
+import hero100009 from "../assets/products/accessories/rectangle-necklace-hero-100009.webp";
+import model100009 from "../assets/products/accessories/rectangle-necklace-model-100009.webp";
+import detail100009 from "../assets/products/accessories/rectangle-necklace-detail-100009.webp";
 
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
@@ -236,8 +245,8 @@ export const products: Product[] = [
   },
 
   {
-    id: "gold-bar-stone-necklace",
-    name: "Gold Bar/Stone Necklace",
+    id: "golden-polished-disc-necklace",
+    name: "Golden Polished Disc Necklace",
     sku: 100005,
     stockCount: 10,
 
@@ -246,7 +255,7 @@ export const products: Product[] = [
     audience: ["women", "kids"],
 
     shortDescription:
-      "A minimal necklace featuring a delicate gold-tone bar detail.",
+      "A delicate gold-tone necklace featuring seven smooth polished metal discs.",
 
     price: null,
     availability: "in-stock",
@@ -258,8 +267,16 @@ export const products: Product[] = [
 
     images: [
       {
-        src: goldBarNecklace,
-        alt: "Delicate gold-tone necklace with a small bar detail displayed on a white jewellery stand.",
+        src: hero100005,
+        alt: "Gold-tone necklace with seven smooth polished metal discs displayed on a white beaded jewellery holder.",
+      },
+      {
+        src: model100005,
+        alt: "Close-up of a woman wearing a delicate gold-tone necklace with seven smooth polished metal discs.",
+      },
+      {
+        src: detail100005,
+        alt: "Macro detail of a gold-tone necklace with seven smooth polished metal discs displayed on ivory satin.",
       },
     ],
   },
@@ -371,6 +388,43 @@ export const products: Product[] = [
       {
         src: detail100008,
         alt: "Macro detail of a gold-tone double-heart bracelet with two sparkling crystal accents displayed on ivory satin.",
+      },
+    ],
+  },
+
+  {
+    id: "golden-rectangle-crystal-necklace",
+    name: "Golden Rectangle Crystal Necklace",
+    sku: 100009,
+    stockCount: 1,
+
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "An elegant gold-tone necklace with a crystal-edged open rectangle pendant.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+
+    offerAvailable: false,
+
+    images: [
+      {
+        src: hero100009,
+        alt: "Gold-tone necklace with a rectangular open pendant framed in clear crystals displayed on a burgundy velvet jewellery stand.",
+      },
+      {
+        src: model100009,
+        alt: "Close-up of a woman wearing a gold-tone necklace with a rectangular open pendant framed in clear crystals.",
+      },
+      {
+        src: detail100009,
+        alt: "Macro detail of a gold-tone rectangular open pendant framed in clear crystals displayed on ivory satin.",
       },
     ],
   },

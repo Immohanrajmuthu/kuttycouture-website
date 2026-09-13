@@ -1,4 +1,4 @@
-import accessoriesImage from "../../assets/collections/accessories/Delicate Gold Flower Necklace.webp";
+import accessoriesImage from "../../assets/collections/accessories/korean-stainless-steel-accessories-collage.webp";
 import babyWearImage from "../../assets/collections/baby-wears/Kids-wear.webp";
 
 const collections = [
@@ -7,7 +7,7 @@ const collections = [
     description: "Chains, bracelets & hair clips for everyday style.",
     image: accessoriesImage,
     imageAlt:
-      "Gold flower necklace displayed as part of the KuttyCouture accessories collection.",
+      "Curated collection of gold-tone necklaces and bracelets on burgundy velvet and ivory satin.",
     href: "/collections",
     linkLabel: "Explore Accessories",
   },
