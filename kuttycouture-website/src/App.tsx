@@ -11,6 +11,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { products } from "./data/products";
+import type { Product } from "./types/product";
 
 function HomePage() {
    return (
@@ -24,7 +25,19 @@ function HomePage() {
 }
 
 
-function CollectionsPage() {
+type CollectionsPageProps = {
+  heading?: string;
+  description?: string;
+  filterProducts?: (product: Product) => boolean;
+};
+
+function CollectionsPage({
+  heading = "Discover Something Beautiful",
+  description = "Explore our carefully selected accessories and comfortable clothing for little ones.",
+  filterProducts = () => true,
+}: CollectionsPageProps) {
+  const collectionProducts = products.filter(filterProducts);
+
   return (
     <section
       aria-labelledby="collections-heading"
@@ -41,18 +54,17 @@ function CollectionsPage() {
             id="collections-heading"
             className="mt-3 text-3xl font-semibold tracking-tight text-[var(--kc-text)] sm:text-4xl"
           >
-            Discover Something Beautiful
+            {heading}
           </h1>
 
           <p className="mt-4 text-base leading-7 text-[var(--kc-muted)] sm:text-lg">
-            Explore our carefully selected accessories and comfortable
-            clothing for little ones.
+            {description}
           </p>
         </div>
 
         {/* Product grid */}
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map((product) => (
+          {collectionProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
@@ -68,6 +80,28 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
+          <Route
+            path="/collections/accessories"
+            element={
+              <CollectionsPage
+                heading="Accessories"
+                description="Explore our current accessories collection."
+                filterProducts={(product) => product.category === "accessories"}
+              />
+            }
+          />
+          <Route
+            path="/collections/baby-wear"
+            element={
+              <CollectionsPage
+                heading="Baby Wear"
+                description="Explore our current baby wear collection."
+                filterProducts={(product) =>
+                  product.category === "clothing" && product.audience?.includes("baby") === true
+                }
+              />
+            }
+          />
           <Route path="/products/:sku" element={<ProductDetailPage />} />
           <Route path="/care-guide" element={<CareGuidePage />} />
           <Route path="/about" element={<AboutPage />} />

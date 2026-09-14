@@ -56,6 +56,15 @@ import hero100009 from "../assets/products/accessories/rectangle-necklace-hero-1
 import model100009 from "../assets/products/accessories/rectangle-necklace-model-100009.webp";
 import detail100009 from "../assets/products/accessories/rectangle-necklace-detail-100009.webp";
 
+// SKU-100010
+import butterflyClipBlue100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-blue-100010.webp";
+import butterflyClipBrown100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-brown-100010.webp";
+import butterflyClipGrey100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-grey-100010.webp";
+import butterflyClipPink100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-pink-100010.webp";
+import butterflyClipPurple100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-purple-100010.webp";
+import butterflyClipWhite100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-white-100010.webp";
+import butterflyClipModel100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-model-pink-100010.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -425,6 +434,66 @@ export const products: Product[] = [
       {
         src: detail100009,
         alt: "Macro detail of a gold-tone rectangular open pendant framed in clear crystals displayed on ivory satin.",
+      },
+    ],
+  },
+
+  {
+    id: "translucent-butterfly-hair-clip",
+    name: "Translucent Butterfly Hair Clip",
+    sku: 100010,
+    stockCount: 10,
+
+    category: "accessories",
+    productType: "hair-accessories",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A frosted translucent butterfly claw clip, available in six soft colours.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Plastic with a metal spring",
+    occasionTags: ["Everyday", "casual"],
+
+    offerAvailable: false,
+    // color: "Soft Blue, Warm Brown, Smoky Grey, Soft Pink, Lavender, Milky White",
+
+    images: [
+      {
+        src: butterflyClipBlue100010,
+        alt: "Soft blue translucent butterfly hair claw clip with a metal spring.",
+        color: "Soft Blue",
+      },
+      {
+        src: butterflyClipBrown100010,
+        alt: "Warm brown translucent butterfly hair claw clip with a metal spring.",
+        color: "Warm Brown",
+      },
+      {
+        src: butterflyClipGrey100010,
+        alt: "Smoky grey translucent butterfly hair claw clip with a metal spring.",
+        color: "Smoky Grey",
+      },
+      {
+        src: butterflyClipPink100010,
+        alt: "Soft pink translucent butterfly hair claw clip with a metal spring.",
+        color: "Soft Pink",
+      },
+      {
+        src: butterflyClipPurple100010,
+        alt: "Lavender translucent butterfly hair claw clip with a metal spring.",
+        color: "Lavender",
+      },
+      {
+        src: butterflyClipWhite100010,
+        alt: "Milky white translucent butterfly hair claw clip with a metal spring.",
+        color: "Milky White",
+      },
+      {
+        src: butterflyClipModel100010,
+        alt: "Woman wearing the soft pink translucent butterfly hair claw clip in her wavy hair.",
       },
     ],
   },
