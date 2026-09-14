@@ -1,4 +1,4 @@
-import heroImage from "../../assets/hero/kuttycouture-hero.png";
+import heroImage from "../../assets/hero/kuttycouture-hero.webp";
 import { getWhatsAppUrl } from "../../utils/productEnquiry";
 
 export function Hero() {
