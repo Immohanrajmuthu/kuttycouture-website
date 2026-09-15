@@ -65,6 +65,10 @@ import butterflyClipPurple100010 from "../assets/products/hair-accessories/trans
 import butterflyClipWhite100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-white-100010.webp";
 import butterflyClipModel100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-model-pink-100010.webp";
 
+// SKU-100011
+import clearBowHairClipOrange100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-orange-100011.webp";
+import clearBowHairClipModel100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-model-100011.webp";
+import clearBowHairClipGreen100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-green-100011.webp";
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -494,6 +498,44 @@ export const products: Product[] = [
       {
         src: butterflyClipModel100010,
         alt: "Woman wearing the soft pink translucent butterfly hair claw clip in her wavy hair.",
+      },
+    ],
+  },
+
+  {
+    id: "clear-bow-hair-claw-clip",
+    name: "Clear Bow Hair Claw Clip",
+    sku: 100011,
+    stockCount: 2,
+
+    category: "accessories",
+    productType: "hair-accessories",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A clear bow-shaped hair claw clip with a faceted centre detail and a gold-tone spring.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Plastic with a metal spring",
+    occasionTags: ["Everyday", "casual"],
+
+    offerAvailable: false,
+
+    images: [
+      {
+        src: clearBowHairClipOrange100011,
+        alt: "Clear bow-shaped hair claw clip with a faceted centre detail and gold-tone spring, displayed on warm orange satin.",
+      },
+      
+      {
+        src: clearBowHairClipModel100011,
+        alt: "Woman wearing the clear bow-shaped hair claw clip in a softly styled bun.",
+      },
+      {
+        src: clearBowHairClipGreen100011,
+        alt: "Front view of a clear bow-shaped hair claw clip with a faceted centre detail and gold-tone spring, displayed on warm green satin.",
       },
     ],
   },
