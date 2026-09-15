@@ -2,6 +2,15 @@ export type ProductCategory =
   | "accessories"
   | "clothing";
 
+export type ProductType =
+  | "necklace"
+  | "bracelet"
+  | "hair-accessories"
+  | "frock"
+  | "full-sleeve-set"
+  | "jabla-shorts-set"
+  | "knot-frock";
+
 export type ProductAvailability =
     | "in-stock"
     | "low-stock"
@@ -10,6 +19,7 @@ export type ProductAvailability =
 export interface ProductImage {
   src: string;
   alt: string;
+  color?: string;
 }
 
 export interface Product {
@@ -23,8 +33,9 @@ export interface Product {
   stockCount: number;
 
   category: ProductCategory;
-  productType: string;
+  productType: ProductType;
   audience?: string[];
+  color?: string;
 
   shortDescription: string;
 

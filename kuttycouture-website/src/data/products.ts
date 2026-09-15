@@ -56,6 +56,33 @@ import hero100009 from "../assets/products/accessories/rectangle-necklace-hero-1
 import model100009 from "../assets/products/accessories/rectangle-necklace-model-100009.webp";
 import detail100009 from "../assets/products/accessories/rectangle-necklace-detail-100009.webp";
 
+// SKU-100010
+import butterflyClipBlue100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-blue-100010.webp";
+import butterflyClipBrown100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-brown-100010.webp";
+import butterflyClipGrey100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-grey-100010.webp";
+import butterflyClipPink100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-pink-100010.webp";
+import butterflyClipPurple100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-purple-100010.webp";
+import butterflyClipWhite100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-white-100010.webp";
+import butterflyClipModel100010 from "../assets/products/hair-accessories/translucent-butterfly-hair-clip-model-pink-100010.webp";
+
+// SKU-100011
+import clearBowHairClipOrange100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-orange-100011.webp";
+import clearBowHairClipModel100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-model-100011.webp";
+import clearBowHairClipGreen100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-green-100011.webp";
+import clearBowHairClipGrey100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-grey-100011.webp";
+import clearBowHairClipPurple100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-purple-100011.webp";
+import clearBowHairClipYellow100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-yellow-100011.webp";
+import clearBowHairClipPink100011 from "../assets/products/hair-accessories/clear-bow-hair-claw-clip-pink-100011.webp";
+
+// SKU-100012
+import glitterBowLavender100012 from "../assets/products/hair-accessories/glitter-bow-barrette-lavender-100012.webp";
+import glitterBowBlue100012 from "../assets/products/hair-accessories/glitter-bow-barrette-blue-100012.webp";
+import glitterBowCoralPink100012 from "../assets/products/hair-accessories/glitter-bow-barrette-coral-pink-100012.webp";
+import glitterBowRed100012 from "../assets/products/hair-accessories/glitter-bow-barrette-red-100012.webp";
+import glitterBowGrey100012 from "../assets/products/hair-accessories/glitter-bow-barrette-grey-100012.webp";
+import glitterBowAmber100012 from "../assets/products/hair-accessories/glitter-bow-barrette-amber-100012.webp";
+import glitterBowDetail100012 from "../assets/products/hair-accessories/glitter-bow-barrette-detail-100012.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -425,6 +452,177 @@ export const products: Product[] = [
       {
         src: detail100009,
         alt: "Macro detail of a gold-tone rectangular open pendant framed in clear crystals displayed on ivory satin.",
+      },
+    ],
+  },
+
+  {
+    id: "translucent-butterfly-hair-clip",
+    name: "Translucent Butterfly Hair Clip",
+    sku: 100010,
+    stockCount: 10,
+
+    category: "accessories",
+    productType: "hair-accessories",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A frosted translucent butterfly claw clip, available in six soft colours.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Plastic with a metal spring",
+    occasionTags: ["Everyday", "casual"],
+
+    offerAvailable: false,
+    // color: "Soft Blue, Warm Brown, Smoky Grey, Soft Pink, Lavender, Milky White",
+
+    images: [
+      {
+        src: butterflyClipBlue100010,
+        alt: "Soft blue translucent butterfly hair claw clip with a metal spring.",
+        color: "Soft Blue",
+      },
+      {
+        src: butterflyClipBrown100010,
+        alt: "Warm brown translucent butterfly hair claw clip with a metal spring.",
+        color: "Warm Brown",
+      },
+      {
+        src: butterflyClipGrey100010,
+        alt: "Smoky grey translucent butterfly hair claw clip with a metal spring.",
+        color: "Smoky Grey",
+      },
+      {
+        src: butterflyClipPink100010,
+        alt: "Soft pink translucent butterfly hair claw clip with a metal spring.",
+        color: "Soft Pink",
+      },
+      {
+        src: butterflyClipPurple100010,
+        alt: "Lavender translucent butterfly hair claw clip with a metal spring.",
+        color: "Lavender",
+      },
+      {
+        src: butterflyClipWhite100010,
+        alt: "Milky white translucent butterfly hair claw clip with a metal spring.",
+        color: "Milky White",
+      },
+      {
+        src: butterflyClipModel100010,
+        alt: "Woman wearing the soft pink translucent butterfly hair claw clip in her wavy hair.",
+      },
+    ],
+  },
+
+  {
+    id: "clear-bow-hair-claw-clip",
+    name: "Clear Bow Hair Claw Clip",
+    sku: 100011,
+    stockCount: 2,
+
+    category: "accessories",
+    productType: "hair-accessories",
+    audience: ["women", "kids"],
+
+    shortDescription:
+      "A clear bow-shaped hair claw clip with a faceted centre detail and a gold-tone spring.",
+
+    price: null,
+    availability: "in-stock",
+
+    material: "Plastic with a metal spring",
+    occasionTags: ["Everyday", "casual"],
+
+    offerAvailable: false,
+
+    images: [
+      {
+        src: clearBowHairClipOrange100011,
+        alt: "Clear bow-shaped hair claw clip with a faceted centre detail and gold-tone spring, displayed on warm orange satin.",
+        color: "Orange",
+      },
+
+      {
+        src: clearBowHairClipGreen100011,
+        alt: "Front view of a clear bow-shaped hair claw clip with a faceted centre detail and gold-tone spring, displayed on warm green satin.",
+        color: "Green",
+      },
+      {
+        src: clearBowHairClipGrey100011,
+        alt: "Grey transparent bow-shaped hair claw clip with a gold-tone spring on an ivory background.",
+        color: "Grey",
+      },
+      {
+        src: clearBowHairClipPurple100011,
+        alt: "Purple transparent bow-shaped hair claw clip with a gold-tone spring on an ivory background.",
+        color: "Purple",
+      },
+      {
+        src: clearBowHairClipYellow100011,
+        alt: "Yellow transparent bow-shaped hair claw clip with a gold-tone spring on an ivory background.",
+        color: "Yellow",
+      },
+      {
+        src: clearBowHairClipPink100011,
+        alt: "Pink transparent bow-shaped hair claw clip with a gold-tone spring on an ivory background.",
+        color: "Pink",
+      },
+
+      {
+        src: clearBowHairClipModel100011,
+        alt: "Woman wearing the clear bow-shaped hair claw clip in a softly styled bun.",
+      },
+    ],
+  },
+
+  {
+    id: "glitter-bow-barrette",
+    name: "Glitter Bow Barrette",
+    sku: 100012,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A glitter bow-shaped hair barrette with a curved profile and metal clasp.",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: glitterBowLavender100012,
+        alt: "Lavender glitter bow-shaped hair barrette on an ivory background.",
+        color: "Lavender",
+      },
+      {
+        src: glitterBowBlue100012,
+        alt: "Blue glitter bow-shaped hair barrette on an ivory background.",
+        color: "Blue",
+      },
+      {
+        src: glitterBowCoralPink100012,
+        alt: "Coral Pink glitter bow-shaped hair barrette on an ivory background.",
+        color: "Coral Pink",
+      },
+      {
+        src: glitterBowRed100012,
+        alt: "Red glitter bow-shaped hair barrette on an ivory background.",
+        color: "Red",
+      },
+      {
+        src: glitterBowGrey100012,
+        alt: "Grey glitter bow-shaped hair barrette on an ivory background.",
+        color: "Grey",
+      },
+      {
+        src: glitterBowAmber100012,
+        alt: "Amber glitter bow-shaped hair barrette on an ivory background.",
+        color: "Amber",
+      },
+      {
+        src: glitterBowDetail100012,
+        alt: "Detail view of two glitter bow barrettes showing their curved backs and open metal clasps.",
       },
     ],
   },

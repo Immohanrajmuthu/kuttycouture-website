@@ -10,6 +10,7 @@ type ProductPrimaryInfoProps = {
 export function ProductPrimaryInfo({ product }: ProductPrimaryInfoProps) {
   const [selectedSize, setSelectedSize] = useState<string>();
   const sizes = product.sizes?.filter(Boolean) ?? [];
+  const color = product.color?.trim();
   const whatsappUrl = getProductEnquiryUrl(product, {
     size: selectedSize,
     useLowStockWording: true,
@@ -29,6 +30,13 @@ export function ProductPrimaryInfo({ product }: ProductPrimaryInfoProps) {
       <p className="mt-6 text-base leading-7 text-[var(--kc-muted)] sm:text-lg">
         {product.shortDescription}
       </p>
+
+      {color && (
+        <dl className="mt-6">
+          <dt className="text-sm font-medium text-[var(--kc-muted)]">Color</dt>
+          <dd className="mt-1 text-base leading-6 text-[var(--kc-text)]">{color}</dd>
+        </dl>
+      )}
 
       <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
         <span

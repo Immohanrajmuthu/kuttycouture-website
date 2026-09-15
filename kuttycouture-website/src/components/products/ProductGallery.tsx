@@ -15,6 +15,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   const selectedImage = images[selectedIndex];
+  const selectedImageColor = selectedImage.color?.trim();
   const hasMultipleImages = images.length > 1;
 
   useEffect(() => {
@@ -142,6 +143,15 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
           >
             Image {selectedIndex + 1} of {images.length}
           </p>
+
+          {selectedImageColor && (
+            <p
+              className="mt-1 text-center text-sm text-[var(--kc-text)]"
+              aria-live="polite"
+            >
+              Color: {selectedImageColor}
+            </p>
+          )}
         </div>
 
         <div className="hidden md:block">
@@ -158,6 +168,12 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
               className="aspect-square w-full object-cover"
             />
           </button>
+
+          {selectedImageColor && (
+            <p className="mt-3 text-sm text-[var(--kc-text)]" aria-live="polite">
+              Color: {selectedImageColor}
+            </p>
+          )}
 
           {hasMultipleImages && (
             <div className="mt-4 flex gap-3" aria-label="Product image thumbnails">

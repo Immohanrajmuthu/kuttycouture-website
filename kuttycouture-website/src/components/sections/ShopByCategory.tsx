@@ -8,7 +8,7 @@ const collections = [
     image: accessoriesImage,
     imageAlt:
       "Curated collection of gold-tone necklaces and bracelets on burgundy velvet and ivory satin.",
-    href: "/collections",
+    href: "/collections/accessories",
     linkLabel: "Explore Accessories",
   },
   {
@@ -18,7 +18,7 @@ const collections = [
     image: babyWearImage,
     imageAlt:
       "Baby wearing a muslin clothing set from the KuttyCouture baby-wear collection.",
-    href: "/collections",
+    href: "/collections/baby-wear",
     linkLabel: "Explore Baby Wear",
   },
 ];
