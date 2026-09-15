@@ -16,7 +16,9 @@ export function getProductEnquiryMessage(
   { size, useLowStockWording = false }: ProductEnquiryOptions = {},
 ): string {
   const sizeMessage = size ? ` Size: ${size}.` : "";
-  const messageStart = `Hi KuttyCouture, I'm interested in ${product.name} (SKU: ${product.sku}).`;
+  const color = product.color?.trim();
+  const colorMessage = color ? `, Color: ${color}` : "";
+  const messageStart = `Hi KuttyCouture, I'm interested in ${product.name} (SKU: ${product.sku}${colorMessage}).`;
 
   switch (product.availability) {
     case "in-stock":
