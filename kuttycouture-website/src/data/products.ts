@@ -83,6 +83,45 @@ import glitterBowGrey100012 from "../assets/products/hair-accessories/glitter-bo
 import glitterBowAmber100012 from "../assets/products/hair-accessories/glitter-bow-barrette-amber-100012.webp";
 import glitterBowDetail100012 from "../assets/products/hair-accessories/glitter-bow-barrette-detail-100012.webp";
 
+// SKU-100013
+import haloRing100013 from "../assets/products/accessories/gold-tone-halo-ring-hero-100013.webp";
+
+import detail100014 from "../assets/products/accessories/gold-tone-star-accent-ring-detail-100014.webp";
+import model100014 from "../assets/products/accessories/gold-tone-star-accent-ring-model-100014.webp";
+import detail100015 from "../assets/products/accessories/gold-tone-crossover-ring-detail-100015.webp";
+import model100015 from "../assets/products/accessories/gold-tone-crossover-ring-model-100015.webp";
+import detail100016 from "../assets/products/accessories/gold-tone-tiara-ring-detail-100016.webp";
+import model100016 from "../assets/products/accessories/gold-tone-tiara-ring-model-100016.webp";
+import detail100017 from "../assets/products/accessories/gold-tone-crystal-star-link-ring-detail-100017.webp";
+import model100017 from "../assets/products/accessories/gold-tone-crystal-star-link-ring-model-100017.webp";
+import detail100018 from "../assets/products/accessories/gold-tone-four-stone-ring-detail-100018.webp";
+import model100018 from "../assets/products/accessories/gold-tone-four-stone-ring-model-100018.webp";
+import detail100019 from "../assets/products/accessories/gold-tone-open-star-link-ring-detail-100019.webp";
+import model100019 from "../assets/products/accessories/gold-tone-open-star-link-ring-model-100019.webp";
+import detail100020 from "../assets/products/accessories/gold-tone-leaf-accent-ring-detail-100020.webp";
+import model100020 from "../assets/products/accessories/gold-tone-leaf-accent-ring-model-100020.webp";
+
+import detail100021 from "../assets/products/accessories/gold-tone-open-heart-ring-detail-100021.webp";
+import model100021 from "../assets/products/accessories/gold-tone-open-heart-ring-model-100021.webp";
+import detail100022 from "../assets/products/accessories/gold-tone-chevron-ring-detail-100022.webp";
+import model100022 from "../assets/products/accessories/gold-tone-chevron-ring-model-100022.webp";
+import detail100023 from "../assets/products/accessories/gold-tone-abc-cutout-ring-detail-100023.webp";
+import model100023 from "../assets/products/accessories/gold-tone-abc-cutout-ring-model-100023.webp";
+import detail100024 from "../assets/products/accessories/gold-tone-infinity-ring-detail-100024.webp";
+import model100024 from "../assets/products/accessories/gold-tone-infinity-ring-model-100024.webp";
+import detail100025 from "../assets/products/accessories/gold-tone-five-stone-ring-detail-100025.webp";
+import model100025 from "../assets/products/accessories/gold-tone-five-stone-ring-model-100025.webp";
+import detail100026 from "../assets/products/accessories/gold-tone-love-heart-ring-detail-100026.webp";
+import model100026 from "../assets/products/accessories/gold-tone-love-heart-ring-model-100026.webp";
+import detail100027 from "../assets/products/accessories/gold-tone-star-crown-ring-detail-100027.webp";
+import model100027 from "../assets/products/accessories/gold-tone-star-crown-ring-model-100027.webp";
+import detail100028 from "../assets/products/accessories/gold-tone-open-loop-ring-detail-100028.webp";
+import model100028 from "../assets/products/accessories/gold-tone-open-loop-ring-model-100028.webp";
+import detail100029 from "../assets/products/accessories/gold-tone-floral-stone-ring-detail-100029.webp";
+import model100029 from "../assets/products/accessories/gold-tone-floral-stone-ring-model-100029.webp";
+import detail100030 from "../assets/products/accessories/gold-tone-rectangle-ring-detail-100030.webp";
+import model100030 from "../assets/products/accessories/gold-tone-rectangle-ring-model-100030.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -623,6 +662,453 @@ export const products: Product[] = [
       {
         src: glitterBowDetail100012,
         alt: "Detail view of two glitter bow barrettes showing their curved backs and open metal clasps.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-halo-ring",
+    name: "Gold-Tone Halo Ring",
+    sku: 100013,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription:
+      "A gold-tone ring with a split band and an open centre framed by clear stones.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: haloRing100013,
+        alt: "Gold-tone split-band ring with an open centre framed by clear stones, displayed on a wooden support against an ivory background.",
+        color: "Gold-tone",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-star-accent-ring",
+    name: "Gold-Tone Star Accent Ring",
+    sku: 100014,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A slender gold-tone ring with star-shaped accents alternating with clear stones.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100014,
+        alt: "Gold-Tone Star Accent Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100014,
+        alt: "Close-up of a woman wearing the Gold-Tone Star Accent Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-crossover-ring",
+    name: "Gold-Tone Crossover Ring",
+    sku: 100015,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with overlapping curved bars and two offset rows of clear stones.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100015,
+        alt: "Gold-Tone Crossover Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100015,
+        alt: "Close-up of a woman wearing the Gold-Tone Crossover Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-tiara-ring",
+    name: "Gold-Tone Tiara Ring",
+    sku: 100016,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone tiara ring with curled openwork and two clear stones at the centre.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100016,
+        alt: "Gold-Tone Tiara Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100016,
+        alt: "Close-up of a woman wearing the Gold-Tone Tiara Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-crystal-star-link-ring",
+    name: "Gold-Tone Crystal Star Link Ring",
+    sku: 100017,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with open links, star-shaped connectors and a clear-stone accent.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100017,
+        alt: "Gold-Tone Crystal Star Link Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100017,
+        alt: "Close-up of a woman wearing the Gold-Tone Crystal Star Link Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-four-stone-ring",
+    name: "Gold-Tone Four-Stone Ring",
+    sku: 100018,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A slender gold-tone ring with four spaced clear stones in petite rounded settings.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100018,
+        alt: "Gold-Tone Four-Stone Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100018,
+        alt: "Close-up of a woman wearing the Gold-Tone Four-Stone Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-open-star-link-ring",
+    name: "Gold-Tone Open Star Link Ring",
+    sku: 100019,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with open links alternating with plain star-shaped connectors.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100019,
+        alt: "Gold-Tone Open Star Link Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100019,
+        alt: "Close-up of a woman wearing the Gold-Tone Open Star Link Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-leaf-accent-ring",
+    name: "Gold-Tone Leaf Accent Ring",
+    sku: 100020,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A slender gold-tone ring with leaf-shaped accents alternating with clear stones.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100020,
+        alt: "Gold-Tone Leaf Accent Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100020,
+        alt: "Close-up of a woman wearing the Gold-Tone Leaf Accent Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-open-heart-ring",
+    name: "Gold-Tone Open Heart Ring",
+    sku: 100021,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with open heart outlines alternating with clear stones.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100021,
+        alt: "Gold-Tone Open Heart Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100021,
+        alt: "Close-up of a woman wearing the Gold-Tone Open Heart Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-chevron-ring",
+    name: "Gold-Tone Chevron Ring",
+    sku: 100022,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone chevron ring with a row of clear stones along its V-shaped front.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100022,
+        alt: "Gold-Tone Chevron Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100022,
+        alt: "Close-up of a woman wearing the Gold-Tone Chevron Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-abc-cutout-ring",
+    name: "Gold-Tone ABC Cutout Ring",
+    sku: 100023,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with ABC letter cutouts and clear-stone accents at the sides.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100023,
+        alt: "Gold-Tone ABC Cutout Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100023,
+        alt: "Close-up of a woman wearing the Gold-Tone ABC Cutout Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-infinity-ring",
+    name: "Gold-Tone Infinity Ring",
+    sku: 100024,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with flowing infinity-style loops and clear-stone accents.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100024,
+        alt: "Gold-Tone Infinity Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100024,
+        alt: "Close-up of a woman wearing the Gold-Tone Infinity Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-five-stone-ring",
+    name: "Gold-Tone Five-Stone Ring",
+    sku: 100025,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A slender gold-tone ring with five clear stones across its softly curved front.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100025,
+        alt: "Gold-Tone Five-Stone Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100025,
+        alt: "Close-up of a woman wearing the Gold-Tone Five-Stone Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-love-heart-ring",
+    name: "Gold-Tone Love Heart Ring",
+    sku: 100026,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with a heart-shaped face, Love lettering and clear-stone accents.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100026,
+        alt: "Gold-Tone Love Heart Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100026,
+        alt: "Close-up of a woman wearing the Gold-Tone Love Heart Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-star-crown-ring",
+    name: "Gold-Tone Star Crown Ring",
+    sku: 100027,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with bold star-shaped motifs and clear stones nestled between them.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100027,
+        alt: "Gold-Tone Star Crown Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100027,
+        alt: "Close-up of a woman wearing the Gold-Tone Star Crown Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-open-loop-ring",
+    name: "Gold-Tone Open Loop Ring",
+    sku: 100028,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with an asymmetric open loop joining a row of clear stones.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100028,
+        alt: "Gold-Tone Open Loop Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100028,
+        alt: "Close-up of a woman wearing the Gold-Tone Open Loop Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-floral-stone-ring",
+    name: "Gold-Tone Floral Stone Ring",
+    sku: 100029,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with connected floral motifs, each accented by a clear stone.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100029,
+        alt: "Gold-Tone Floral Stone Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100029,
+        alt: "Close-up of a woman wearing the Gold-Tone Floral Stone Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "gold-tone-rectangle-ring",
+    name: "Gold-Tone Rectangle Ring",
+    sku: 100030,
+    stockCount: 2,
+    category: "accessories",
+    productType: "ring",
+    shortDescription: "A gold-tone ring with an open rectangular centre and clear-stone accents at the sides.",
+    material: "Stainless steel",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: detail100030,
+        alt: "Gold-Tone Rectangle Ring on an ivory background.",
+        color: "Gold-tone",
+      },
+      {
+        src: model100030,
+        alt: "Close-up of a woman wearing the Gold-Tone Rectangle Ring.",
       },
     ],
   },

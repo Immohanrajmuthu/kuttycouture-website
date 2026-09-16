@@ -5,6 +5,7 @@ export type ProductCategory =
 export type ProductType =
   | "necklace"
   | "bracelet"
+  | "ring"
   | "hair-accessories"
   | "frock"
   | "full-sleeve-set"
