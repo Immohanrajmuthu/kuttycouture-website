@@ -122,6 +122,32 @@ import model100029 from "../assets/products/accessories/gold-tone-floral-stone-r
 import detail100030 from "../assets/products/accessories/gold-tone-rectangle-ring-detail-100030.webp";
 import model100030 from "../assets/products/accessories/gold-tone-rectangle-ring-model-100030.webp";
 
+import sunflowerYellow100031 from "../assets/products/hair-accessories/sunflower-snap-hair-clips-yellow-100031.webp";
+import sunflowerPink100031 from "../assets/products/hair-accessories/sunflower-snap-hair-clips-pink-100031.webp";
+import sunflowerDetail100031 from "../assets/products/hair-accessories/sunflower-snap-hair-clips-detail-100031.webp";
+
+import sunflowerBlue100031 from "../assets/products/hair-accessories/sunflower-snap-hair-clips-blue-100031.webp";
+
+import sunflowerModel100031 from "../assets/products/hair-accessories/sunflower-snap-hair-clips-model-100031.webp";
+
+import daisyImage0100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-rose-pink-100032.webp";
+import daisyImage1100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-turquoise-100032.webp";
+import daisyImage2100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-light-pink-100032.webp";
+import daisyImage3100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-peach-100032.webp";
+import daisyImage4100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-lavender-100032.webp";
+import daisyImage5100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-detail-100032.webp";
+import daisyImage6100032 from "../assets/products/hair-accessories/daisy-mini-claw-hair-clips-model-100032.webp";
+
+import plumeriaPeach100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-peach-100033.webp";
+import plumeriaMagenta100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-magenta-100033.webp";
+import plumeriaIvory100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-ivory-100033.webp";
+import plumeriaLavender100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-lavender-100033.webp";
+import plumeriaRosePink100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-rose-pink-100033.webp";
+import plumeriaTurquoise100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-turquoise-100033.webp";
+import plumeriaLightPink100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-light-pink-100033.webp";
+import plumeriaDetail100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-detail-100033.webp";
+import plumeriaModel100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-model-100033.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -1109,6 +1135,159 @@ export const products: Product[] = [
       {
         src: model100030,
         alt: "Close-up of a woman wearing the Gold-Tone Rectangle Ring.",
+      },
+    ],
+  },
+
+  {
+    id: "sunflower-snap-hair-clips",
+    name: "Sunflower Snap Hair Clips (Pair)",
+    sku: 100031,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A pair of sunflower-shaped snap hair clips with rounded petals and textured centres, available in yellow, pink and blue.",
+    material: "Plastic with steel snap",
+    setContents: "2 matching hair clips",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: sunflowerYellow100031,
+        alt: "One yellow sunflower snap hair clip with a brown textured centre, shown from the pair.",
+        color: "Yellow",
+      },
+      {
+        src: sunflowerPink100031,
+        alt: "One pink sunflower snap hair clip with a blue textured centre, shown from the pair.",
+        color: "Pink",
+      },
+      {
+        src: sunflowerBlue100031,
+        alt: "One blue sunflower snap hair clip with a pink textured centre, shown from the pair.",
+        color: "Blue",
+      },
+      {
+        src: sunflowerModel100031,
+        alt: "Child wearing a blue sunflower snap hair clip with a pink centre at the side of the hair.",
+      },
+      {
+        src: sunflowerDetail100031,
+        alt: "Front and back views of the yellow sunflower snap hair clips showing the steel snap mechanism.",
+      },
+    ],
+  },
+
+  {
+    id: "daisy-mini-claw-hair-clips",
+    name: "Daisy Mini Claw Hair Clips (Pair)",
+    sku: 100032,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A pair of daisy-shaped mini claw hair clips with slender petals and textured centres, available in rose pink, turquoise, light pink, peach and lavender.",
+    material: "Plastic with metal spring",
+    setContents: "2 matching hair clips",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: daisyImage0100032,
+        alt: "One rose pink daisy mini claw hair clip, shown from the pair.",
+        color: "Rose Pink",
+      },
+      {
+        src: daisyImage1100032,
+        alt: "One turquoise daisy mini claw hair clip, shown from the pair.",
+        color: "Turquoise",
+      },
+      {
+        src: daisyImage2100032,
+        alt: "One light pink daisy mini claw hair clip, shown from the pair.",
+        color: "Light Pink",
+      },
+      {
+        src: daisyImage3100032,
+        alt: "One peach daisy mini claw hair clip, shown from the pair.",
+        color: "Peach",
+      },
+      {
+        src: daisyImage4100032,
+        alt: "One lavender daisy mini claw hair clip, shown from the pair.",
+        color: "Lavender",
+      },
+      {
+        src: daisyImage5100032,
+        alt: "Rear and side views of lavender daisy claw clips showing the metal spring and teeth.",
+      },
+      {
+        src: daisyImage6100032,
+        alt: "Child wearing a lavender daisy mini claw hair clip at the side of the hair.",
+      },
+    ],
+  },
+
+  {
+    id: "plumeria-mini-claw-hair-clips",
+    name: "Plumeria Mini Claw Hair Clips (Pair)",
+    sku: 100033,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A pair of glossy plumeria-shaped mini claw hair clips with five broad petals and contrasting centres, available in peach, magenta, ivory, lavender, rose pink, turquoise and light pink.",
+    material: "Plastic with metal spring",
+    setContents: "2 matching hair clips",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: plumeriaPeach100033,
+        alt: "One peach plumeria mini claw hair clip, shown from the pair.",
+        color: "Peach",
+      },
+      {
+        src: plumeriaMagenta100033,
+        alt: "One magenta plumeria mini claw hair clip, shown from the pair.",
+        color: "Magenta",
+      },
+      {
+        src: plumeriaIvory100033,
+        alt: "One ivory plumeria mini claw hair clip, shown from the pair.",
+        color: "Ivory",
+      },
+      {
+        src: plumeriaLavender100033,
+        alt: "One lavender plumeria mini claw hair clip, shown from the pair.",
+        color: "Lavender",
+      },
+      {
+        src: plumeriaRosePink100033,
+        alt: "One rose pink plumeria mini claw hair clip, shown from the pair.",
+        color: "Rose Pink",
+      },
+      {
+        src: plumeriaTurquoise100033,
+        alt: "One turquoise plumeria mini claw hair clip, shown from the pair.",
+        color: "Turquoise",
+      },
+      {
+        src: plumeriaLightPink100033,
+        alt: "One light pink plumeria mini claw hair clip, shown from the pair.",
+        color: "Light Pink",
+      },
+      {
+        src: plumeriaDetail100033,
+        alt: "Rear and side views of peach plumeria claw clips showing the metal spring and teeth.",
+      },
+      {
+        src: plumeriaModel100033,
+        alt: "Child wearing a lavender plumeria mini claw hair clip at the side of the hair.",
       },
     ],
   },
