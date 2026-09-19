@@ -148,6 +148,14 @@ import plumeriaLightPink100033 from "../assets/products/hair-accessories/plumeri
 import plumeriaDetail100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-detail-100033.webp";
 import plumeriaModel100033 from "../assets/products/hair-accessories/plumeria-mini-claw-hair-clips-model-100033.webp";
 
+import printedPlumeria0100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-blue-floral-100034.webp";
+import printedPlumeria1100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-lavender-marble-100034.webp";
+import printedPlumeria2100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-blue-yellow-100034.webp";
+import printedPlumeria3100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-blush-floral-100034.webp";
+import printedPlumeria4100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-rose-pink-100034.webp";
+import printedPlumeria5100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-detail-100034.webp";
+import printedPlumeria6100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-model-100034.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -1288,6 +1296,57 @@ export const products: Product[] = [
       {
         src: plumeriaModel100033,
         alt: "Child wearing a lavender plumeria mini claw hair clip at the side of the hair.",
+      },
+    ],
+  },
+
+  {
+    id: "printed-plumeria-claw-hair-clip",
+    name: "Printed Plumeria Claw Hair Clip",
+    sku: 100034,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A glossy five-petal plumeria claw hair clip in floral and marble-inspired prints, available in blue floral, lavender marble, blue-yellow, blush floral and rose pink. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: printedPlumeria0100034,
+        alt: "Blue Floral printed plumeria claw hair clip.",
+        color: "Blue Floral",
+      },
+      {
+        src: printedPlumeria1100034,
+        alt: "Lavender Marble printed plumeria claw hair clip.",
+        color: "Lavender Marble",
+      },
+      {
+        src: printedPlumeria2100034,
+        alt: "Blue Yellow printed plumeria claw hair clip.",
+        color: "Blue Yellow",
+      },
+      {
+        src: printedPlumeria3100034,
+        alt: "Blush Floral printed plumeria claw hair clip.",
+        color: "Blush Floral",
+      },
+      {
+        src: printedPlumeria4100034,
+        alt: "Rose Pink printed plumeria claw hair clip.",
+        color: "Rose Pink",
+      },
+      {
+        src: printedPlumeria5100034,
+        alt: "Rear and side views showing the plastic claw teeth and metal spring; clips sold individually.",
+      },
+      {
+        src: printedPlumeria6100034,
+        alt: "Child wearing a lavender marble printed plumeria claw hair clip.",
       },
     ],
   },
