@@ -156,6 +156,21 @@ import printedPlumeria4100034 from "../assets/products/hair-accessories/printed-
 import printedPlumeria5100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-detail-100034.webp";
 import printedPlumeria6100034 from "../assets/products/hair-accessories/printed-plumeria-claw-hair-clip-model-100034.webp";
 
+import clip100035Image0 from "../assets/products/hair-accessories/twin-blossom-claw-hair-clip-ivory-100035.webp";
+import clip100035Image1 from "../assets/products/hair-accessories/twin-blossom-claw-hair-clip-grey-100035.webp";
+import clip100035Image2 from "../assets/products/hair-accessories/twin-blossom-claw-hair-clip-mauve-100035.webp";
+import clip100035Image3 from "../assets/products/hair-accessories/twin-blossom-claw-hair-clip-detail-100035.webp";
+import clip100035Image4 from "../assets/products/hair-accessories/twin-blossom-claw-hair-clip-model-100035.webp";
+import clip100036Image0 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-black-100036.webp";
+import clip100036Image1 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-grey-100036.webp";
+import clip100036Image2 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-blush-pink-100036.webp";
+import clip100036Image3 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-mauve-100036.webp";
+import clip100036Image4 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-sky-blue-100036.webp";
+import clip100036Image5 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-peach-100036.webp";
+import clip100036Image6 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-lavender-100036.webp";
+import clip100036Image7 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-detail-100036.webp";
+import clip100036Image8 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-model-100036.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -1347,6 +1362,108 @@ export const products: Product[] = [
       {
         src: printedPlumeria6100034,
         alt: "Child wearing a lavender marble printed plumeria claw hair clip.",
+      },
+    ],
+  },
+
+  {
+    id: "twin-blossom-claw-hair-clip",
+    name: "Twin Blossom Claw Hair Clip",
+    sku: 100035,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A matte claw hair clip with two blossoms, curved stems and leaves, available in ivory, grey and mauve. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100035Image0,
+        alt: "Ivory twin blossom claw hair clip.",
+        color: "Ivory",
+      },
+      {
+        src: clip100035Image1,
+        alt: "Grey twin blossom claw hair clip.",
+        color: "Grey",
+      },
+      {
+        src: clip100035Image2,
+        alt: "Mauve twin blossom claw hair clip.",
+        color: "Mauve",
+      },
+      {
+        src: clip100035Image3,
+        alt: "Side and rear views of the twin blossom claw hair clip showing teeth and metal spring; sold individually.",
+      },
+      {
+        src: clip100035Image4,
+        alt: "Child wearing the twin blossom claw hair clip in a half-up hairstyle.",
+      },
+    ],
+  },
+
+  {
+    id: "matte-daisy-claw-hair-clip",
+    name: "Matte Daisy Claw Hair Clip",
+    sku: 100036,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A matte daisy-shaped claw hair clip with broad notched petals and a textured centre, available in black, grey, blush pink, mauve, sky blue, peach and lavender. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100036Image0,
+        alt: "Black matte daisy claw hair clip.",
+        color: "Black",
+      },
+      {
+        src: clip100036Image1,
+        alt: "Grey matte daisy claw hair clip.",
+        color: "Grey",
+      },
+      {
+        src: clip100036Image2,
+        alt: "Blush Pink matte daisy claw hair clip.",
+        color: "Blush Pink",
+      },
+      {
+        src: clip100036Image3,
+        alt: "Mauve matte daisy claw hair clip.",
+        color: "Mauve",
+      },
+      {
+        src: clip100036Image4,
+        alt: "Sky Blue matte daisy claw hair clip.",
+        color: "Sky Blue",
+      },
+      {
+        src: clip100036Image5,
+        alt: "Peach matte daisy claw hair clip.",
+        color: "Peach",
+      },
+      {
+        src: clip100036Image6,
+        alt: "Lavender matte daisy claw hair clip.",
+        color: "Lavender",
+      },
+      {
+        src: clip100036Image7,
+        alt: "Side and rear views of the matte daisy claw hair clip showing teeth and metal spring; sold individually.",
+      },
+      {
+        src: clip100036Image8,
+        alt: "Child wearing the matte daisy claw hair clip in a half-up hairstyle.",
       },
     ],
   },
