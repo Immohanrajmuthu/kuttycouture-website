@@ -171,6 +171,85 @@ import clip100036Image6 from "../assets/products/hair-accessories/matte-daisy-cl
 import clip100036Image7 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-detail-100036.webp";
 import clip100036Image8 from "../assets/products/hair-accessories/matte-daisy-claw-hair-clip-model-100036.webp";
 
+import clip100037Image0 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-set-100037.webp";
+import clip100037Image1 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-pink-ivory-100037.webp";
+import clip100037Image2 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-lavender-100037.webp";
+import clip100037Image3 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-mint-blue-100037.webp";
+import clip100037Image4 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-peach-pink-100037.webp";
+import clip100037Image5 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-detail-100037.webp";
+import clip100037Image6 from "../assets/products/hair-accessories/pastel-plumeria-claw-hair-clips-model-100037.webp";
+
+import clip100038Image0 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-carrot-orange-100038.webp";
+import clip100038Image1 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-cherry-red-100038.webp";
+import clip100038Image2 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-strawberry-pink-100038.webp";
+import clip100038Image3 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-citrus-orange-100038.webp";
+import clip100038Image4 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-grape-purple-100038.webp";
+import clip100038Image5 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-peach-pink-100038.webp";
+import clip100038Image6 from "../assets/products/hair-accessories/fruit-trio-clear-claw-hair-clip-detail-100038.webp";
+
+import clip100039Image0 from "../assets/products/hair-accessories/translucent-daisy-stem-claw-hair-clips-peach-100039.webp";
+import clip100039Image1 from "../assets/products/hair-accessories/translucent-daisy-stem-claw-hair-clips-green-teal-100039.webp";
+import clip100039Image2 from "../assets/products/hair-accessories/translucent-daisy-stem-claw-hair-clips-blue-purple-100039.webp";
+import clip100039Image3 from "../assets/products/hair-accessories/translucent-daisy-stem-claw-hair-clips-blue-amber-100039.webp";
+import clip100039Image4 from "../assets/products/hair-accessories/translucent-daisy-stem-claw-hair-clips-rose-pink-100039.webp";
+
+import clip100040Image0 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-beige-100040.webp";
+import clip100040Image1 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-ivory-100040.webp";
+import clip100040Image2 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-taupe-100040.webp";
+import clip100040Image3 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-black-100040.webp";
+import clip100040Image4 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-hot-pink-100040.webp";
+import clip100040Image5 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-ice-blue-100040.webp";
+import clip100040Image6 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-mint-100040.webp";
+import clip100040Image7 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-dusty-pink-100040.webp";
+import clip100040Image8 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-baby-blue-100040.webp";
+import clip100040Image9 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-baby-pink-100040.webp";
+import clip100040Image10 from "../assets/products/hair-accessories/plush-curved-claw-hair-clip-detail-100040.webp";
+
+import clip100041Image0 from "../assets/products/hair-accessories/ombre-plumeria-claw-hair-clips-olive-taupe-100041.webp";
+import clip100041Image1 from "../assets/products/hair-accessories/ombre-plumeria-claw-hair-clips-navy-lavender-100041.webp";
+import clip100041Image2 from "../assets/products/hair-accessories/ombre-plumeria-claw-hair-clips-blue-white-100041.webp";
+import clip100041Image3 from "../assets/products/hair-accessories/ombre-plumeria-claw-hair-clips-pink-purple-100041.webp";
+import clip100041Image4 from "../assets/products/hair-accessories/ombre-plumeria-claw-hair-clips-ivory-pink-100041.webp";
+
+import clip100042Image0 from "../assets/products/hair-accessories/character-snap-hair-clips-pink-100042.webp";
+import clip100042Image1 from "../assets/products/hair-accessories/character-snap-hair-clips-brown-100042.webp";
+
+import clip100043Image0 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-peach-pink-100043.webp";
+import clip100043Image1 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-lilac-100043.webp";
+import clip100043Image2 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-light-grey-100043.webp";
+import clip100043Image3 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-mauve-100043.webp";
+import clip100043Image4 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-black-100043.webp";
+import clip100043Image5 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-baby-blue-100043.webp";
+import clip100043Image6 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-bright-pink-100043.webp";
+import clip100043Image7 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-sage-green-100043.webp";
+import clip100043Image8 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-blue-100043.webp";
+import clip100043Image9 from "../assets/products/hair-accessories/matte-plumeria-claw-hair-clip-blush-pink-100043.webp";
+
+import clip100044Image0 from "../assets/products/hair-accessories/mini-matte-plumeria-claw-hair-clip-lavender-100044.webp";
+import clip100044Image1 from "../assets/products/hair-accessories/mini-matte-plumeria-claw-hair-clip-taupe-100044.webp";
+import clip100044Image2 from "../assets/products/hair-accessories/mini-matte-plumeria-claw-hair-clip-black-100044.webp";
+import clip100044Image3 from "../assets/products/hair-accessories/mini-matte-plumeria-claw-hair-clip-cream-100044.webp";
+import clip100044Image4 from "../assets/products/hair-accessories/mini-matte-plumeria-claw-hair-clip-ivory-100044.webp";
+import clip100044Image5 from "../assets/products/hair-accessories/mini-matte-plumeria-claw-hair-clip-grey-100044.webp";
+
+import clip100045Image0 from "../assets/products/hair-accessories/polka-dot-flower-snap-hair-clips-cream-100045.webp";
+import clip100045Image1 from "../assets/products/hair-accessories/polka-dot-flower-snap-hair-clips-tan-100045.webp";
+
+import clip100046Image0 from "../assets/products/hair-accessories/teddy-fruit-snap-hair-clips-blue-100046.webp";
+import clip100046Image1 from "../assets/products/hair-accessories/teddy-fruit-snap-hair-clips-purple-100046.webp";
+import clip100046Image2 from "../assets/products/hair-accessories/teddy-fruit-snap-hair-clips-yellow-100046.webp";
+
+import clip100047Image0 from "../assets/products/hair-accessories/mini-butterfly-claw-hair-clips-set-100047.webp";
+
+import clip100048Image0 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-lavender-100048.webp";
+import clip100048Image1 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-black-100048.webp";
+import clip100048Image2 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-taupe-100048.webp";
+import clip100048Image3 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-rose-pink-100048.webp";
+import clip100048Image4 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-baby-blue-100048.webp";
+import clip100048Image5 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-sage-green-100048.webp";
+import clip100048Image6 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-blush-pink-100048.webp";
+import clip100048Image7 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-light-grey-100048.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -1464,6 +1543,526 @@ export const products: Product[] = [
       {
         src: clip100036Image8,
         alt: "Child wearing the matte daisy claw hair clip in a half-up hairstyle.",
+      },
+    ],
+  },
+
+  {
+    id: "pastel-plumeria-claw-hair-clips-set",
+    name: "Pastel Plumeria Claw Hair Clips (Set of 4)",
+    sku: 100037,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A set of four matte plumeria claw hair clips with softly curved petals. Includes one each in pink ivory, lavender, mint blue and peach pink.",
+    material: "Plastic with metal spring",
+    setContents: "4 hair clips: 1 pink ivory, 1 lavender, 1 mint blue and 1 peach pink",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      { src: clip100037Image0, alt: "Complete set of four pastel plumeria claw hair clips in pink ivory, lavender, mint blue and peach pink." },
+      { src: clip100037Image1, alt: "Pink ivory clip included in the four-piece set." },
+      { src: clip100037Image2, alt: "Lavender clip included in the four-piece set." },
+      { src: clip100037Image3, alt: "Mint blue clip included in the four-piece set." },
+      { src: clip100037Image4, alt: "Peach pink clip included in the four-piece set." },
+      { src: clip100037Image5, alt: "Side and rear views showing the claw teeth and metal spring." },
+      { src: clip100037Image6, alt: "Child wearing the lavender clip from the four-piece set in a half-up hairstyle." },
+    ],
+  },
+
+  {
+    id: "fruit-trio-clear-claw-hair-clip",
+    name: "Fruit Trio Clear Claw Hair Clip",
+    sku: 100038,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A clear claw hair clip decorated with three playful fruit medallions, available in six colourful designs. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100038Image0,
+        alt: "Carrot orange fruit trio clear claw hair clip.",
+        color: "Carrot Orange",
+      },
+      {
+        src: clip100038Image1,
+        alt: "Cherry red fruit trio clear claw hair clip.",
+        color: "Cherry Red",
+      },
+      {
+        src: clip100038Image2,
+        alt: "Strawberry pink fruit trio clear claw hair clip.",
+        color: "Strawberry Pink",
+      },
+      {
+        src: clip100038Image3,
+        alt: "Citrus orange fruit trio clear claw hair clip.",
+        color: "Citrus Orange",
+      },
+      {
+        src: clip100038Image4,
+        alt: "Grape purple fruit trio clear claw hair clip.",
+        color: "Grape Purple",
+      },
+      {
+        src: clip100038Image5,
+        alt: "Peach pink fruit trio clear claw hair clip.",
+        color: "Peach Pink",
+      },
+      {
+        src: clip100038Image6,
+        alt: "Rear and underside views of the clear fruit trio claw hair clip showing its teeth and metal spring.",
+      },
+    ],
+  },
+
+  {
+    id: "translucent-daisy-stem-claw-hair-clips",
+    name: "Translucent Daisy Stem Claw Hair Clips (Pair)",
+    sku: 100039,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A pair of translucent claw hair clips shaped like daisies with slender stems and textured leaves. Available in peach, green teal, blue purple, blue amber and rose pink.",
+    material: "Plastic with metal spring",
+    setContents: "2 hair clips (1 pair)",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100039Image0,
+        alt: "Pair of peach translucent daisy stem claw hair clips.",
+        color: "Peach",
+      },
+      {
+        src: clip100039Image1,
+        alt: "Pair of green teal translucent daisy stem claw hair clips.",
+        color: "Green Teal",
+      },
+      {
+        src: clip100039Image2,
+        alt: "Pair of blue purple translucent daisy stem claw hair clips.",
+        color: "Blue Purple",
+      },
+      {
+        src: clip100039Image3,
+        alt: "Pair of blue amber translucent daisy stem claw hair clips.",
+        color: "Blue Amber",
+      },
+      {
+        src: clip100039Image4,
+        alt: "Pair of rose pink translucent daisy stem claw hair clips.",
+        color: "Rose Pink",
+      },
+    ],
+  },
+
+  {
+    id: "plush-curved-claw-hair-clip",
+    name: "Plush Curved Claw Hair Clip",
+    sku: 100040,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A curved claw hair clip with a fluffy plush covering and clear clasp. Available in ten colours: beige, ivory, taupe, black, hot pink, ice blue, mint, dusty pink, baby blue and baby pink. Sold individually.",
+    material: "Plush covering, plastic claw and metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100040Image0,
+        alt: "Beige plush curved claw hair clip.",
+        color: "Beige",
+      },
+      {
+        src: clip100040Image1,
+        alt: "Ivory plush curved claw hair clip.",
+        color: "Ivory",
+      },
+      {
+        src: clip100040Image2,
+        alt: "Taupe plush curved claw hair clip.",
+        color: "Taupe",
+      },
+      {
+        src: clip100040Image3,
+        alt: "Black plush curved claw hair clip.",
+        color: "Black",
+      },
+      {
+        src: clip100040Image4,
+        alt: "Hot Pink plush curved claw hair clip.",
+        color: "Hot Pink",
+      },
+      {
+        src: clip100040Image5,
+        alt: "Ice Blue plush curved claw hair clip.",
+        color: "Ice Blue",
+      },
+      {
+        src: clip100040Image6,
+        alt: "Mint plush curved claw hair clip.",
+        color: "Mint",
+      },
+      {
+        src: clip100040Image7,
+        alt: "Dusty Pink plush curved claw hair clip.",
+        color: "Dusty Pink",
+      },
+      {
+        src: clip100040Image8,
+        alt: "Baby Blue plush curved claw hair clip.",
+        color: "Baby Blue",
+      },
+      {
+        src: clip100040Image9,
+        alt: "Baby Pink plush curved claw hair clip.",
+        color: "Baby Pink",
+      },
+      {
+        src: clip100040Image10,
+        alt: "Side and rear views showing clear claw teeth and metal spring; sold individually.",
+      },
+    ],
+  },
+
+  {
+    id: "ombre-plumeria-claw-hair-clips-set",
+    name: "Ombre Plumeria Claw Hair Clips (Set of 3)",
+    sku: 100041,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A matching set of three matte plumeria claw hair clips with softly shaded petals. Includes one large clip and two small clips, available in five colour combinations.",
+    material: "Plastic with metal spring",
+    setContents: "3 hair clips: 1 large and 2 small",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100041Image0,
+        alt: "Olive Taupe ombre plumeria claw hair clip set with one large and two small clips.",
+        color: "Olive Taupe",
+      },
+      {
+        src: clip100041Image1,
+        alt: "Navy Lavender ombre plumeria claw hair clip set with one large and two small clips.",
+        color: "Navy Lavender",
+      },
+      {
+        src: clip100041Image2,
+        alt: "Blue White ombre plumeria claw hair clip set with one large and two small clips.",
+        color: "Blue White",
+      },
+      {
+        src: clip100041Image3,
+        alt: "Pink Purple ombre plumeria claw hair clip set with one large and two small clips.",
+        color: "Pink Purple",
+      },
+      {
+        src: clip100041Image4,
+        alt: "Ivory Pink ombre plumeria claw hair clip set with one large and two small clips.",
+        color: "Ivory Pink",
+      },
+    ],
+  },
+
+  {
+    id: "character-snap-hair-clips-set",
+    name: "Character Snap Hair Clips (Set of 4)",
+    sku: 100042,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "Cute character snap hair clips with bow details, available in pink and brown designs. Each set contains two matching pairs, four clips in total.",
+    material: "Plastic with steel snap",
+    setContents: "2 pairs (4 hair clips)",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100042Image0,
+        alt: "Two pairs of pink character snap hair clips, four clips in total.",
+        color: "Pink",
+      },
+      {
+        src: clip100042Image1,
+        alt: "Two pairs of brown character snap hair clips, four clips in total.",
+        color: "Brown",
+      },
+    ],
+  },
+
+  {
+    id: "matte-plumeria-claw-hair-clip",
+    name: "Matte Plumeria Claw Hair Clip",
+    sku: 100043,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A matte five-petal plumeria flower claw hair clip with softly curved petals and a matching clasp. Available in ten colours. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100043Image0,
+        alt: "Peach Pink matte plumeria claw hair clip, sold individually.",
+        color: "Peach Pink",
+      },
+      {
+        src: clip100043Image1,
+        alt: "Lilac matte plumeria claw hair clip, sold individually.",
+        color: "Lilac",
+      },
+      {
+        src: clip100043Image2,
+        alt: "Light Grey matte plumeria claw hair clip, sold individually.",
+        color: "Light Grey",
+      },
+      {
+        src: clip100043Image3,
+        alt: "Mauve matte plumeria claw hair clip, sold individually.",
+        color: "Mauve",
+      },
+      {
+        src: clip100043Image4,
+        alt: "Black matte plumeria claw hair clip, sold individually.",
+        color: "Black",
+      },
+      {
+        src: clip100043Image5,
+        alt: "Baby Blue matte plumeria claw hair clip, sold individually.",
+        color: "Baby Blue",
+      },
+      {
+        src: clip100043Image6,
+        alt: "Bright Pink matte plumeria claw hair clip, sold individually.",
+        color: "Bright Pink",
+      },
+      {
+        src: clip100043Image7,
+        alt: "Sage Green matte plumeria claw hair clip, sold individually.",
+        color: "Sage Green",
+      },
+      {
+        src: clip100043Image8,
+        alt: "Blue matte plumeria claw hair clip, sold individually.",
+        color: "Blue",
+      },
+      {
+        src: clip100043Image9,
+        alt: "Blush Pink matte plumeria claw hair clip, sold individually.",
+        color: "Blush Pink",
+      },
+    ],
+  },
+
+  {
+    id: "mini-matte-plumeria-claw-hair-clip",
+    name: "Mini Matte Plumeria Claw Hair Clip",
+    sku: 100044,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A small version of our matte plumeria claw hair clip, with five softly curved petals and a compact matching clasp. Available in lavender, taupe, black, cream, ivory and grey. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 small hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100044Image0,
+        alt: "Lavender mini matte plumeria claw hair clip, small size, sold individually.",
+        color: "Lavender",
+      },
+      {
+        src: clip100044Image1,
+        alt: "Taupe mini matte plumeria claw hair clip, small size, sold individually.",
+        color: "Taupe",
+      },
+      {
+        src: clip100044Image2,
+        alt: "Black mini matte plumeria claw hair clip, small size, sold individually.",
+        color: "Black",
+      },
+      {
+        src: clip100044Image3,
+        alt: "Cream mini matte plumeria claw hair clip, small size, sold individually.",
+        color: "Cream",
+      },
+      {
+        src: clip100044Image4,
+        alt: "Ivory mini matte plumeria claw hair clip, small size, sold individually.",
+        color: "Ivory",
+      },
+      {
+        src: clip100044Image5,
+        alt: "Grey mini matte plumeria claw hair clip, small size, sold individually.",
+        color: "Grey",
+      },
+    ],
+  },
+
+  {
+    id: "polka-dot-flower-snap-hair-clips",
+    name: "Polka Dot Flower Snap Hair Clips (Pair)",
+    sku: 100045,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "Glossy five-petal flower snap hair clips with playful polka dots. Choose cream flowers with black dots or tan flowers with cream dots. Sold as a matching pair.",
+    material: "Plastic with steel snap",
+    setContents: "1 pair (2 hair clips)",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100045Image0,
+        alt: "Pair of cream polka dot flower snap hair clips.",
+        color: "Cream",
+      },
+      {
+        src: clip100045Image1,
+        alt: "Pair of tan polka dot flower snap hair clips.",
+        color: "Tan",
+      },
+    ],
+  },
+
+  {
+    id: "teddy-fruit-snap-hair-clips",
+    name: "Teddy & Fruit Snap Hair Clips (Pair)",
+    sku: 100046,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "Colourful snap hair clips decorated with a little teddy bear holding a fruit. Available in blue, purple and yellow designs. Sold as a matching pair.",
+    material: "Plastic with steel snap",
+    setContents: "1 pair (2 hair clips)",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100046Image0,
+        alt: "Pair of blue teddy and fruit snap hair clips.",
+        color: "Blue",
+      },
+      {
+        src: clip100046Image1,
+        alt: "Pair of purple teddy and fruit snap hair clips.",
+        color: "Purple",
+      },
+      {
+        src: clip100046Image2,
+        alt: "Pair of yellow teddy and fruit snap hair clips.",
+        color: "Yellow",
+      },
+    ],
+  },
+
+  {
+    id: "mini-butterfly-claw-hair-clips-set",
+    name: "Mini Butterfly Claw Hair Clips (Set of 10)",
+    sku: 100047,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A set of ten mini butterfly claw hair clips in an assortment of soft peach, taupe, brown, pink and beige shades. Compact glossy clips with butterfly-shaped handles. Sold as one complete set of 10 clips.",
+    material: "Plastic with metal spring",
+    setContents: "10 mini hair clips",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100047Image0,
+        alt: "Complete set of ten mini butterfly claw hair clips in assorted colours.",
+      },
+    ],
+  },
+
+  {
+    id: "matte-butterfly-loop-claw-hair-clip",
+    name: "Matte Butterfly Loop Claw Hair Clip",
+    sku: 100048,
+    stockCount: 2,
+    category: "accessories",
+    productType: "hair-accessories",
+    shortDescription:
+      "A matte butterfly claw hair clip with an open curved loop frame and moulded wing details. Available in eight colours. Sold individually.",
+    material: "Plastic with metal spring",
+    setContents: "1 hair clip",
+    price: null,
+    availability: "in-stock",
+    offerAvailable: false,
+    images: [
+      {
+        src: clip100048Image0,
+        alt: "Lavender matte butterfly loop claw hair clip, sold individually.",
+        color: "Lavender",
+      },
+      {
+        src: clip100048Image1,
+        alt: "Black matte butterfly loop claw hair clip, sold individually.",
+        color: "Black",
+      },
+      {
+        src: clip100048Image2,
+        alt: "Taupe matte butterfly loop claw hair clip, sold individually.",
+        color: "Taupe",
+      },
+      {
+        src: clip100048Image3,
+        alt: "Rose Pink matte butterfly loop claw hair clip, sold individually.",
+        color: "Rose Pink",
+      },
+      {
+        src: clip100048Image4,
+        alt: "Baby Blue matte butterfly loop claw hair clip, sold individually.",
+        color: "Baby Blue",
+      },
+      {
+        src: clip100048Image5,
+        alt: "Sage Green matte butterfly loop claw hair clip, sold individually.",
+        color: "Sage Green",
+      },
+      {
+        src: clip100048Image6,
+        alt: "Blush Pink matte butterfly loop claw hair clip, sold individually.",
+        color: "Blush Pink",
+      },
+      {
+        src: clip100048Image7,
+        alt: "Light Grey matte butterfly loop claw hair clip, sold individually.",
+        color: "Light Grey",
       },
     ],
   },
