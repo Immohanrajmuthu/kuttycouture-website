@@ -250,6 +250,49 @@ import clip100048Image5 from "../assets/products/hair-accessories/matte-butterfl
 import clip100048Image6 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-blush-pink-100048.webp";
 import clip100048Image7 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-light-grey-100048.webp";
 
+// SKU-100049 to SKU-100057 — Men's kada collection
+import product100049 from "../assets/products/accessories/rose-gold-triple-stripe-mens-kada-product-100049.webp";
+import model100049 from "../assets/products/accessories/rose-gold-triple-stripe-mens-kada-model-100049.webp";
+import mensKadaDimensions from "../assets/products/accessories/mens-kada-oval-dimensions.webp";
+import product100050 from "../assets/products/accessories/black-chain-link-mens-kada-product-100050.webp";
+import model100050 from "../assets/products/accessories/black-chain-link-mens-kada-model-100050.webp";
+import product100051 from "../assets/products/accessories/black-vine-scroll-mens-kada-product-100051.webp";
+import model100051 from "../assets/products/accessories/black-vine-scroll-mens-kada-model-100051.webp";
+import product100052 from "../assets/products/accessories/rose-gold-double-greek-key-mens-kada-product-100052.webp";
+import model100052 from "../assets/products/accessories/rose-gold-double-greek-key-mens-kada-model-100052.webp";
+import product100053 from "../assets/products/accessories/two-tone-grid-panel-mens-kada-product-100053.webp";
+import model100053 from "../assets/products/accessories/two-tone-grid-panel-mens-kada-model-100053.webp";
+import product100054 from "../assets/products/accessories/heartbeat-mens-kada-product-100054.webp";
+import model100054 from "../assets/products/accessories/heartbeat-mens-kada-model-100054.webp";
+import product100055 from "../assets/products/accessories/black-diagonal-dash-mens-kada-product-100055.webp";
+import model100055 from "../assets/products/accessories/black-diagonal-dash-mens-kada-model-100055.webp";
+import product100056 from "../assets/products/accessories/rose-gold-honeycomb-mens-kada-product-100056.webp";
+import model100056 from "../assets/products/accessories/rose-gold-honeycomb-mens-kada-model-100056.webp";
+import product100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-product-100057.webp";
+import model100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-model-100057.webp";
+
+// SKU-100058 to SKU-100067 — Women's and kids' kada collection
+import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.png";
+import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.png";
+import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.png";
+import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.png";
+import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.png";
+import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.png";
+import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.png";
+import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.png";
+import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.png";
+import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.png";
+import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.png";
+import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.png";
+import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.png";
+import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.png";
+import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.png";
+import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.png";
+import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.png";
+import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.png";
+import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.png";
+import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.png";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -2064,6 +2107,443 @@ export const products: Product[] = [
         alt: "Light Grey matte butterfly loop claw hair clip, sold individually.",
         color: "Light Grey",
       },
+    ],
+  },
+
+  {
+    id: "rose-gold-triple-stripe-mens-kada",
+    name: "Rose Gold Triple Stripe Men's Kada",
+    sku: 100049,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A polished rose-gold stainless-steel men's kada with three dark linear grooves and two finely textured accent bands.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100049, alt: "Rose-gold triple-stripe men's kada on an ivory studio background." },
+      { src: model100049, alt: "Adult man wearing the rose-gold triple-stripe kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "black-chain-link-mens-kada",
+    name: "Black Chain Link Men's Kada",
+    sku: 100050,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black",
+    shortDescription:
+      "A black stainless-steel men's kada with a recessed repeating chain-link texture and polished borders.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100050, alt: "Black chain-link textured men's kada on an ivory studio background." },
+      { src: model100050, alt: "Adult man wearing the black chain-link kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "black-vine-scroll-mens-kada",
+    name: "Black Vine Scroll Men's Kada",
+    sku: 100051,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black",
+    shortDescription:
+      "A sleek black stainless-steel men's kada with flowing vine-scroll engraving framed by polished border lines.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100051, alt: "Black vine-scroll engraved men's kada on an ivory studio background." },
+      { src: model100051, alt: "Adult man wearing the black vine-scroll kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "rose-gold-double-greek-key-mens-kada",
+    name: "Rose Gold Double Greek Key Men's Kada",
+    sku: 100052,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A rose-gold stainless-steel men's kada with twin rows of geometric Greek-key engraving and a polished centre groove.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100052, alt: "Rose-gold double Greek-key men's kada on an ivory studio background." },
+      { src: model100052, alt: "Adult man wearing the rose-gold double Greek-key kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "two-tone-grid-panel-mens-kada",
+    name: "Two-Tone Grid Panel Men's Kada",
+    sku: 100053,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black and Rose Gold",
+    shortDescription:
+      "A two-tone stainless-steel men's kada combining glossy black panels with finely checked rose-gold texture panels.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100053, alt: "Black and rose-gold grid-panel men's kada on an ivory studio background." },
+      { src: model100053, alt: "Adult man wearing the two-tone grid-panel kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "heartbeat-mens-kada",
+    name: "Heartbeat Men's Kada",
+    sku: 100054,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Silver and Black",
+    shortDescription:
+      "A silver-tone stainless-steel men's kada with black borders, heart motifs and a continuous heartbeat-line design.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100054, alt: "Silver and black heartbeat-design men's kada on an ivory studio background." },
+      { src: model100054, alt: "Adult man wearing the silver and black heartbeat kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "black-diagonal-dash-mens-kada",
+    name: "Black Diagonal Dash Men's Kada",
+    sku: 100055,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black and Silver",
+    shortDescription:
+      "A black stainless-steel men's kada with repeating diagonal silver dash inlays across a textured centre band.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100055, alt: "Black men's kada with diagonal silver dash inlays on an ivory studio background." },
+      { src: model100055, alt: "Adult man wearing the black diagonal-dash kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "rose-gold-honeycomb-mens-kada",
+    name: "Rose Gold Honeycomb Men's Kada",
+    sku: 100056,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A rose-gold stainless-steel men's kada with a bold recessed honeycomb pattern and polished edges.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100056, alt: "Rose-gold honeycomb-pattern men's kada on an ivory studio background." },
+      { src: model100056, alt: "Adult man wearing the rose-gold honeycomb kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "rose-gold-maze-mens-kada",
+    name: "Rose Gold Maze Men's Kada",
+    sku: 100057,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A rose-gold stainless-steel men's kada with a repeating angular maze motif recessed into a textured centre band.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100057, alt: "Rose-gold angular maze-pattern men's kada on an ivory studio background." },
+      { src: model100057, alt: "Adult man wearing the rose-gold maze kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "gold-tone-black-star-crystal-kada",
+    name: "Gold-Tone Black Star Crystal Kada",
+    sku: 100058,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold and Black",
+    shortDescription:
+      "A slim gold-tone stainless-steel kada with three black star motifs and two sparkling crystal accents.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100058, alt: "Gold-tone kada with three black stars and two crystal accents." },
+      { src: model100058, alt: "Woman and child wearing the gold-tone black-star crystal kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-scattered-crystal-double-rail-kada",
+    name: "Gold-Tone Scattered Crystal Double Rail Kada",
+    sku: 100059,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "A delicate double-rail gold-tone stainless-steel kada decorated with scattered round crystal accents.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100059, alt: "Gold-tone double-rail kada with scattered round crystals." },
+      { src: model100059, alt: "Woman and child wearing the gold-tone scattered-crystal double-rail kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-filigree-leaf-crystal-loop-kada",
+    name: "Gold-Tone Filigree Leaf Crystal Loop Kada",
+    sku: 100060,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "An elegant gold-tone stainless-steel kada with a filigree leaf and an open teardrop loop edged in crystals.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100060, alt: "Gold-tone kada with a filigree leaf and crystal-edged open loop." },
+      { src: model100060, alt: "Woman and child wearing the gold-tone filigree-leaf crystal-loop kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-half-heart-crystal-kada",
+    name: "Gold-Tone Half Heart Crystal Kada",
+    sku: 100061,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold and White",
+    shortDescription:
+      "A refined gold-tone stainless-steel kada with crystal side bands and a centre heart in white enamel and crystals.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100061, alt: "Gold-tone kada with crystal bands and a white-and-crystal heart." },
+      { src: model100061, alt: "Woman and child wearing the gold-tone half-heart crystal kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-circle-diamond-link-kada",
+    name: "Gold-Tone Circle and Diamond Link Kada",
+    sku: 100062,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "An openwork gold-tone stainless-steel kada with alternating circular links and crystal-set diamond-shaped connectors.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100062, alt: "Gold-tone kada with circular links and crystal-set diamond connectors." },
+      { src: model100062, alt: "Woman and child wearing the gold-tone circle-and-diamond link kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-crystal-bow-kada",
+    name: "Gold-Tone Crystal Bow Kada",
+    sku: 100063,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "A polished gold-tone stainless-steel kada with a petite centre bow and straight rows of sparkling crystals.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100063, alt: "Gold-tone kada with a small centre bow and crystal-set side bands." },
+      { src: model100063, alt: "Woman and child wearing the gold-tone crystal-bow kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-medallion-butterfly-kada",
+    name: "Gold-Tone Medallion Butterfly Kada",
+    sku: 100064,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "A decorative gold-tone stainless-steel kada with a round engraved medallion, butterfly openwork and crystal accents.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100064, alt: "Gold-tone kada with an engraved medallion, butterfly openwork and crystals." },
+      { src: model100064, alt: "Woman and child wearing the gold-tone medallion-butterfly kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-crystal-heart-edge-kada",
+    name: "Gold-Tone Crystal Heart Edge Kada",
+    sku: 100065,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "A polished gold-tone stainless-steel kada with a continuous crystal row and a repeating heart-shaped edge.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100065, alt: "Gold-tone kada with a crystal row and repeating heart-shaped edge." },
+      { src: model100065, alt: "Woman and child wearing the gold-tone crystal heart-edge kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-crystal-greek-key-kada",
+    name: "Gold-Tone Crystal Greek Key Kada",
+    sku: 100066,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription:
+      "A statement gold-tone stainless-steel kada with a geometric Greek-key panel framed by twin crystal rows.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100066, alt: "Gold-tone kada with a Greek-key cutout panel framed by crystal rows." },
+      { src: model100066, alt: "Woman and child wearing the gold-tone crystal Greek-key kada." },
+    ],
+  },
+
+  {
+    id: "gold-tone-four-heart-kada",
+    name: "Gold-Tone Four Heart Kada",
+    sku: 100067,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["women", "kids"],
+    color: "Gold and Black",
+    shortDescription:
+      "A slim gold-tone stainless-steel kada with four heart motifs alternating between black-filled and open designs.",
+    price: null,
+    availability: "in-stock",
+    sizes: ["Available on enquiry"],
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100067, alt: "Gold-tone kada with alternating black-filled and open heart motifs." },
+      { src: model100067, alt: "Woman and child wearing the gold-tone four-heart kada." },
     ],
   },
 

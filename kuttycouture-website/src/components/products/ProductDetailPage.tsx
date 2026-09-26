@@ -1,7 +1,9 @@
-import { useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useLayoutEffect } from "react";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import { products } from "../../data/products";
 import { getRelatedProducts } from "../../utils/relatedProducts";
+import { getProductNavigationState } from "../../utils/productNavigation";
+import { scrollToPositionInstantly } from "../../utils/scroll";
 import { ProductDetails } from "./ProductDetails";
 import { ProductGallery } from "./ProductGallery";
 import { ProductPrimaryInfo } from "./ProductPrimaryInfo";
@@ -24,10 +26,12 @@ function getProductBySku(skuParam: string | undefined) {
 
 export function ProductDetailPage() {
   const { sku } = useParams();
+  const location = useLocation();
+  const navigate = useNavigate();
   const product = getProductBySku(sku);
 
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
+  useLayoutEffect(() => {
+    scrollToPositionInstantly(0);
   }, [sku]);
 
   if (!product) {
@@ -57,10 +61,43 @@ export function ProductDetailPage() {
   }
 
   const relatedProducts = getRelatedProducts(product, products);
+  const collectionNavigationState = getProductNavigationState(location);
+
+  function handleBackToProducts() {
+    if (collectionNavigationState?.fromProductDetail) {
+      navigate(collectionNavigationState.collectionPathname, {
+        state: {
+          collectionFilter: collectionNavigationState.collectionFilter,
+          collectionScrollPosition: collectionNavigationState.collectionScrollPosition,
+        },
+      });
+      return;
+    }
+
+    if (collectionNavigationState) {
+      navigate(collectionNavigationState.collectionPathname, {
+        state: {
+          collectionFilter: collectionNavigationState.collectionFilter,
+          collectionScrollPosition: collectionNavigationState.collectionScrollPosition,
+        },
+      });
+      return;
+    }
+
+    navigate("/collections");
+  }
 
   return (
     <section aria-labelledby="product-heading" className="py-14 sm:py-16 lg:py-20">
       <Container>
+        <button
+          type="button"
+          onClick={handleBackToProducts}
+          className="mb-8 inline-flex min-h-11 items-center justify-center rounded-full border border-[var(--kc-border)] bg-[var(--kc-surface)] px-4 py-2 text-sm font-medium text-[var(--kc-text)] transition-colors hover:bg-[var(--kc-background)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--kc-primary)] focus-visible:ring-offset-2"
+        >
+          ← Back to products
+        </button>
+
         <div className="grid gap-6 lg:grid-cols-2">
           <ProductGallery images={product.images} productName={product.name} />
           <ProductPrimaryInfo key={product.sku} product={product} />
