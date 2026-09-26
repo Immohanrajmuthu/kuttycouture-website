@@ -1,6 +1,7 @@
 import type { Product } from "../../types/product";
 import { Link } from "react-router-dom";
 import { getCareGuideAnchor } from "../../utils/productCare";
+import { formatProductType } from "../../utils/productType";
 
 type ProductDetailsProps = {
   product: Product;
@@ -28,7 +29,7 @@ function formatList(values: string[] | undefined): string | undefined {
 export function ProductDetails({ product }: ProductDetailsProps) {
   const careGuideAnchor = getCareGuideAnchor(product);
   const details: Detail[] = [
-    { label: "Product type", value: formatValue(product.productType) },
+    { label: "Product type", value: formatProductType(product.productType) },
     { label: "Audience", value: formatList(product.audience) },
     { label: "Sizes", value: product.sizes?.filter(Boolean).join(", ") },
     { label: "Material", value: product.material },
