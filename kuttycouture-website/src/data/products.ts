@@ -250,6 +250,27 @@ import clip100048Image5 from "../assets/products/hair-accessories/matte-butterfl
 import clip100048Image6 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-blush-pink-100048.webp";
 import clip100048Image7 from "../assets/products/hair-accessories/matte-butterfly-loop-claw-hair-clip-light-grey-100048.webp";
 
+// SKU-100049 to SKU-100057 — Men's kada collection
+import product100049 from "../assets/products/accessories/rose-gold-triple-stripe-mens-kada-product-100049.webp";
+import model100049 from "../assets/products/accessories/rose-gold-triple-stripe-mens-kada-model-100049.webp";
+import mensKadaDimensions from "../assets/products/accessories/mens-kada-oval-dimensions.webp";
+import product100050 from "../assets/products/accessories/black-chain-link-mens-kada-product-100050.webp";
+import model100050 from "../assets/products/accessories/black-chain-link-mens-kada-model-100050.webp";
+import product100051 from "../assets/products/accessories/black-vine-scroll-mens-kada-product-100051.webp";
+import model100051 from "../assets/products/accessories/black-vine-scroll-mens-kada-model-100051.webp";
+import product100052 from "../assets/products/accessories/rose-gold-double-greek-key-mens-kada-product-100052.webp";
+import model100052 from "../assets/products/accessories/rose-gold-double-greek-key-mens-kada-model-100052.webp";
+import product100053 from "../assets/products/accessories/two-tone-grid-panel-mens-kada-product-100053.webp";
+import model100053 from "../assets/products/accessories/two-tone-grid-panel-mens-kada-model-100053.webp";
+import product100054 from "../assets/products/accessories/heartbeat-mens-kada-product-100054.webp";
+import model100054 from "../assets/products/accessories/heartbeat-mens-kada-model-100054.webp";
+import product100055 from "../assets/products/accessories/black-diagonal-dash-mens-kada-product-100055.webp";
+import model100055 from "../assets/products/accessories/black-diagonal-dash-mens-kada-model-100055.webp";
+import product100056 from "../assets/products/accessories/rose-gold-honeycomb-mens-kada-product-100056.webp";
+import model100056 from "../assets/products/accessories/rose-gold-honeycomb-mens-kada-model-100056.webp";
+import product100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-product-100057.webp";
+import model100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-model-100057.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -2064,6 +2085,213 @@ export const products: Product[] = [
         alt: "Light Grey matte butterfly loop claw hair clip, sold individually.",
         color: "Light Grey",
       },
+    ],
+  },
+
+  {
+    id: "rose-gold-triple-stripe-mens-kada",
+    name: "Rose Gold Triple Stripe Men's Kada",
+    sku: 100049,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A polished rose-gold stainless-steel men's kada with three dark linear grooves and two finely textured accent bands.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100049, alt: "Rose-gold triple-stripe men's kada on an ivory studio background." },
+      { src: model100049, alt: "Adult man wearing the rose-gold triple-stripe kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "black-chain-link-mens-kada",
+    name: "Black Chain Link Men's Kada",
+    sku: 100050,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black",
+    shortDescription:
+      "A black stainless-steel men's kada with a recessed repeating chain-link texture and polished borders.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100050, alt: "Black chain-link textured men's kada on an ivory studio background." },
+      { src: model100050, alt: "Adult man wearing the black chain-link kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "black-vine-scroll-mens-kada",
+    name: "Black Vine Scroll Men's Kada",
+    sku: 100051,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black",
+    shortDescription:
+      "A sleek black stainless-steel men's kada with flowing vine-scroll engraving framed by polished border lines.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100051, alt: "Black vine-scroll engraved men's kada on an ivory studio background." },
+      { src: model100051, alt: "Adult man wearing the black vine-scroll kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "rose-gold-double-greek-key-mens-kada",
+    name: "Rose Gold Double Greek Key Men's Kada",
+    sku: 100052,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A rose-gold stainless-steel men's kada with twin rows of geometric Greek-key engraving and a polished centre groove.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100052, alt: "Rose-gold double Greek-key men's kada on an ivory studio background." },
+      { src: model100052, alt: "Adult man wearing the rose-gold double Greek-key kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "two-tone-grid-panel-mens-kada",
+    name: "Two-Tone Grid Panel Men's Kada",
+    sku: 100053,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black and Rose Gold",
+    shortDescription:
+      "A two-tone stainless-steel men's kada combining glossy black panels with finely checked rose-gold texture panels.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100053, alt: "Black and rose-gold grid-panel men's kada on an ivory studio background." },
+      { src: model100053, alt: "Adult man wearing the two-tone grid-panel kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "heartbeat-mens-kada",
+    name: "Heartbeat Men's Kada",
+    sku: 100054,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Silver and Black",
+    shortDescription:
+      "A silver-tone stainless-steel men's kada with black borders, heart motifs and a continuous heartbeat-line design.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100054, alt: "Silver and black heartbeat-design men's kada on an ivory studio background." },
+      { src: model100054, alt: "Adult man wearing the silver and black heartbeat kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "black-diagonal-dash-mens-kada",
+    name: "Black Diagonal Dash Men's Kada",
+    sku: 100055,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Black and Silver",
+    shortDescription:
+      "A black stainless-steel men's kada with repeating diagonal silver dash inlays across a textured centre band.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100055, alt: "Black men's kada with diagonal silver dash inlays on an ivory studio background." },
+      { src: model100055, alt: "Adult man wearing the black diagonal-dash kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "rose-gold-honeycomb-mens-kada",
+    name: "Rose Gold Honeycomb Men's Kada",
+    sku: 100056,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A rose-gold stainless-steel men's kada with a bold recessed honeycomb pattern and polished edges.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100056, alt: "Rose-gold honeycomb-pattern men's kada on an ivory studio background." },
+      { src: model100056, alt: "Adult man wearing the rose-gold honeycomb kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
+    ],
+  },
+
+  {
+    id: "rose-gold-maze-mens-kada",
+    name: "Rose Gold Maze Men's Kada",
+    sku: 100057,
+    stockCount: 2,
+    category: "accessories",
+    productType: "kada",
+    audience: ["men"],
+    color: "Rose Gold",
+    shortDescription:
+      "A rose-gold stainless-steel men's kada with a repeating angular maze motif recessed into a textured centre band.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    setContents: "1 kada",
+    offerAvailable: false,
+    images: [
+      { src: product100057, alt: "Rose-gold angular maze-pattern men's kada on an ivory studio background." },
+      { src: model100057, alt: "Adult man wearing the rose-gold maze kada on his wrist." },
+      { src: mensKadaDimensions, alt: "Oval men's kada dimensions: 6.5 cm wide and 5.5 cm high." },
     ],
   },
 
