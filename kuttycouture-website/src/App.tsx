@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useLayoutEffect, useState } from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { MainLayout } from "./layouts/MainLayout";
 import { Hero } from "./components/sections/Hero";
 import { ShopByCategory } from "./components/sections/ShopByCategory";
@@ -18,6 +18,11 @@ import { NotFoundPage } from "./pages/NotFoundPage";
 import { products } from "./data/products";
 import type { Product } from "./types/product";
 import { formatProductType } from "./utils/productType";
+import {
+  getCollectionFilterFromState,
+  getCollectionScrollPositionFromState,
+} from "./utils/productNavigation";
+import { scrollToPositionInstantly } from "./utils/scroll";
 
 function HomePage() {
    return (
@@ -52,6 +57,8 @@ function CollectionsPage({
   filterProducts = () => true,
   filterLabel,
 }: CollectionsPageProps) {
+  const location = useLocation();
+  const collectionScrollPosition = getCollectionScrollPositionFromState(location.state);
   const collectionProducts = products.filter(filterProducts);
   const productTypes = Array.from(
     new Set(collectionProducts.map((product) => product.productType)),
@@ -81,7 +88,50 @@ function CollectionsPage({
     });
   }
 
-  const [selectedFilter, setSelectedFilter] = useState("all");
+  const [selectedFilter, setSelectedFilter] = useState(
+    () => getCollectionFilterFromState(location.state) ?? "all",
+  );
+
+  useLayoutEffect(() => {
+    if (collectionScrollPosition === undefined) {
+      return;
+    }
+
+    let restoreAnimationFrame: number | undefined;
+    const observer = new ResizeObserver(scheduleScrollRestoration);
+
+    const restoreScrollPosition = () => {
+      scrollToPositionInstantly(collectionScrollPosition);
+
+      const maximumScrollPosition =
+        document.documentElement.scrollHeight - window.innerHeight;
+
+      if (maximumScrollPosition >= collectionScrollPosition) {
+        observer?.disconnect();
+      }
+    };
+
+    function scheduleScrollRestoration() {
+      if (restoreAnimationFrame !== undefined) {
+        window.cancelAnimationFrame(restoreAnimationFrame);
+      }
+
+      restoreAnimationFrame = window.requestAnimationFrame(restoreScrollPosition);
+    }
+
+    observer.observe(document.body);
+    window.addEventListener("load", scheduleScrollRestoration);
+    restoreScrollPosition();
+
+    return () => {
+      if (restoreAnimationFrame !== undefined) {
+        window.cancelAnimationFrame(restoreAnimationFrame);
+      }
+
+      observer?.disconnect();
+      window.removeEventListener("load", scheduleScrollRestoration);
+    };
+  }, [collectionScrollPosition, location.pathname]);
   const activeFilter = filterOptions.some((option) => option.value === selectedFilter)
     ? selectedFilter
       : "all";
@@ -133,7 +183,11 @@ function CollectionsPage({
         {displayedProducts.length > 0 ? (
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {displayedProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                collectionFilter={activeFilter === "all" ? undefined : activeFilter}
+              />
             ))}
           </div>
         ) : (
