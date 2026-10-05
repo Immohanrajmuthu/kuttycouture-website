@@ -293,6 +293,71 @@ import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-
 import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.png";
 import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.png";
 
+import hero100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-hero-100068.webp";
+import model100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-model-100068.webp";
+import detail100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-detail-100068.webp";
+import hero100069 from "../assets/products/accessories/black-butterfly-pendant-necklace-hero-100069.webp";
+import model100069 from "../assets/products/accessories/black-butterfly-pendant-necklace-model-100069.webp";
+import detail100069 from "../assets/products/accessories/black-butterfly-pendant-necklace-detail-100069.webp";
+import hero100070 from "../assets/products/accessories/purple-stone-layered-necklace-hero-100070.webp";
+import model100070 from "../assets/products/accessories/purple-stone-layered-necklace-model-100070.webp";
+import detail100070 from "../assets/products/accessories/purple-stone-layered-necklace-detail-100070.webp";
+import hero100071 from "../assets/products/accessories/dual-stone-charm-necklace-hero-100071.webp";
+import model100071 from "../assets/products/accessories/dual-stone-charm-necklace-model-100071.webp";
+import detail100071 from "../assets/products/accessories/dual-stone-charm-necklace-detail-100071.webp";
+import hero100072 from "../assets/products/accessories/ivory-cabochon-pendant-necklace-hero-100072.webp";
+import model100072 from "../assets/products/accessories/ivory-cabochon-pendant-necklace-model-100072.webp";
+import detail100072 from "../assets/products/accessories/ivory-cabochon-pendant-necklace-detail-100072.webp";
+import hero100073 from "../assets/products/accessories/crystal-bar-pendant-necklace-hero-100073.webp";
+import model100073 from "../assets/products/accessories/crystal-bar-pendant-necklace-model-100073.webp";
+import detail100073 from "../assets/products/accessories/crystal-bar-pendant-necklace-detail-100073.webp";
+import hero100074 from "../assets/products/accessories/triple-heart-drop-necklace-hero-100074.webp";
+import model100074 from "../assets/products/accessories/triple-heart-drop-necklace-model-100074.webp";
+import detail100074 from "../assets/products/accessories/triple-heart-drop-necklace-detail-100074.webp";
+import hero100075 from "../assets/products/accessories/crystal-infinity-necklace-hero-100075.webp";
+import model100075 from "../assets/products/accessories/crystal-infinity-necklace-model-100075.webp";
+import detail100075 from "../assets/products/accessories/crystal-infinity-necklace-detail-100075.webp";
+import hero100076 from "../assets/products/accessories/black-flower-leaf-necklace-hero-100076.webp";
+import model100076 from "../assets/products/accessories/black-flower-leaf-necklace-model-100076.webp";
+import detail100076 from "../assets/products/accessories/black-flower-leaf-necklace-detail-100076.webp";
+import hero100077 from "../assets/products/accessories/rose-medallion-layered-necklace-hero-100077.webp";
+import model100077 from "../assets/products/accessories/rose-medallion-layered-necklace-model-100077.webp";
+import detail100077 from "../assets/products/accessories/rose-medallion-layered-necklace-detail-100077.webp";
+import hero100078 from "../assets/products/accessories/four-petal-crystal-necklace-hero-100078.webp";
+import model100078 from "../assets/products/accessories/four-petal-crystal-necklace-model-100078.webp";
+import detail100078 from "../assets/products/accessories/four-petal-crystal-necklace-detail-100078.webp";
+import hero100079 from "../assets/products/accessories/delicate-beaded-heart-layered-necklace-hero-100079.webp";
+import model100079 from "../assets/products/accessories/delicate-beaded-heart-layered-necklace-model-100079.webp";
+import detail100079 from "../assets/products/accessories/delicate-beaded-heart-layered-necklace-detail-100079.webp";
+import hero100080 from "../assets/products/accessories/crystal-heart-pendant-necklace-hero-100080.webp";
+import model100080 from "../assets/products/accessories/crystal-heart-pendant-necklace-model-100080.webp";
+import detail100080 from "../assets/products/accessories/crystal-heart-pendant-necklace-detail-100080.webp";
+import hero100081 from "../assets/products/accessories/golden-feather-pendant-necklace-hero-100081.webp";
+import model100081 from "../assets/products/accessories/golden-feather-pendant-necklace-model-100081.webp";
+import detail100081 from "../assets/products/accessories/golden-feather-pendant-necklace-detail-100081.webp";
+import hero100082 from "../assets/products/accessories/crystal-cross-pendant-necklace-hero-100082.webp";
+import model100082 from "../assets/products/accessories/crystal-cross-pendant-necklace-model-100082.webp";
+import detail100082 from "../assets/products/accessories/crystal-cross-pendant-necklace-detail-100082.webp";
+import hero100083 from "../assets/products/accessories/crystal-bead-heart-layered-necklace-hero-100083.webp";
+import model100083 from "../assets/products/accessories/crystal-bead-heart-layered-necklace-model-100083.webp";
+import detail100083 from "../assets/products/accessories/crystal-bead-heart-layered-necklace-detail-100083.webp";
+import hero100084 from "../assets/products/accessories/delicate-crystal-flower-station-necklace-hero-100084.webp";
+import model100084 from "../assets/products/accessories/delicate-crystal-flower-station-necklace-model-100084.webp";
+import detail100084 from "../assets/products/accessories/delicate-crystal-flower-station-necklace-detail-100084.webp";
+
+import hero100085 from "../assets/products/accessories/crystal-heart-station-bracelet-hero-100085.webp";
+import model100085 from "../assets/products/accessories/crystal-heart-station-bracelet-model-100085.webp";
+import detail100085 from "../assets/products/accessories/crystal-heart-station-bracelet-detail-100085.webp";
+import hero100086 from "../assets/products/accessories/triple-heart-layered-bracelet-hero-100086.webp";
+import model100086 from "../assets/products/accessories/triple-heart-layered-bracelet-model-100086.webp";
+import detail100086 from "../assets/products/accessories/triple-heart-layered-bracelet-detail-100086.webp";
+import hero100087 from "../assets/products/accessories/starburst-heart-bracelet-set-hero-100087.webp";
+import model100087 from "../assets/products/accessories/starburst-heart-bracelet-set-model-100087.webp";
+import detail100087 from "../assets/products/accessories/starburst-heart-bracelet-set-detail-100087.webp";
+import hero100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-hero-100088.webp";
+import model100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-model-100088.webp";
+import detail100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-detail-100088.webp";
+
 export const products: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -2544,6 +2609,489 @@ export const products: Product[] = [
     images: [
       { src: product100067, alt: "Gold-tone kada with alternating black-filled and open heart motifs." },
       { src: model100067, alt: "Woman and child wearing the gold-tone four-heart kada." },
+    ],
+  },
+
+  {
+    id: "sculpted-heart-pendant-necklace",
+    name: "Sculpted Heart Pendant Necklace",
+    sku: 100068,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace finished with a softly sculpted puff-heart pendant.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100068, alt: "Gold-tone necklace with a petite sculpted puff-heart pendant arranged on a warm ivory studio background." },
+      { src: model100068, alt: "Adult woman wearing a gold-tone necklace with a petite sculpted puff-heart pendant." },
+      { src: detail100068, alt: "Close detail of a gold-tone necklace with a petite sculpted puff-heart pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "black-butterfly-pendant-necklace",
+    name: "Black Butterfly Pendant Necklace",
+    sku: 100069,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace featuring a petite black butterfly pendant with a refined beaded border.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100069, alt: "Gold-tone necklace with a petite black butterfly pendant with a beaded gold border arranged on a warm ivory studio background." },
+      { src: model100069, alt: "Adult woman wearing a gold-tone necklace with a petite black butterfly pendant with a beaded gold border." },
+      { src: detail100069, alt: "Close detail of a gold-tone necklace with a petite black butterfly pendant with a beaded gold border, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "purple-stone-layered-necklace",
+    name: "Purple Stone Layered Necklace",
+    sku: 100070,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "An elegant layered gold-tone necklace pairing a sleek upper chain with a deep-purple oval stone pendant.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100070, alt: "Gold-tone necklace with a layered chain design with an oval deep-purple stone pendant arranged on a warm ivory studio background." },
+      { src: model100070, alt: "Adult woman wearing a gold-tone necklace with a layered chain design with an oval deep-purple stone pendant." },
+      { src: detail100070, alt: "Close detail of a gold-tone necklace with a layered chain design with an oval deep-purple stone pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "dual-stone-charm-necklace",
+    name: "Dual Stone Charm Necklace",
+    sku: 100071,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace with contrasting creamy-white marbled and black rectangular stone charms.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100071, alt: "Gold-tone necklace with paired creamy-white marbled and black rectangular stone charms arranged on a warm ivory studio background." },
+      { src: model100071, alt: "Adult woman wearing a gold-tone necklace with paired creamy-white marbled and black rectangular stone charms." },
+      { src: detail100071, alt: "Close detail of a gold-tone necklace with paired creamy-white marbled and black rectangular stone charms, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "ivory-cabochon-pendant-necklace",
+    name: "Ivory Cabochon Pendant Necklace",
+    sku: 100072,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A refined gold-tone necklace centred with a softly luminous oval ivory cabochon pendant.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100072, alt: "Gold-tone necklace with an oval ivory cabochon pendant in a polished gold frame arranged on a warm ivory studio background." },
+      { src: model100072, alt: "Adult woman wearing a gold-tone necklace with an oval ivory cabochon pendant in a polished gold frame." },
+      { src: detail100072, alt: "Close detail of a gold-tone necklace with an oval ivory cabochon pendant in a polished gold frame, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "crystal-bar-pendant-necklace",
+    name: "Crystal Bar Pendant Necklace",
+    sku: 100073,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A modern gold-tone necklace with a crystal-lined rounded bar pendant and delicate geometric detailing.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100073, alt: "Gold-tone necklace with a horizontal crystal-studded rounded bar pendant arranged on a warm ivory studio background." },
+      { src: model100073, alt: "Adult woman wearing a gold-tone necklace with a horizontal crystal-studded rounded bar pendant." },
+      { src: detail100073, alt: "Close detail of a gold-tone necklace with a horizontal crystal-studded rounded bar pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "triple-heart-drop-necklace",
+    name: "Triple Heart Drop Necklace",
+    sku: 100074,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A romantic gold-tone necklace featuring three graceful open hearts linked in a vertical drop.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100074, alt: "Gold-tone necklace with three vertically linked open-outline heart pendants arranged on a warm ivory studio background." },
+      { src: model100074, alt: "Adult woman wearing a gold-tone necklace with three vertically linked open-outline heart pendants." },
+      { src: detail100074, alt: "Close detail of a gold-tone necklace with three vertically linked open-outline heart pendants, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "crystal-infinity-necklace",
+    name: "Crystal Infinity Necklace",
+    sku: 100075,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace finished with a petite infinity pendant and subtle crystal sparkle.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100075, alt: "Gold-tone necklace with a petite crystal-accented infinity pendant arranged on a warm ivory studio background." },
+      { src: model100075, alt: "Adult woman wearing a gold-tone necklace with a petite crystal-accented infinity pendant." },
+      { src: detail100075, alt: "Close detail of a gold-tone necklace with a petite crystal-accented infinity pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "black-flower-leaf-necklace",
+    name: "Black Flower Leaf Necklace",
+    sku: 100076,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "An elegant gold-tone necklace with a crystal leaf branch, petite floral accents and a black flower drop.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100076, alt: "Gold-tone necklace with a crystal leaf branch with tiny flowers and a black flower drop arranged on a warm ivory studio background." },
+      { src: model100076, alt: "Adult woman wearing a gold-tone necklace with a crystal leaf branch with tiny flowers and a black flower drop." },
+      { src: detail100076, alt: "Close detail of a gold-tone necklace with a crystal leaf branch with tiny flowers and a black flower drop, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "rose-medallion-layered-necklace",
+    name: "Rose Medallion Layered Necklace",
+    sku: 100077,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A statement layered gold-tone necklace combining a sleek snake chain with a rose medallion satellite chain.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100077, alt: "Gold-tone necklace with a layered snake and satellite-bead chain with an oval rose medallion arranged on a warm ivory studio background." },
+      { src: model100077, alt: "Adult woman wearing a gold-tone necklace with a layered snake and satellite-bead chain with an oval rose medallion." },
+      { src: detail100077, alt: "Close detail of a gold-tone necklace with a layered snake and satellite-bead chain with an oval rose medallion, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "four-petal-crystal-necklace",
+    name: "Four-Petal Crystal Necklace",
+    sku: 100078,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace with a luminous four-petal crystal pendant in a rounded setting.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100078, alt: "Gold-tone necklace with a petite four-petal clear-crystal pendant arranged on a warm ivory studio background." },
+      { src: model100078, alt: "Adult woman wearing a gold-tone necklace with a petite four-petal clear-crystal pendant." },
+      { src: detail100078, alt: "Close detail of a gold-tone necklace with a petite four-petal clear-crystal pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "delicate-beaded-heart-layered-necklace",
+    name: "Delicate Beaded Heart Layered Necklace",
+    sku: 100079,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A graceful layered gold-tone necklace pairing polished bead accents with a petite puff-heart pendant.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100079, alt: "Gold-tone necklace with a layered beaded chain and solid puff-heart pendant arranged on a warm ivory studio background." },
+      { src: model100079, alt: "Adult woman wearing a gold-tone necklace with a layered beaded chain and solid puff-heart pendant." },
+      { src: detail100079, alt: "Close detail of a gold-tone necklace with a layered beaded chain and solid puff-heart pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "crystal-heart-pendant-necklace",
+    name: "Crystal Heart Pendant Necklace",
+    sku: 100080,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace centred with a brilliant heart-cut crystal in a fine beaded setting.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100080, alt: "Gold-tone necklace with a clear heart-cut crystal pendant with a beaded gold border arranged on a warm ivory studio background." },
+      { src: model100080, alt: "Adult woman wearing a gold-tone necklace with a clear heart-cut crystal pendant with a beaded gold border." },
+      { src: detail100080, alt: "Close detail of a gold-tone necklace with a clear heart-cut crystal pendant with a beaded gold border, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "golden-feather-pendant-necklace",
+    name: "Golden Feather Pendant Necklace",
+    sku: 100081,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A lightweight gold-tone necklace featuring a petite curved feather pendant with fine engraved detail.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100081, alt: "Gold-tone necklace with a petite engraved feather pendant arranged on a warm ivory studio background." },
+      { src: model100081, alt: "Adult woman wearing a gold-tone necklace with a petite engraved feather pendant." },
+      { src: detail100081, alt: "Close detail of a gold-tone necklace with a petite engraved feather pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "crystal-cross-pendant-necklace",
+    name: "Crystal Cross Pendant Necklace",
+    sku: 100082,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "An elegant gold-tone necklace with a slender cross pendant illuminated by clear crystal accents.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100082, alt: "Gold-tone necklace with a slender clear-crystal cross pendant arranged on a warm ivory studio background." },
+      { src: model100082, alt: "Adult woman wearing a gold-tone necklace with a slender clear-crystal cross pendant." },
+      { src: detail100082, alt: "Close detail of a gold-tone necklace with a slender clear-crystal cross pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "crystal-bead-heart-layered-necklace",
+    name: "Crystal Bead Heart Layered Necklace",
+    sku: 100083,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A polished layered gold-tone necklace pairing alternating crystal beads with a petite puff-heart pendant.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100083, alt: "Gold-tone necklace with a layered crystal-bead chain and solid puff-heart pendant arranged on a warm ivory studio background." },
+      { src: model100083, alt: "Adult woman wearing a gold-tone necklace with a layered crystal-bead chain and solid puff-heart pendant." },
+      { src: detail100083, alt: "Close detail of a gold-tone necklace with a layered crystal-bead chain and solid puff-heart pendant, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "delicate-crystal-flower-station-necklace",
+    name: "Delicate Crystal Flower Station Necklace",
+    sku: 100084,
+    stockCount: 1,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone station necklace adorned with five evenly spaced crystal flower motifs.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100084, alt: "Gold-tone necklace with five petite crystal flower stations arranged on a warm ivory studio background." },
+      { src: model100084, alt: "Adult woman wearing a gold-tone necklace with five petite crystal flower stations." },
+      { src: detail100084, alt: "Close detail of a gold-tone necklace with five petite crystal flower stations, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "crystal-heart-station-bracelet",
+    name: "Crystal Heart Station Bracelet",
+    sku: 100085,
+    stockCount: 1,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone bracelet with a raised crystal heart centerpiece and polished round stations.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100085, alt: "Gold-tone bracelet with a raised crystal heart centerpiece and two polished round stations arranged on a warm ivory studio background." },
+      { src: model100085, alt: "Adult woman wearing a gold-tone bracelet with a raised crystal heart centerpiece and two polished round stations." },
+      { src: detail100085, alt: "Close detail of a gold-tone bracelet with a raised crystal heart centerpiece and two polished round stations, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "triple-heart-layered-bracelet",
+    name: "Triple Heart Layered Bracelet",
+    sku: 100086,
+    stockCount: 1,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "An elegant double-strand gold-tone bracelet with three crystal heart stations and a refined oval-link layer.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 layered bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100086, alt: "Gold-tone bracelet with three crystal-outline heart stations and a layered oval-link chain arranged on a warm ivory studio background." },
+      { src: model100086, alt: "Adult woman wearing a gold-tone bracelet with three crystal-outline heart stations and a layered oval-link chain." },
+      { src: detail100086, alt: "Close detail of a gold-tone bracelet with three crystal-outline heart stations and a layered oval-link chain, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "starburst-heart-bracelet-set",
+    name: "Starburst Heart Bracelet Set",
+    sku: 100087,
+    stockCount: 1,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A coordinated gold-tone bracelet set pairing a smooth snake chain with crystal starbursts and linked hearts.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "2 bracelets",
+    offerAvailable: false,
+    images: [
+      { src: hero100087, alt: "Gold-tone bracelet with a smooth snake chain paired with crystal starbursts and three linked open hearts arranged on a warm ivory studio background." },
+      { src: model100087, alt: "Adult woman wearing a gold-tone bracelet with a smooth snake chain paired with crystal starbursts and three linked open hearts." },
+      { src: detail100087, alt: "Close detail of a gold-tone bracelet with a smooth snake chain paired with crystal starbursts and three linked open hearts, including its chain and clasp." },
+    ],
+  },
+
+  {
+    id: "pink-blossom-pendant-necklace",
+    name: "Pink Blossom Pendant Necklace",
+    sku: 100088,
+    stockCount: 0,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate gold-tone necklace with a petite pink crystal blossom pendant and green enamel leaves.",
+    price: null,
+    availability: "out-of-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100088, alt: "Gold-tone necklace with a floral stem pendant with pale-pink crystals and green enamel leaves arranged on a warm ivory studio background." },
+      { src: model100088, alt: "Adult woman wearing a gold-tone necklace with a floral stem pendant with pale-pink crystals and green enamel leaves." },
+      { src: detail100088, alt: "Close detail of a gold-tone necklace with a floral stem pendant with pale-pink crystals and green enamel leaves, including its chain and clasp." },
     ],
   },
 
