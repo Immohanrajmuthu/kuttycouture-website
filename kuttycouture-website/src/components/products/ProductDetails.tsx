@@ -31,7 +31,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
   const details: Detail[] = [
     { label: "Product type", value: formatProductType(product.productType) },
     { label: "Audience", value: formatList(product.audience) },
-    { label: "Sizes", value: product.sizes?.filter(Boolean).join(", ") },
+    { label: "Sizes", value: product.sizeAvailability?.map(size => `${size.label}: ${size.available ? "Available" : "Unavailable"}`).join(", ") ?? product.sizes?.filter(Boolean).join(", ") },
     { label: "Material", value: product.material },
     { label: "Fabric", value: product.fabric },
     { label: "Occasion", value: formatList(product.occasionTags) },
