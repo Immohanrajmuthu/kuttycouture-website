@@ -276,26 +276,26 @@ import product100057 from "../assets/products/accessories/rose-gold-maze-mens-ka
 import model100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-model-100057.webp";
 
 // SKU-100058 to SKU-100067 — Women's and kids' kada collection
-import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.png";
-import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.png";
-import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.png";
-import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.png";
-import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.png";
-import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.png";
-import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.png";
-import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.png";
-import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.png";
-import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.png";
-import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.png";
-import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.png";
-import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.png";
-import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.png";
-import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.png";
-import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.png";
-import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.png";
-import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.png";
-import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.png";
-import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.png";
+import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.webp";
+import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.webp";
+import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.webp";
+import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.webp";
+import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.webp";
+import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.webp";
+import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.webp";
+import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.webp";
+import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.webp";
+import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.webp";
+import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.webp";
+import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.webp";
+import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.webp";
+import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.webp";
+import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.webp";
+import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.webp";
+import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.webp";
+import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.webp";
+import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.webp";
+import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.webp";
 
 import hero100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-hero-100068.webp";
 import model100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-model-100068.webp";
