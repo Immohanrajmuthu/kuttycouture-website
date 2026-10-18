@@ -47,6 +47,8 @@ import detail100006 from "../assets/products/accessories/bow-necklace-detail-100
 import hero100007 from "../assets/products/accessories/floral-bracelet-hero-100007.webp";
 import model100007 from "../assets/products/accessories/floral-bracelet-model-100007.webp";
 import detail100007 from "../assets/products/accessories/floral-bracelet-detail-100007.webp";
+import green100007 from "../assets/products/accessories/floral-bracelet-green-100007.webp";
+import multicolor100007 from "../assets/products/accessories/floral-bracelet-multicolor-100007.webp";
 
 // SKU-100008
 import hero100008 from "../assets/products/accessories/heart-bracelet-hero-100008.webp";
@@ -274,26 +276,26 @@ import product100057 from "../assets/products/accessories/rose-gold-maze-mens-ka
 import model100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-model-100057.webp";
 
 // SKU-100058 to SKU-100067 — Women's and kids' kada collection
-import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.png";
-import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.png";
-import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.png";
-import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.png";
-import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.png";
-import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.png";
-import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.png";
-import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.png";
-import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.png";
-import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.png";
-import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.png";
-import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.png";
-import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.png";
-import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.png";
-import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.png";
-import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.png";
-import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.png";
-import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.png";
-import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.png";
-import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.png";
+import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.webp";
+import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.webp";
+import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.webp";
+import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.webp";
+import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.webp";
+import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.webp";
+import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.webp";
+import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.webp";
+import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.webp";
+import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.webp";
+import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.webp";
+import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.webp";
+import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.webp";
+import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.webp";
+import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.webp";
+import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.webp";
+import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.webp";
+import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.webp";
+import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.webp";
+import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.webp";
 
 import hero100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-hero-100068.webp";
 import model100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-model-100068.webp";
@@ -359,6 +361,23 @@ import detail100087 from "../assets/products/accessories/starburst-heart-bracele
 import hero100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-hero-100088.webp";
 import model100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-model-100088.webp";
 import detail100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-detail-100088.webp";
+
+// SKU-100093 to SKU-100107 — Earrings, bracelets and necklace
+import hero100093 from "../assets/products/accessories/gold-crystal-leaf-ear-climber-hero-100093.webp";
+import hero100094 from "../assets/products/accessories/gold-heart-hoop-earrings-hero-100094.webp";
+import hero100095 from "../assets/products/accessories/gold-crescent-hoop-earrings-hero-100095.webp";
+import hero100096 from "../assets/products/accessories/gold-ribbed-oval-hoop-earrings-hero-100096.webp";
+import hero100097 from "../assets/products/accessories/pearl-bow-drop-earrings-hero-100097.webp";
+import hero100098 from "../assets/products/accessories/fluted-geometric-hoop-earrings-hero-100098.webp";
+import hero100099 from "../assets/products/accessories/leaf-outline-hoop-earrings-hero-100099.webp";
+import hero100100 from "../assets/products/accessories/radial-pleated-hoop-earrings-hero-100100.webp";
+import hero100101 from "../assets/products/accessories/rope-twist-hoop-earrings-hero-100101.webp";
+import hero100102 from "../assets/products/accessories/sunburst-crescent-hoop-earrings-hero-100102.webp";
+import hero100103 from "../assets/products/accessories/crystal-infinity-bracelet-hero-100103.webp";
+import hero100104 from "../assets/products/accessories/pink-crystal-vine-bracelet-hero-100104.webp";
+import hero100105 from "../assets/products/accessories/black-pinwheel-bamboo-bracelet-hero-100105.webp";
+import hero100106 from "../assets/products/accessories/blue-dolphin-pendant-necklace-hero-100106.webp";
+import hero100107 from "../assets/products/accessories/clear-crystal-vine-bracelet-hero-100107.webp";
 
 const websiteProducts: Product[] = [
   // ---------------------------------------------------------------------------
@@ -623,9 +642,10 @@ const websiteProducts: Product[] = [
     category: "accessories",
     productType: "bracelet",
     audience: ["women", "kids"],
+    color: "Clear, Green, Multi-color",
 
     shortDescription:
-      "A refined gold-tone bracelet with four sparkling floral crystal motifs.",
+      "A refined gold-tone bracelet with sparkling floral crystal stations, available in Clear, Green and Multi-color.",
 
     price: null,
     availability: "in-stock",
@@ -638,15 +658,28 @@ const websiteProducts: Product[] = [
     images: [
       {
         src: hero100007,
-        alt: "Gold-tone mesh bracelet with four sparkling floral crystal motifs displayed on a cream jewellery pillow.",
+        alt: "Gold-tone mesh bracelet with sparkling clear floral crystal motifs displayed on a cream jewellery pillow.",
+        color: "Clear",
+      },
+      {
+        src: green100007,
+        alt: "Gold-tone mesh bracelet with five emerald-green floral crystal stations on blush suede and ivory satin.",
+        color: "Green",
+      },
+      {
+        src: multicolor100007,
+        alt: "Gold-tone mesh bracelet with pink, red, purple, clear and green floral crystal stations on blush suede and ivory satin.",
+        color: "Multi-color",
       },
       {
         src: model100007,
-        alt: "Close-up of a woman wearing a gold-tone mesh bracelet with four sparkling floral crystal motifs.",
+        alt: "Close-up of a woman wearing a gold-tone mesh bracelet with sparkling clear floral crystal motifs.",
+        color: "Clear",
       },
       {
         src: detail100007,
-        alt: "Macro detail of a gold-tone mesh bracelet with four sparkling floral crystal motifs on a cream jewellery pillow.",
+        alt: "Macro detail of a gold-tone mesh bracelet with sparkling clear floral crystal motifs on a cream jewellery pillow.",
+        color: "Clear",
       },
     ],
   },
@@ -3005,6 +3038,311 @@ const websiteProducts: Product[] = [
       { src: hero100088, alt: "Gold-tone necklace with a floral stem pendant with pale-pink crystals and green enamel leaves arranged on a warm ivory studio background." },
       { src: model100088, alt: "Adult woman wearing a gold-tone necklace with a floral stem pendant with pale-pink crystals and green enamel leaves." },
       { src: detail100088, alt: "Close detail of a gold-tone necklace with a floral stem pendant with pale-pink crystals and green enamel leaves, including its chain and clasp." },
+    ],
+  },
+
+
+  // ---------------------------------------------------------------------------
+  // ACCESSORIES — EARRINGS, BRACELETS AND NECKLACE
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "crystal-leaf-ear-climber-earrings",
+    name: "Crystal Leaf Ear Climber Earrings",
+    sku: 100093,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Gold-tone ear climbers shaped as delicate crystal leaf branches.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100093, alt: "Pair of gold-tone crystal leaf ear climber earrings arranged on blush suede and ivory satin." },
+    ],
+  },
+
+  {
+    id: "gold-heart-hoop-earrings",
+    name: "Gold Heart Hoop Earrings",
+    sku: 100094,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Polished gold-tone heart hoops with secure hinged latch closures.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100094, alt: "Pair of polished gold-tone open-heart hoop earrings resting on warm ivory silk." },
+    ],
+  },
+
+  {
+    id: "gold-crescent-hoop-earrings",
+    name: "Gold Crescent Hoop Earrings",
+    sku: 100095,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Bold polished crescent hoops with a smooth, modern silhouette.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100095, alt: "Pair of broad polished gold-tone crescent hoop earrings arranged on blush suede and ivory satin." },
+    ],
+  },
+
+  {
+    id: "gold-ribbed-oval-hoop-earrings",
+    name: "Gold Ribbed Oval Hoop Earrings",
+    sku: 100096,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Compact oval hoops finished with sculpted ribbed detailing.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100096, alt: "Pair of compact gold-tone oval hoop earrings with sculpted ribbed detailing." },
+    ],
+  },
+
+  {
+    id: "pearl-bow-drop-earrings",
+    name: "Pearl Bow Drop Earrings",
+    sku: 100097,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Elegant bow earrings embellished with petite pearls and crystal drop ribbons.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Special occasions", "party"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100097, alt: "Pair of gold-tone pearl bow drop earrings with sparkling crystal ribbon tails." },
+    ],
+  },
+
+  {
+    id: "fluted-geometric-hoop-earrings",
+    name: "Fluted Geometric Hoop Earrings",
+    sku: 100098,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Rounded geometric hoops with polished fluted ridges for added texture.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100098, alt: "Pair of gold-tone rounded geometric hoop earrings with fluted ridges." },
+    ],
+  },
+
+  {
+    id: "leaf-outline-hoop-earrings",
+    name: "Leaf Outline Hoop Earrings",
+    sku: 100099,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Open leaf-shaped hoops etched with fine vein-inspired detailing.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100099, alt: "Pair of open gold-tone leaf outline hoop earrings with engraved vein details." },
+    ],
+  },
+
+  {
+    id: "radial-pleated-hoop-earrings",
+    name: "Radial Pleated Hoop Earrings",
+    sku: 100100,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Circular statement hoops with finely pleated radial grooves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100100, alt: "Pair of circular gold-tone hoop earrings with finely pleated radial grooves." },
+    ],
+  },
+
+  {
+    id: "rope-twist-hoop-earrings",
+    name: "Rope Twist Hoop Earrings",
+    sku: 100101,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Classic rounded hoops finished with an elegant rope-twist texture.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100101, alt: "Pair of rounded gold-tone hoop earrings with a rope-twist texture." },
+    ],
+  },
+
+  {
+    id: "sunburst-crescent-hoop-earrings",
+    name: "Sunburst Crescent Hoop Earrings",
+    sku: 100102,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Polished crescent hoops accented with a subtle engraved sunburst.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100102, alt: "Pair of polished gold-tone crescent hoop earrings with engraved sunburst accents." },
+    ],
+  },
+
+  {
+    id: "crystal-infinity-bracelet",
+    name: "Crystal Infinity Bracelet",
+    sku: 100103,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A clear crystal bracelet centred with a polished open infinity motif.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100103, alt: "Gold-tone clear crystal bracelet with a polished open infinity centerpiece." },
+    ],
+  },
+
+  {
+    id: "pink-crystal-vine-bracelet",
+    name: "Pink Crystal Vine Bracelet",
+    sku: 100104,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Pink",
+    shortDescription: "A graceful gold-tone vine bracelet with oval pink crystals and marquise crystal leaves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100104, alt: "Gold-tone vine bracelet with six oval pink crystals and marquise pink crystal leaves." },
+    ],
+  },
+
+  {
+    id: "black-pinwheel-bamboo-bracelet",
+    name: "Black Pinwheel Bamboo Bracelet",
+    sku: 100105,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Black and Gold",
+    shortDescription: "A segmented bamboo-style bracelet with a black enamel pinwheel centerpiece.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100105, alt: "Gold-tone bamboo-link bracelet with a black enamel four-blade pinwheel centerpiece." },
+    ],
+  },
+
+  {
+    id: "blue-dolphin-pendant-necklace",
+    name: "Blue Dolphin Pendant Necklace",
+    sku: 100106,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Blue and Gold",
+    shortDescription: "A fine gold-tone necklace with a blue crystal water pendant and polished dolphin motif.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100106, alt: "Fine gold-tone necklace with a round blue crystal water pendant and polished dolphin motif." },
+    ],
+  },
+
+  {
+    id: "clear-crystal-vine-bracelet",
+    name: "Clear Crystal Vine Bracelet",
+    sku: 100107,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Clear and Gold",
+    shortDescription: "A delicate gold-tone vine bracelet with oval clear crystals and marquise crystal leaves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100107, alt: "Gold-tone vine bracelet with six oval clear crystals and marquise clear crystal leaves." },
     ],
   },
 
