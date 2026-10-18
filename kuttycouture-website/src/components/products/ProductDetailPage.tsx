@@ -21,7 +21,7 @@ function getProductBySku(skuParam: string | undefined) {
     return undefined;
   }
 
-  return products.find((product) => product.sku === sku);
+  return products.find((product) => product.sku === sku || product.legacySkus?.includes(String(sku)));
 }
 
 export function ProductDetailPage() {

@@ -4,6 +4,7 @@ export type ProductCategory =
 
 export type ProductType =
   | "necklace"
+  | "earrings"
   | "bracelet"
   | "kada"
   | "ring"
@@ -29,10 +30,8 @@ export interface Product {
   name: string;
   sku: number;
 
-  // Internal inventory information.
-  // The customer-facing UI should show availability status,
-  // not the actual stock count.
-  stockCount: number;
+  legacySkus?: string[];
+  sizeAvailability?: { label: string; available: boolean }[];
 
   category: ProductCategory;
   productType: ProductType;

@@ -5,9 +5,9 @@ export function getAvailabilityLabel(availability: Product["availability"]): str
     case "in-stock":
       return "Available";
     case "low-stock":
-      return "Limited Availability";
+      return "Available";
     case "out-of-stock":
-      return "Currently Unavailable";
+      return "Unavailable";
   }
 }
 

@@ -1,3 +1,5 @@
+import publication from "../../public/catalog-publication.json";
+import { applyPublication } from "./published-catalog";
 import type { Product } from "../types/product";
 
 // Product images
@@ -45,6 +47,8 @@ import detail100006 from "../assets/products/accessories/bow-necklace-detail-100
 import hero100007 from "../assets/products/accessories/floral-bracelet-hero-100007.webp";
 import model100007 from "../assets/products/accessories/floral-bracelet-model-100007.webp";
 import detail100007 from "../assets/products/accessories/floral-bracelet-detail-100007.webp";
+import green100007 from "../assets/products/accessories/floral-bracelet-green-100007.webp";
+import multicolor100007 from "../assets/products/accessories/floral-bracelet-multicolor-100007.webp";
 
 // SKU-100008
 import hero100008 from "../assets/products/accessories/heart-bracelet-hero-100008.webp";
@@ -272,26 +276,26 @@ import product100057 from "../assets/products/accessories/rose-gold-maze-mens-ka
 import model100057 from "../assets/products/accessories/rose-gold-maze-mens-kada-model-100057.webp";
 
 // SKU-100058 to SKU-100067 — Women's and kids' kada collection
-import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.png";
-import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.png";
-import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.png";
-import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.png";
-import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.png";
-import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.png";
-import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.png";
-import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.png";
-import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.png";
-import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.png";
-import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.png";
-import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.png";
-import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.png";
-import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.png";
-import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.png";
-import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.png";
-import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.png";
-import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.png";
-import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.png";
-import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.png";
+import product100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-product-100058.webp";
+import model100058 from "../assets/products/accessories/gold-tone-black-star-crystal-kada-model-100058.webp";
+import product100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-product-100059.webp";
+import model100059 from "../assets/products/accessories/gold-tone-scattered-crystal-double-rail-kada-model-100059.webp";
+import product100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-product-100060.webp";
+import model100060 from "../assets/products/accessories/gold-tone-filigree-leaf-crystal-loop-kada-model-100060.webp";
+import product100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-product-100061.webp";
+import model100061 from "../assets/products/accessories/gold-tone-half-heart-crystal-kada-model-100061.webp";
+import product100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-product-100062.webp";
+import model100062 from "../assets/products/accessories/gold-tone-circle-diamond-link-kada-model-100062.webp";
+import product100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-product-100063.webp";
+import model100063 from "../assets/products/accessories/gold-tone-crystal-bow-kada-model-100063.webp";
+import product100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-product-100064.webp";
+import model100064 from "../assets/products/accessories/gold-tone-medallion-butterfly-kada-model-100064.webp";
+import product100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-product-100065.webp";
+import model100065 from "../assets/products/accessories/gold-tone-crystal-heart-edge-kada-model-100065.webp";
+import product100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-product-100066.webp";
+import model100066 from "../assets/products/accessories/gold-tone-crystal-greek-key-kada-model-100066.webp";
+import product100067 from "../assets/products/accessories/gold-tone-four-heart-kada-product-100067.webp";
+import model100067 from "../assets/products/accessories/gold-tone-four-heart-kada-model-100067.webp";
 
 import hero100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-hero-100068.webp";
 import model100068 from "../assets/products/accessories/sculpted-heart-pendant-necklace-model-100068.webp";
@@ -358,7 +362,24 @@ import hero100088 from "../assets/products/accessories/pink-blossom-pendant-neck
 import model100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-model-100088.webp";
 import detail100088 from "../assets/products/accessories/pink-blossom-pendant-necklace-detail-100088.webp";
 
-export const products: Product[] = [
+// SKU-100093 to SKU-100107 — Earrings, bracelets and necklace
+import hero100093 from "../assets/products/accessories/gold-crystal-leaf-ear-climber-hero-100093.webp";
+import hero100094 from "../assets/products/accessories/gold-heart-hoop-earrings-hero-100094.webp";
+import hero100095 from "../assets/products/accessories/gold-crescent-hoop-earrings-hero-100095.webp";
+import hero100096 from "../assets/products/accessories/gold-ribbed-oval-hoop-earrings-hero-100096.webp";
+import hero100097 from "../assets/products/accessories/pearl-bow-drop-earrings-hero-100097.webp";
+import hero100098 from "../assets/products/accessories/fluted-geometric-hoop-earrings-hero-100098.webp";
+import hero100099 from "../assets/products/accessories/leaf-outline-hoop-earrings-hero-100099.webp";
+import hero100100 from "../assets/products/accessories/radial-pleated-hoop-earrings-hero-100100.webp";
+import hero100101 from "../assets/products/accessories/rope-twist-hoop-earrings-hero-100101.webp";
+import hero100102 from "../assets/products/accessories/sunburst-crescent-hoop-earrings-hero-100102.webp";
+import hero100103 from "../assets/products/accessories/crystal-infinity-bracelet-hero-100103.webp";
+import hero100104 from "../assets/products/accessories/pink-crystal-vine-bracelet-hero-100104.webp";
+import hero100105 from "../assets/products/accessories/black-pinwheel-bamboo-bracelet-hero-100105.webp";
+import hero100106 from "../assets/products/accessories/blue-dolphin-pendant-necklace-hero-100106.webp";
+import hero100107 from "../assets/products/accessories/clear-crystal-vine-bracelet-hero-100107.webp";
+
+const websiteProducts: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
   // ---------------------------------------------------------------------------
@@ -367,7 +388,6 @@ export const products: Product[] = [
     id: "Gold-Clover-Charm-Necklace-100000",
     name: "Gold Clover Charm Necklace",
     sku: 100000,
-    stockCount: 1,
 
     category: "accessories",
     productType: "necklace",
@@ -404,7 +424,6 @@ export const products: Product[] = [
     id: "golden-butterfly-necklace",
     name: "Golden Butterfly Necklace",
     sku: 100001,
-    stockCount: 1,
 
     category: "accessories",
     productType: "necklace",
@@ -441,7 +460,6 @@ export const products: Product[] = [
     id: "golden-twin-hearts-necklace",
     name: "Golden Twin Hearts Necklace",
     sku: 100002,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -477,7 +495,6 @@ export const products: Product[] = [
     id: "golden-heart-layers-necklace",
     name: "Golden Heart Layers Necklace",
     sku: 100003,
-    stockCount: 1,
 
     category: "accessories",
     productType: "necklace",
@@ -514,7 +531,6 @@ export const products: Product[] = [
     id: "pink-stone-pendant-necklace",
     name: "Pink Stone Pendant Necklace",
     sku: 100004,
-    stockCount: 10,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -550,7 +566,6 @@ export const products: Product[] = [
     id: "golden-polished-disc-necklace",
     name: "Golden Polished Disc Necklace",
     sku: 100005,
-    stockCount: 10,
 
     category: "accessories",
     productType: "necklace",
@@ -587,7 +602,6 @@ export const products: Product[] = [
     id: "golden-bow-lariat-necklace",
     name: "Golden Bow Lariat Necklace",
     sku: 100006,
-    stockCount: 1,
 
     category: "accessories",
     productType: "necklace",
@@ -624,14 +638,14 @@ export const products: Product[] = [
     id: "golden-floral-bracelet",
     name: "Golden Floral Bracelet",
     sku: 100007,
-    stockCount: 1,
 
     category: "accessories",
     productType: "bracelet",
     audience: ["women", "kids"],
+    color: "Clear, Green, Multi-color",
 
     shortDescription:
-      "A refined gold-tone bracelet with four sparkling floral crystal motifs.",
+      "A refined gold-tone bracelet with sparkling floral crystal stations, available in Clear, Green and Multi-color.",
 
     price: null,
     availability: "in-stock",
@@ -644,15 +658,28 @@ export const products: Product[] = [
     images: [
       {
         src: hero100007,
-        alt: "Gold-tone mesh bracelet with four sparkling floral crystal motifs displayed on a cream jewellery pillow.",
+        alt: "Gold-tone mesh bracelet with sparkling clear floral crystal motifs displayed on a cream jewellery pillow.",
+        color: "Clear",
+      },
+      {
+        src: green100007,
+        alt: "Gold-tone mesh bracelet with five emerald-green floral crystal stations on blush suede and ivory satin.",
+        color: "Green",
+      },
+      {
+        src: multicolor100007,
+        alt: "Gold-tone mesh bracelet with pink, red, purple, clear and green floral crystal stations on blush suede and ivory satin.",
+        color: "Multi-color",
       },
       {
         src: model100007,
-        alt: "Close-up of a woman wearing a gold-tone mesh bracelet with four sparkling floral crystal motifs.",
+        alt: "Close-up of a woman wearing a gold-tone mesh bracelet with sparkling clear floral crystal motifs.",
+        color: "Clear",
       },
       {
         src: detail100007,
-        alt: "Macro detail of a gold-tone mesh bracelet with four sparkling floral crystal motifs on a cream jewellery pillow.",
+        alt: "Macro detail of a gold-tone mesh bracelet with sparkling clear floral crystal motifs on a cream jewellery pillow.",
+        color: "Clear",
       },
     ],
   },
@@ -661,7 +688,6 @@ export const products: Product[] = [
     id: "golden-double-heart-bracelet",
     name: "Golden Double Heart Bracelet",
     sku: 100008,
-    stockCount: 1,
 
     category: "accessories",
     productType: "bracelet",
@@ -698,7 +724,6 @@ export const products: Product[] = [
     id: "golden-rectangle-crystal-necklace",
     name: "Golden Rectangle Crystal Necklace",
     sku: 100009,
-    stockCount: 1,
 
     category: "accessories",
     productType: "necklace",
@@ -735,7 +760,6 @@ export const products: Product[] = [
     id: "translucent-butterfly-hair-clip",
     name: "Translucent Butterfly Hair Clip",
     sku: 100010,
-    stockCount: 10,
 
     category: "accessories",
     productType: "hair-accessories",
@@ -795,7 +819,6 @@ export const products: Product[] = [
     id: "clear-bow-hair-claw-clip",
     name: "Clear Bow Hair Claw Clip",
     sku: 100011,
-    stockCount: 2,
 
     category: "accessories",
     productType: "hair-accessories",
@@ -856,7 +879,6 @@ export const products: Product[] = [
     id: "glitter-bow-barrette",
     name: "Glitter Bow Barrette",
     sku: 100012,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -906,7 +928,6 @@ export const products: Product[] = [
     id: "gold-tone-halo-ring",
     name: "Gold-Tone Halo Ring",
     sku: 100013,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription:
@@ -928,7 +949,6 @@ export const products: Product[] = [
     id: "gold-tone-star-accent-ring",
     name: "Gold-Tone Star Accent Ring",
     sku: 100014,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A slender gold-tone ring with star-shaped accents alternating with clear stones.",
@@ -953,7 +973,6 @@ export const products: Product[] = [
     id: "gold-tone-crossover-ring",
     name: "Gold-Tone Crossover Ring",
     sku: 100015,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with overlapping curved bars and two offset rows of clear stones.",
@@ -978,7 +997,6 @@ export const products: Product[] = [
     id: "gold-tone-tiara-ring",
     name: "Gold-Tone Tiara Ring",
     sku: 100016,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone tiara ring with curled openwork and two clear stones at the centre.",
@@ -1003,7 +1021,6 @@ export const products: Product[] = [
     id: "gold-tone-crystal-star-link-ring",
     name: "Gold-Tone Crystal Star Link Ring",
     sku: 100017,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with open links, star-shaped connectors and a clear-stone accent.",
@@ -1028,7 +1045,6 @@ export const products: Product[] = [
     id: "gold-tone-four-stone-ring",
     name: "Gold-Tone Four-Stone Ring",
     sku: 100018,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A slender gold-tone ring with four spaced clear stones in petite rounded settings.",
@@ -1053,7 +1069,6 @@ export const products: Product[] = [
     id: "gold-tone-open-star-link-ring",
     name: "Gold-Tone Open Star Link Ring",
     sku: 100019,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with open links alternating with plain star-shaped connectors.",
@@ -1078,7 +1093,6 @@ export const products: Product[] = [
     id: "gold-tone-leaf-accent-ring",
     name: "Gold-Tone Leaf Accent Ring",
     sku: 100020,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A slender gold-tone ring with leaf-shaped accents alternating with clear stones.",
@@ -1103,7 +1117,6 @@ export const products: Product[] = [
     id: "gold-tone-open-heart-ring",
     name: "Gold-Tone Open Heart Ring",
     sku: 100021,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with open heart outlines alternating with clear stones.",
@@ -1128,7 +1141,6 @@ export const products: Product[] = [
     id: "gold-tone-chevron-ring",
     name: "Gold-Tone Chevron Ring",
     sku: 100022,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone chevron ring with a row of clear stones along its V-shaped front.",
@@ -1153,7 +1165,6 @@ export const products: Product[] = [
     id: "gold-tone-abc-cutout-ring",
     name: "Gold-Tone ABC Cutout Ring",
     sku: 100023,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with ABC letter cutouts and clear-stone accents at the sides.",
@@ -1178,7 +1189,6 @@ export const products: Product[] = [
     id: "gold-tone-infinity-ring",
     name: "Gold-Tone Infinity Ring",
     sku: 100024,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with flowing infinity-style loops and clear-stone accents.",
@@ -1203,7 +1213,6 @@ export const products: Product[] = [
     id: "gold-tone-five-stone-ring",
     name: "Gold-Tone Five-Stone Ring",
     sku: 100025,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A slender gold-tone ring with five clear stones across its softly curved front.",
@@ -1228,7 +1237,6 @@ export const products: Product[] = [
     id: "gold-tone-love-heart-ring",
     name: "Gold-Tone Love Heart Ring",
     sku: 100026,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with a heart-shaped face, Love lettering and clear-stone accents.",
@@ -1253,7 +1261,6 @@ export const products: Product[] = [
     id: "gold-tone-star-crown-ring",
     name: "Gold-Tone Star Crown Ring",
     sku: 100027,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with bold star-shaped motifs and clear stones nestled between them.",
@@ -1278,7 +1285,6 @@ export const products: Product[] = [
     id: "gold-tone-open-loop-ring",
     name: "Gold-Tone Open Loop Ring",
     sku: 100028,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with an asymmetric open loop joining a row of clear stones.",
@@ -1303,7 +1309,6 @@ export const products: Product[] = [
     id: "gold-tone-floral-stone-ring",
     name: "Gold-Tone Floral Stone Ring",
     sku: 100029,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with connected floral motifs, each accented by a clear stone.",
@@ -1328,7 +1333,6 @@ export const products: Product[] = [
     id: "gold-tone-rectangle-ring",
     name: "Gold-Tone Rectangle Ring",
     sku: 100030,
-    stockCount: 2,
     category: "accessories",
     productType: "ring",
     shortDescription: "A gold-tone ring with an open rectangular centre and clear-stone accents at the sides.",
@@ -1353,7 +1357,6 @@ export const products: Product[] = [
     id: "sunflower-snap-hair-clips",
     name: "Sunflower Snap Hair Clips (Pair)",
     sku: 100031,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1394,7 +1397,6 @@ export const products: Product[] = [
     id: "daisy-mini-claw-hair-clips",
     name: "Daisy Mini Claw Hair Clips (Pair)",
     sku: 100032,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1445,7 +1447,6 @@ export const products: Product[] = [
     id: "plumeria-mini-claw-hair-clips",
     name: "Plumeria Mini Claw Hair Clips (Pair)",
     sku: 100033,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1506,7 +1507,6 @@ export const products: Product[] = [
     id: "printed-plumeria-claw-hair-clip",
     name: "Printed Plumeria Claw Hair Clip",
     sku: 100034,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1557,7 +1557,6 @@ export const products: Product[] = [
     id: "twin-blossom-claw-hair-clip",
     name: "Twin Blossom Claw Hair Clip",
     sku: 100035,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1598,7 +1597,6 @@ export const products: Product[] = [
     id: "matte-daisy-claw-hair-clip",
     name: "Matte Daisy Claw Hair Clip",
     sku: 100036,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1659,7 +1657,6 @@ export const products: Product[] = [
     id: "pastel-plumeria-claw-hair-clips-set",
     name: "Pastel Plumeria Claw Hair Clips (Set of 4)",
     sku: 100037,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1684,7 +1681,6 @@ export const products: Product[] = [
     id: "fruit-trio-clear-claw-hair-clip",
     name: "Fruit Trio Clear Claw Hair Clip",
     sku: 100038,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1736,7 +1732,6 @@ export const products: Product[] = [
     id: "translucent-daisy-stem-claw-hair-clips",
     name: "Translucent Daisy Stem Claw Hair Clips (Pair)",
     sku: 100039,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1779,7 +1774,6 @@ export const products: Product[] = [
     id: "plush-curved-claw-hair-clip",
     name: "Plush Curved Claw Hair Clip",
     sku: 100040,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1851,7 +1845,6 @@ export const products: Product[] = [
     id: "ombre-plumeria-claw-hair-clips-set",
     name: "Ombre Plumeria Claw Hair Clips (Set of 3)",
     sku: 100041,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1894,7 +1887,6 @@ export const products: Product[] = [
     id: "character-snap-hair-clips-set",
     name: "Character Snap Hair Clips (Set of 4)",
     sku: 100042,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1922,7 +1914,6 @@ export const products: Product[] = [
     id: "matte-plumeria-claw-hair-clip",
     name: "Matte Plumeria Claw Hair Clip",
     sku: 100043,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -1990,7 +1981,6 @@ export const products: Product[] = [
     id: "mini-matte-plumeria-claw-hair-clip",
     name: "Mini Matte Plumeria Claw Hair Clip",
     sku: 100044,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -2038,7 +2028,6 @@ export const products: Product[] = [
     id: "polka-dot-flower-snap-hair-clips",
     name: "Polka Dot Flower Snap Hair Clips (Pair)",
     sku: 100045,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -2066,7 +2055,6 @@ export const products: Product[] = [
     id: "teddy-fruit-snap-hair-clips",
     name: "Teddy & Fruit Snap Hair Clips (Pair)",
     sku: 100046,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -2099,7 +2087,6 @@ export const products: Product[] = [
     id: "mini-butterfly-claw-hair-clips-set",
     name: "Mini Butterfly Claw Hair Clips (Set of 10)",
     sku: 100047,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -2121,7 +2108,6 @@ export const products: Product[] = [
     id: "matte-butterfly-loop-claw-hair-clip",
     name: "Matte Butterfly Loop Claw Hair Clip",
     sku: 100048,
-    stockCount: 2,
     category: "accessories",
     productType: "hair-accessories",
     shortDescription:
@@ -2179,7 +2165,6 @@ export const products: Product[] = [
     id: "rose-gold-triple-stripe-mens-kada",
     name: "Rose Gold Triple Stripe Men's Kada",
     sku: 100049,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2202,7 +2187,6 @@ export const products: Product[] = [
     id: "black-chain-link-mens-kada",
     name: "Black Chain Link Men's Kada",
     sku: 100050,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2225,7 +2209,6 @@ export const products: Product[] = [
     id: "black-vine-scroll-mens-kada",
     name: "Black Vine Scroll Men's Kada",
     sku: 100051,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2248,7 +2231,6 @@ export const products: Product[] = [
     id: "rose-gold-double-greek-key-mens-kada",
     name: "Rose Gold Double Greek Key Men's Kada",
     sku: 100052,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2271,7 +2253,6 @@ export const products: Product[] = [
     id: "two-tone-grid-panel-mens-kada",
     name: "Two-Tone Grid Panel Men's Kada",
     sku: 100053,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2294,7 +2275,6 @@ export const products: Product[] = [
     id: "heartbeat-mens-kada",
     name: "Heartbeat Men's Kada",
     sku: 100054,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2317,7 +2297,6 @@ export const products: Product[] = [
     id: "black-diagonal-dash-mens-kada",
     name: "Black Diagonal Dash Men's Kada",
     sku: 100055,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2340,7 +2319,6 @@ export const products: Product[] = [
     id: "rose-gold-honeycomb-mens-kada",
     name: "Rose Gold Honeycomb Men's Kada",
     sku: 100056,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2363,7 +2341,6 @@ export const products: Product[] = [
     id: "rose-gold-maze-mens-kada",
     name: "Rose Gold Maze Men's Kada",
     sku: 100057,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["men"],
@@ -2386,7 +2363,6 @@ export const products: Product[] = [
     id: "gold-tone-black-star-crystal-kada",
     name: "Gold-Tone Black Star Crystal Kada",
     sku: 100058,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2409,7 +2385,6 @@ export const products: Product[] = [
     id: "gold-tone-scattered-crystal-double-rail-kada",
     name: "Gold-Tone Scattered Crystal Double Rail Kada",
     sku: 100059,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2432,7 +2407,6 @@ export const products: Product[] = [
     id: "gold-tone-filigree-leaf-crystal-loop-kada",
     name: "Gold-Tone Filigree Leaf Crystal Loop Kada",
     sku: 100060,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2455,7 +2429,6 @@ export const products: Product[] = [
     id: "gold-tone-half-heart-crystal-kada",
     name: "Gold-Tone Half Heart Crystal Kada",
     sku: 100061,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2478,7 +2451,6 @@ export const products: Product[] = [
     id: "gold-tone-circle-diamond-link-kada",
     name: "Gold-Tone Circle and Diamond Link Kada",
     sku: 100062,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2501,7 +2473,6 @@ export const products: Product[] = [
     id: "gold-tone-crystal-bow-kada",
     name: "Gold-Tone Crystal Bow Kada",
     sku: 100063,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2524,7 +2495,6 @@ export const products: Product[] = [
     id: "gold-tone-medallion-butterfly-kada",
     name: "Gold-Tone Medallion Butterfly Kada",
     sku: 100064,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2547,7 +2517,6 @@ export const products: Product[] = [
     id: "gold-tone-crystal-heart-edge-kada",
     name: "Gold-Tone Crystal Heart Edge Kada",
     sku: 100065,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2570,7 +2539,6 @@ export const products: Product[] = [
     id: "gold-tone-crystal-greek-key-kada",
     name: "Gold-Tone Crystal Greek Key Kada",
     sku: 100066,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2593,7 +2561,6 @@ export const products: Product[] = [
     id: "gold-tone-four-heart-kada",
     name: "Gold-Tone Four Heart Kada",
     sku: 100067,
-    stockCount: 2,
     category: "accessories",
     productType: "kada",
     audience: ["women", "kids"],
@@ -2616,7 +2583,6 @@ export const products: Product[] = [
     id: "sculpted-heart-pendant-necklace",
     name: "Sculpted Heart Pendant Necklace",
     sku: 100068,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2639,7 +2605,6 @@ export const products: Product[] = [
     id: "black-butterfly-pendant-necklace",
     name: "Black Butterfly Pendant Necklace",
     sku: 100069,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2662,7 +2627,6 @@ export const products: Product[] = [
     id: "purple-stone-layered-necklace",
     name: "Purple Stone Layered Necklace",
     sku: 100070,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2685,7 +2649,6 @@ export const products: Product[] = [
     id: "dual-stone-charm-necklace",
     name: "Dual Stone Charm Necklace",
     sku: 100071,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2708,7 +2671,6 @@ export const products: Product[] = [
     id: "ivory-cabochon-pendant-necklace",
     name: "Ivory Cabochon Pendant Necklace",
     sku: 100072,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2731,7 +2693,6 @@ export const products: Product[] = [
     id: "crystal-bar-pendant-necklace",
     name: "Crystal Bar Pendant Necklace",
     sku: 100073,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2754,7 +2715,6 @@ export const products: Product[] = [
     id: "triple-heart-drop-necklace",
     name: "Triple Heart Drop Necklace",
     sku: 100074,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2777,7 +2737,6 @@ export const products: Product[] = [
     id: "crystal-infinity-necklace",
     name: "Crystal Infinity Necklace",
     sku: 100075,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2800,7 +2759,6 @@ export const products: Product[] = [
     id: "black-flower-leaf-necklace",
     name: "Black Flower Leaf Necklace",
     sku: 100076,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2823,7 +2781,6 @@ export const products: Product[] = [
     id: "rose-medallion-layered-necklace",
     name: "Rose Medallion Layered Necklace",
     sku: 100077,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2846,7 +2803,6 @@ export const products: Product[] = [
     id: "four-petal-crystal-necklace",
     name: "Four-Petal Crystal Necklace",
     sku: 100078,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2869,7 +2825,6 @@ export const products: Product[] = [
     id: "delicate-beaded-heart-layered-necklace",
     name: "Delicate Beaded Heart Layered Necklace",
     sku: 100079,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2892,7 +2847,6 @@ export const products: Product[] = [
     id: "crystal-heart-pendant-necklace",
     name: "Crystal Heart Pendant Necklace",
     sku: 100080,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2915,7 +2869,6 @@ export const products: Product[] = [
     id: "golden-feather-pendant-necklace",
     name: "Golden Feather Pendant Necklace",
     sku: 100081,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2938,7 +2891,6 @@ export const products: Product[] = [
     id: "crystal-cross-pendant-necklace",
     name: "Crystal Cross Pendant Necklace",
     sku: 100082,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2961,7 +2913,6 @@ export const products: Product[] = [
     id: "crystal-bead-heart-layered-necklace",
     name: "Crystal Bead Heart Layered Necklace",
     sku: 100083,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -2984,7 +2935,6 @@ export const products: Product[] = [
     id: "delicate-crystal-flower-station-necklace",
     name: "Delicate Crystal Flower Station Necklace",
     sku: 100084,
-    stockCount: 1,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -3007,7 +2957,6 @@ export const products: Product[] = [
     id: "crystal-heart-station-bracelet",
     name: "Crystal Heart Station Bracelet",
     sku: 100085,
-    stockCount: 1,
     category: "accessories",
     productType: "bracelet",
     audience: ["women", "kids"],
@@ -3030,7 +2979,6 @@ export const products: Product[] = [
     id: "triple-heart-layered-bracelet",
     name: "Triple Heart Layered Bracelet",
     sku: 100086,
-    stockCount: 1,
     category: "accessories",
     productType: "bracelet",
     audience: ["women", "kids"],
@@ -3053,7 +3001,6 @@ export const products: Product[] = [
     id: "starburst-heart-bracelet-set",
     name: "Starburst Heart Bracelet Set",
     sku: 100087,
-    stockCount: 1,
     category: "accessories",
     productType: "bracelet",
     audience: ["women", "kids"],
@@ -3076,7 +3023,6 @@ export const products: Product[] = [
     id: "pink-blossom-pendant-necklace",
     name: "Pink Blossom Pendant Necklace",
     sku: 100088,
-    stockCount: 0,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
@@ -3095,6 +3041,311 @@ export const products: Product[] = [
     ],
   },
 
+
+  // ---------------------------------------------------------------------------
+  // ACCESSORIES — EARRINGS, BRACELETS AND NECKLACE
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "crystal-leaf-ear-climber-earrings",
+    name: "Crystal Leaf Ear Climber Earrings",
+    sku: 100093,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Gold-tone ear climbers shaped as delicate crystal leaf branches.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100093, alt: "Pair of gold-tone crystal leaf ear climber earrings arranged on blush suede and ivory satin." },
+    ],
+  },
+
+  {
+    id: "gold-heart-hoop-earrings",
+    name: "Gold Heart Hoop Earrings",
+    sku: 100094,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Polished gold-tone heart hoops with secure hinged latch closures.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100094, alt: "Pair of polished gold-tone open-heart hoop earrings resting on warm ivory silk." },
+    ],
+  },
+
+  {
+    id: "gold-crescent-hoop-earrings",
+    name: "Gold Crescent Hoop Earrings",
+    sku: 100095,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Bold polished crescent hoops with a smooth, modern silhouette.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100095, alt: "Pair of broad polished gold-tone crescent hoop earrings arranged on blush suede and ivory satin." },
+    ],
+  },
+
+  {
+    id: "gold-ribbed-oval-hoop-earrings",
+    name: "Gold Ribbed Oval Hoop Earrings",
+    sku: 100096,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Compact oval hoops finished with sculpted ribbed detailing.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100096, alt: "Pair of compact gold-tone oval hoop earrings with sculpted ribbed detailing." },
+    ],
+  },
+
+  {
+    id: "pearl-bow-drop-earrings",
+    name: "Pearl Bow Drop Earrings",
+    sku: 100097,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Elegant bow earrings embellished with petite pearls and crystal drop ribbons.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Special occasions", "party"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100097, alt: "Pair of gold-tone pearl bow drop earrings with sparkling crystal ribbon tails." },
+    ],
+  },
+
+  {
+    id: "fluted-geometric-hoop-earrings",
+    name: "Fluted Geometric Hoop Earrings",
+    sku: 100098,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Rounded geometric hoops with polished fluted ridges for added texture.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100098, alt: "Pair of gold-tone rounded geometric hoop earrings with fluted ridges." },
+    ],
+  },
+
+  {
+    id: "leaf-outline-hoop-earrings",
+    name: "Leaf Outline Hoop Earrings",
+    sku: 100099,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Open leaf-shaped hoops etched with fine vein-inspired detailing.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100099, alt: "Pair of open gold-tone leaf outline hoop earrings with engraved vein details." },
+    ],
+  },
+
+  {
+    id: "radial-pleated-hoop-earrings",
+    name: "Radial Pleated Hoop Earrings",
+    sku: 100100,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Circular statement hoops with finely pleated radial grooves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100100, alt: "Pair of circular gold-tone hoop earrings with finely pleated radial grooves." },
+    ],
+  },
+
+  {
+    id: "rope-twist-hoop-earrings",
+    name: "Rope Twist Hoop Earrings",
+    sku: 100101,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Classic rounded hoops finished with an elegant rope-twist texture.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "casual"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100101, alt: "Pair of rounded gold-tone hoop earrings with a rope-twist texture." },
+    ],
+  },
+
+  {
+    id: "sunburst-crescent-hoop-earrings",
+    name: "Sunburst Crescent Hoop Earrings",
+    sku: 100102,
+    category: "accessories",
+    productType: "earrings",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "Polished crescent hoops accented with a subtle engraved sunburst.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 pair of earrings",
+    offerAvailable: false,
+    images: [
+      { src: hero100102, alt: "Pair of polished gold-tone crescent hoop earrings with engraved sunburst accents." },
+    ],
+  },
+
+  {
+    id: "crystal-infinity-bracelet",
+    name: "Crystal Infinity Bracelet",
+    sku: 100103,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A clear crystal bracelet centred with a polished open infinity motif.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100103, alt: "Gold-tone clear crystal bracelet with a polished open infinity centerpiece." },
+    ],
+  },
+
+  {
+    id: "pink-crystal-vine-bracelet",
+    name: "Pink Crystal Vine Bracelet",
+    sku: 100104,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Pink",
+    shortDescription: "A graceful gold-tone vine bracelet with oval pink crystals and marquise crystal leaves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100104, alt: "Gold-tone vine bracelet with six oval pink crystals and marquise pink crystal leaves." },
+    ],
+  },
+
+  {
+    id: "black-pinwheel-bamboo-bracelet",
+    name: "Black Pinwheel Bamboo Bracelet",
+    sku: 100105,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Black and Gold",
+    shortDescription: "A segmented bamboo-style bracelet with a black enamel pinwheel centerpiece.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100105, alt: "Gold-tone bamboo-link bracelet with a black enamel four-blade pinwheel centerpiece." },
+    ],
+  },
+
+  {
+    id: "blue-dolphin-pendant-necklace",
+    name: "Blue Dolphin Pendant Necklace",
+    sku: 100106,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Blue and Gold",
+    shortDescription: "A fine gold-tone necklace with a blue crystal water pendant and polished dolphin motif.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100106, alt: "Fine gold-tone necklace with a round blue crystal water pendant and polished dolphin motif." },
+    ],
+  },
+
+  {
+    id: "clear-crystal-vine-bracelet",
+    name: "Clear Crystal Vine Bracelet",
+    sku: 100107,
+    category: "accessories",
+    productType: "bracelet",
+    audience: ["women", "kids"],
+    color: "Clear and Gold",
+    shortDescription: "A delicate gold-tone vine bracelet with oval clear crystals and marquise crystal leaves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 bracelet",
+    offerAvailable: false,
+    images: [
+      { src: hero100107, alt: "Gold-tone vine bracelet with six oval clear crystals and marquise clear crystal leaves." },
+    ],
+  },
+
   // ---------------------------------------------------------------------------
   // CLOTHING — MUSLIN
   // ---------------------------------------------------------------------------
@@ -3102,8 +3353,7 @@ export const products: Product[] = [
   {
     id: "lollipop-ice-cream-printed-frock",
     name: "Lollipop & Ice-cream Printed Frock",
-    sku: 200000,
-    stockCount: 10,
+    sku: 100089,
 
     category: "clothing",
     productType: "frock",
@@ -3138,8 +3388,7 @@ export const products: Product[] = [
   {
     id: "abc-learning-full-sleeve-set",
     name: "ABC/Learning Print Full-sleeve Set",
-    sku: 200001,
-    stockCount: 10,
+    sku: 100090,
 
     category: "clothing",
     productType: "full-sleeve-set",
@@ -3175,8 +3424,7 @@ export const products: Product[] = [
   {
     id: "puppy-print-jabla-shorts-set",
     name: "Puppy Print Jabla/Shorts Set",
-    sku: 200002,
-    stockCount: 10,
+    sku: 100091,
 
     category: "clothing",
     productType: "jabla-shorts-set",
@@ -3212,8 +3460,7 @@ export const products: Product[] = [
   {
     id: "star-print-knot-frock",
     name: "Star Print Knot Frock",
-    sku: 200003,
-    stockCount: 10,
+    sku: 100092,
 
     category: "clothing",
     productType: "knot-frock",
@@ -3246,4 +3493,5 @@ export const products: Product[] = [
   },
 ];
 
+export const products = applyPublication(websiteProducts, publication);
 export default products;
