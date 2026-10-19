@@ -439,6 +439,20 @@ import hero100128 from "../assets/products/accessories/classic-gold-herringbone-
 import model100128 from "../assets/products/accessories/classic-gold-herringbone-necklace-model-100128.webp";
 import detail100128 from "../assets/products/accessories/classic-gold-herringbone-necklace-detail-100128.webp";
 
+// SKU-100129 through SKU-100132
+import hero100129 from "../assets/products/accessories/pink-crystal-tulip-pendant-necklace-hero-100129.webp";
+import model100129 from "../assets/products/accessories/pink-crystal-tulip-pendant-necklace-model-100129.webp";
+import detail100129 from "../assets/products/accessories/pink-crystal-tulip-pendant-necklace-detail-100129.webp";
+import hero100130 from "../assets/products/accessories/round-crystal-cross-necklace-hero-100130.webp";
+import model100130 from "../assets/products/accessories/round-crystal-cross-necklace-model-100130.webp";
+import detail100130 from "../assets/products/accessories/round-crystal-cross-necklace-detail-100130.webp";
+import hero100131 from "../assets/products/accessories/pink-crystal-floral-pendant-necklace-hero-100131.webp";
+import model100131 from "../assets/products/accessories/pink-crystal-floral-pendant-necklace-model-100131.webp";
+import detail100131 from "../assets/products/accessories/pink-crystal-floral-pendant-necklace-detail-100131.webp";
+import hero100132 from "../assets/products/accessories/multicolor-heart-charm-necklace-hero-100132.webp";
+import model100132 from "../assets/products/accessories/multicolor-heart-charm-necklace-model-100132.webp";
+import detail100132 from "../assets/products/accessories/multicolor-heart-charm-necklace-detail-100132.webp";
+
 const websiteProducts: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -3843,6 +3857,94 @@ const websiteProducts: Product[] = [
       { src: hero100128, alt: "Classic medium-width gold-tone herringbone necklace on a blush jewelry display." },
       { src: model100128, alt: "Adult woman wearing a classic gold-tone herringbone necklace." },
       { src: detail100128, alt: "Macro detail of the smooth reflective links of a gold-tone herringbone chain." },
+    ],
+  },
+
+  {
+    id: "pink-crystal-tulip-pendant-necklace",
+    name: "Pink Crystal Tulip Pendant Necklace",
+    sku: 100129,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold and pink",
+    shortDescription: "A fine gold-tone necklace with a graceful tulip pendant, pink crystal centre and clear crystal leaves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100129, alt: "Gold-tone tulip pendant necklace with a pink crystal centre and clear crystal leaves." },
+      { src: model100129, alt: "Adult woman wearing a gold-tone pink crystal tulip pendant necklace." },
+      { src: detail100129, alt: "Macro detail of the pink crystal tulip pendant and two clear crystal leaves." },
+    ],
+  },
+
+  {
+    id: "round-crystal-cross-necklace",
+    name: "Round Crystal Cross Necklace",
+    sku: 100130,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A fine gold-tone necklace with a classic cross pendant set with brilliant round clear crystals.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100130, alt: "Gold-tone necklace with a cross pendant set with round clear crystals." },
+      { src: model100130, alt: "Adult woman wearing a gold-tone round crystal cross necklace." },
+      { src: detail100130, alt: "Macro detail of the gold-tone cross pendant and round clear crystal settings." },
+    ],
+  },
+
+  {
+    id: "pink-crystal-floral-pendant-necklace",
+    name: "Pink Crystal Floral Pendant Necklace",
+    sku: 100131,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold, pink and green",
+    shortDescription: "A gold-tone floral pendant necklace with a faceted pink centre, green crystal leaves and clear accents.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100131, alt: "Gold-tone floral pendant necklace with a pink crystal centre and green crystal leaves." },
+      { src: model100131, alt: "Adult woman wearing a gold-tone pink and green crystal floral pendant necklace." },
+      { src: detail100131, alt: "Macro detail of the pink crystal flower, green leaves and clear crystal accents." },
+    ],
+  },
+
+  {
+    id: "multicolor-heart-charm-necklace",
+    name: "Multicolor Heart Charm Necklace",
+    sku: 100132,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold and multi-color",
+    shortDescription: "A sleek gold-tone snake-chain necklace with alternating polished hearts and colourful bezel-set crystals.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100132, alt: "Gold-tone snake-chain necklace with polished heart charms and multicolor bezel-set crystals." },
+      { src: model100132, alt: "Adult woman wearing a gold-tone heart charm necklace with multicolor crystals." },
+      { src: detail100132, alt: "Macro detail of polished gold-tone hearts and multicolor bezel-set crystal charms." },
     ],
   },
 
