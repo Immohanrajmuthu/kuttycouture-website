@@ -404,6 +404,55 @@ import hero100105 from "../assets/products/accessories/black-pinwheel-bamboo-bra
 import hero100106 from "../assets/products/accessories/blue-dolphin-pendant-necklace-hero-100106.webp";
 import hero100107 from "../assets/products/accessories/clear-crystal-vine-bracelet-hero-100107.webp";
 
+// SKU-100118 through SKU-100128
+import hero100118 from "../assets/products/accessories/gold-knot-pendant-necklace-hero-100118.webp";
+import model100118 from "../assets/products/accessories/gold-knot-pendant-necklace-model-100118.webp";
+import detail100118 from "../assets/products/accessories/gold-knot-pendant-necklace-detail-100118.webp";
+import hero100119 from "../assets/products/accessories/black-enamel-heart-necklace-hero-100119.webp";
+import model100119 from "../assets/products/accessories/black-enamel-heart-necklace-model-100119.webp";
+import detail100119 from "../assets/products/accessories/black-enamel-heart-necklace-detail-100119.webp";
+import hero100120 from "../assets/products/accessories/crystal-flower-layered-necklace-set-hero-100120.webp";
+import model100120 from "../assets/products/accessories/crystal-flower-layered-necklace-set-model-100120.webp";
+import detail100120 from "../assets/products/accessories/crystal-flower-layered-necklace-set-detail-100120.webp";
+import hero100121 from "../assets/products/accessories/gold-puff-heart-layered-necklace-set-hero-100121.webp";
+import model100121 from "../assets/products/accessories/gold-puff-heart-layered-necklace-set-model-100121.webp";
+import detail100121 from "../assets/products/accessories/gold-puff-heart-layered-necklace-set-detail-100121.webp";
+import hero100122 from "../assets/products/accessories/crystal-infinity-necklace-hero-100122.webp";
+import model100122 from "../assets/products/accessories/crystal-infinity-necklace-model-100122.webp";
+import detail100122 from "../assets/products/accessories/crystal-infinity-necklace-detail-100122.webp";
+import greenHero100123 from "../assets/products/accessories/crystal-infinity-necklace-green-hero-100123.webp";
+import greenModel100123 from "../assets/products/accessories/crystal-infinity-necklace-green-model-100123.webp";
+import greenDetail100123 from "../assets/products/accessories/crystal-infinity-necklace-green-detail-100123.webp";
+import pinkHero100123 from "../assets/products/accessories/crystal-infinity-necklace-pink-hero-100123.webp";
+import pinkModel100123 from "../assets/products/accessories/crystal-infinity-necklace-pink-model-100123.webp";
+import pinkDetail100123 from "../assets/products/accessories/crystal-infinity-necklace-pink-detail-100123.webp";
+import hero100124 from "../assets/products/accessories/gold-crystal-butterfly-necklace-hero-100124.webp";
+import model100124 from "../assets/products/accessories/gold-crystal-butterfly-necklace-model-100124.webp";
+import detail100124 from "../assets/products/accessories/gold-crystal-butterfly-necklace-detail-100124.webp";
+import hero100126 from "../assets/products/accessories/clear-crystal-infinity-necklace-hero-100126.webp";
+import model100126 from "../assets/products/accessories/clear-crystal-infinity-necklace-model-100126.webp";
+import detail100126 from "../assets/products/accessories/clear-crystal-infinity-necklace-detail-100126.webp";
+import hero100127 from "../assets/products/accessories/crystal-heart-layered-necklace-set-hero-100127.webp";
+import model100127 from "../assets/products/accessories/crystal-heart-layered-necklace-set-model-100127.webp";
+import detail100127 from "../assets/products/accessories/crystal-heart-layered-necklace-set-detail-100127.webp";
+import hero100128 from "../assets/products/accessories/classic-gold-herringbone-necklace-hero-100128.webp";
+import model100128 from "../assets/products/accessories/classic-gold-herringbone-necklace-model-100128.webp";
+import detail100128 from "../assets/products/accessories/classic-gold-herringbone-necklace-detail-100128.webp";
+
+// SKU-100129 through SKU-100132
+import hero100129 from "../assets/products/accessories/pink-crystal-tulip-pendant-necklace-hero-100129.webp";
+import model100129 from "../assets/products/accessories/pink-crystal-tulip-pendant-necklace-model-100129.webp";
+import detail100129 from "../assets/products/accessories/pink-crystal-tulip-pendant-necklace-detail-100129.webp";
+import hero100130 from "../assets/products/accessories/round-crystal-cross-necklace-hero-100130.webp";
+import model100130 from "../assets/products/accessories/round-crystal-cross-necklace-model-100130.webp";
+import detail100130 from "../assets/products/accessories/round-crystal-cross-necklace-detail-100130.webp";
+import hero100131 from "../assets/products/accessories/pink-crystal-floral-pendant-necklace-hero-100131.webp";
+import model100131 from "../assets/products/accessories/pink-crystal-floral-pendant-necklace-model-100131.webp";
+import detail100131 from "../assets/products/accessories/pink-crystal-floral-pendant-necklace-detail-100131.webp";
+import hero100132 from "../assets/products/accessories/multicolor-heart-charm-necklace-hero-100132.webp";
+import model100132 from "../assets/products/accessories/multicolor-heart-charm-necklace-model-100132.webp";
+import detail100132 from "../assets/products/accessories/multicolor-heart-charm-necklace-detail-100132.webp";
+
 const websiteProducts: Product[] = [
   // ---------------------------------------------------------------------------
   // ACCESSORIES
@@ -3582,6 +3631,320 @@ const websiteProducts: Product[] = [
       { src: hero100117, alt: "Gold-tone double-chain bracelet with three polished heart stations on a blush display." },
       { src: model100117, alt: "Adult woman wearing a gold-tone double-chain bracelet with three polished hearts." },
       { src: detail100117, alt: "Macro detail of three polished heart stations across flat and beaded gold-tone chains." },
+    ],
+  },
+
+
+  {
+    id: "gold-knot-pendant-necklace",
+    name: "Gold Knot Pendant Necklace",
+    sku: 100118,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A fine gold-tone chain centered with a polished interlocking knot pendant.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100118, alt: "Gold-tone necklace with a polished interlocking knot pendant." },
+      { src: model100118, alt: "Adult woman wearing a fine gold-tone knot pendant necklace." },
+      { src: detail100118, alt: "Macro detail of the polished interlocking gold-tone knot pendant." },
+    ],
+  },
+
+  {
+    id: "black-enamel-heart-necklace",
+    name: "Black Enamel Heart Necklace",
+    sku: 100119,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold and black",
+    shortDescription: "A fine gold-tone chain with a glossy black asymmetric heart framed in gold.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100119, alt: "Gold-tone necklace with a glossy black asymmetric heart pendant." },
+      { src: model100119, alt: "Adult woman wearing a black enamel heart necklace with a gold-tone chain." },
+      { src: detail100119, alt: "Macro detail of the black enamel heart pendant and gold-tone rim." },
+    ],
+  },
+
+  {
+    id: "crystal-flower-layered-necklace-set",
+    name: "Crystal Flower Layered Necklace Set",
+    sku: 100120,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A coordinated two-piece set with a smooth herringbone chain and a crystal flower pendant necklace.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "2 necklaces",
+    offerAvailable: false,
+    images: [
+      { src: hero100120, alt: "Gold-tone layered necklace set with a herringbone chain and crystal flower pendant." },
+      { src: model100120, alt: "Adult woman wearing a gold-tone herringbone chain layered with a crystal flower necklace." },
+      { src: detail100120, alt: "Macro detail of the clear crystal flower pendant and smooth herringbone chain." },
+    ],
+  },
+
+  {
+    id: "gold-puff-heart-layered-necklace-set",
+    name: "Gold Puff Heart Layered Necklace Set",
+    sku: 100121,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A two-piece gold-tone set pairing a smooth herringbone chain with a polished puff-heart necklace.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "2 necklaces",
+    offerAvailable: false,
+    images: [
+      { src: hero100121, alt: "Gold-tone layered necklace set with a herringbone chain and polished puff heart." },
+      { src: model100121, alt: "Adult woman wearing a gold-tone herringbone chain layered with a puff-heart necklace." },
+      { src: detail100121, alt: "Macro detail of a polished gold-tone puff heart and herringbone chain." },
+    ],
+  },
+
+  {
+    id: "horizontal-crystal-infinity-necklace",
+    name: "Crystal Infinity Necklace",
+    sku: 100122,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A delicate bead-station gold-tone chain with a horizontal infinity pendant combining clear crystals and polished gold.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100122, alt: "Gold-tone necklace with a horizontal infinity pendant, clear crystal loop and smooth gold loop." },
+      { src: model100122, alt: "Adult woman wearing a horizontal gold-tone infinity necklace with clear crystals." },
+      { src: detail100122, alt: "Macro detail of the horizontal infinity pendant with one crystal loop and one polished gold loop." },
+    ],
+  },
+
+  {
+    id: "colored-crystal-infinity-necklace",
+    name: "Colored Crystal Infinity Necklace",
+    sku: 100123,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Green, Pink",
+    shortDescription: "A bead-station gold-tone chain with a polished infinity pendant, available with a square green or pink crystal.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: greenHero100123, alt: "Gold-tone infinity necklace with a square green crystal and bead-station chain.", color: "Green" },
+      { src: pinkHero100123, alt: "Gold-tone infinity necklace with a square pink crystal and bead-station chain.", color: "Pink" },
+      { src: greenModel100123, alt: "Adult woman wearing a gold-tone infinity necklace with a green crystal.", color: "Green" },
+      { src: pinkModel100123, alt: "Adult woman wearing a gold-tone infinity necklace with a pink crystal.", color: "Pink" },
+      { src: greenDetail100123, alt: "Macro detail of the polished infinity pendant and square green crystal.", color: "Green" },
+      { src: pinkDetail100123, alt: "Macro detail of the polished infinity pendant and square pink crystal.", color: "Pink" },
+    ],
+  },
+
+  {
+    id: "gold-crystal-butterfly-necklace",
+    name: "Gold Crystal Butterfly Necklace",
+    sku: 100124,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A gold-tone paperclip chain with a polished gold butterfly pendant accented by clear crystals.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100124, alt: "Gold-tone paperclip-chain necklace with a gold butterfly pendant and clear crystals." },
+      { src: model100124, alt: "Adult woman wearing a gold crystal butterfly pendant on a gold-tone paperclip chain." },
+      { src: detail100124, alt: "Macro detail of the polished gold butterfly pendant with clear crystal accents." },
+    ],
+  },
+
+
+
+  {
+    id: "clear-crystal-infinity-necklace",
+    name: "Clear Crystal Infinity Necklace",
+    sku: 100126,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A bead-station gold-tone chain centered with an infinity pendant outlined in clear crystals.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100126, alt: "Gold-tone necklace with a clear-crystal infinity pendant and bead-station chain." },
+      { src: model100126, alt: "Adult woman wearing a gold-tone clear-crystal infinity necklace." },
+      { src: detail100126, alt: "Macro detail of the infinity pendant outlined with clear crystals." },
+    ],
+  },
+
+  {
+    id: "crystal-heart-layered-necklace-set",
+    name: "Crystal Heart Layered Necklace Set",
+    sku: 100127,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A two-piece set pairing a clear crystal tennis chain with a bead-station puff-heart necklace.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "2 necklaces",
+    offerAvailable: false,
+    images: [
+      { src: hero100127, alt: "Layered gold-tone necklace set with a clear crystal tennis chain and puff heart." },
+      { src: model100127, alt: "Adult woman wearing a crystal tennis chain layered with a gold-tone puff-heart necklace." },
+      { src: detail100127, alt: "Macro detail of the clear crystal tennis chain and polished puff-heart necklace." },
+    ],
+  },
+
+  {
+    id: "classic-gold-herringbone-necklace",
+    name: "Classic Gold Herringbone Necklace",
+    sku: 100128,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A sleek medium-width gold-tone herringbone chain with a smooth, reflective finish.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100128, alt: "Classic medium-width gold-tone herringbone necklace on a blush jewelry display." },
+      { src: model100128, alt: "Adult woman wearing a classic gold-tone herringbone necklace." },
+      { src: detail100128, alt: "Macro detail of the smooth reflective links of a gold-tone herringbone chain." },
+    ],
+  },
+
+  {
+    id: "pink-crystal-tulip-pendant-necklace",
+    name: "Pink Crystal Tulip Pendant Necklace",
+    sku: 100129,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold and pink",
+    shortDescription: "A fine gold-tone necklace with a graceful tulip pendant, pink crystal centre and clear crystal leaves.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100129, alt: "Gold-tone tulip pendant necklace with a pink crystal centre and clear crystal leaves." },
+      { src: model100129, alt: "Adult woman wearing a gold-tone pink crystal tulip pendant necklace." },
+      { src: detail100129, alt: "Macro detail of the pink crystal tulip pendant and two clear crystal leaves." },
+    ],
+  },
+
+  {
+    id: "round-crystal-cross-necklace",
+    name: "Round Crystal Cross Necklace",
+    sku: 100130,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold",
+    shortDescription: "A fine gold-tone necklace with a classic cross pendant set with brilliant round clear crystals.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100130, alt: "Gold-tone necklace with a cross pendant set with round clear crystals." },
+      { src: model100130, alt: "Adult woman wearing a gold-tone round crystal cross necklace." },
+      { src: detail100130, alt: "Macro detail of the gold-tone cross pendant and round clear crystal settings." },
+    ],
+  },
+
+  {
+    id: "pink-crystal-floral-pendant-necklace",
+    name: "Pink Crystal Floral Pendant Necklace",
+    sku: 100131,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold, pink and green",
+    shortDescription: "A gold-tone floral pendant necklace with a faceted pink centre, green crystal leaves and clear accents.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100131, alt: "Gold-tone floral pendant necklace with a pink crystal centre and green crystal leaves." },
+      { src: model100131, alt: "Adult woman wearing a gold-tone pink and green crystal floral pendant necklace." },
+      { src: detail100131, alt: "Macro detail of the pink crystal flower, green leaves and clear crystal accents." },
+    ],
+  },
+
+  {
+    id: "multicolor-heart-charm-necklace",
+    name: "Multicolor Heart Charm Necklace",
+    sku: 100132,
+    category: "accessories",
+    productType: "necklace",
+    audience: ["women", "kids"],
+    color: "Gold and multi-color",
+    shortDescription: "A sleek gold-tone snake-chain necklace with alternating polished hearts and colourful bezel-set crystals.",
+    price: null,
+    availability: "in-stock",
+    material: "Stainless steel",
+    occasionTags: ["Everyday", "special occasions"],
+    setContents: "1 necklace",
+    offerAvailable: false,
+    images: [
+      { src: hero100132, alt: "Gold-tone snake-chain necklace with polished heart charms and multicolor bezel-set crystals." },
+      { src: model100132, alt: "Adult woman wearing a gold-tone heart charm necklace with multicolor crystals." },
+      { src: detail100132, alt: "Macro detail of polished gold-tone hearts and multicolor bezel-set crystal charms." },
     ],
   },
 
