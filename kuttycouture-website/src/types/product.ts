@@ -6,7 +6,6 @@ export type ProductType =
   | "necklace"
   | "earrings"
   | "bracelet"
-  | "earrings"
   | "kada"
   | "ring"
   | "hair-accessories"
