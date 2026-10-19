@@ -417,18 +417,18 @@ import detail100120 from "../assets/products/accessories/crystal-flower-layered-
 import hero100121 from "../assets/products/accessories/gold-puff-heart-layered-necklace-set-hero-100121.webp";
 import model100121 from "../assets/products/accessories/gold-puff-heart-layered-necklace-set-model-100121.webp";
 import detail100121 from "../assets/products/accessories/gold-puff-heart-layered-necklace-set-detail-100121.webp";
-import hero100122 from "../assets/products/accessories/crystal-halo-teardrop-necklace-hero-100122.webp";
-import model100122 from "../assets/products/accessories/crystal-halo-teardrop-necklace-model-100122.webp";
-import detail100122 from "../assets/products/accessories/crystal-halo-teardrop-necklace-detail-100122.webp";
-import hero100123 from "../assets/products/accessories/green-crystal-infinity-necklace-hero-100123.webp";
-import model100123 from "../assets/products/accessories/green-crystal-infinity-necklace-model-100123.webp";
-import detail100123 from "../assets/products/accessories/green-crystal-infinity-necklace-detail-100123.webp";
-import hero100124 from "../assets/products/accessories/black-crystal-butterfly-necklace-hero-100124.webp";
-import model100124 from "../assets/products/accessories/black-crystal-butterfly-necklace-model-100124.webp";
-import detail100124 from "../assets/products/accessories/black-crystal-butterfly-necklace-detail-100124.webp";
-import hero100125 from "../assets/products/accessories/pink-crystal-infinity-necklace-hero-100125.webp";
-import model100125 from "../assets/products/accessories/pink-crystal-infinity-necklace-model-100125.webp";
-import detail100125 from "../assets/products/accessories/pink-crystal-infinity-necklace-detail-100125.webp";
+import hero100122 from "../assets/products/accessories/crystal-infinity-necklace-hero-100122.webp";
+import model100122 from "../assets/products/accessories/crystal-infinity-necklace-model-100122.webp";
+import detail100122 from "../assets/products/accessories/crystal-infinity-necklace-detail-100122.webp";
+import greenHero100123 from "../assets/products/accessories/crystal-infinity-necklace-green-hero-100123.webp";
+import greenModel100123 from "../assets/products/accessories/crystal-infinity-necklace-green-model-100123.webp";
+import greenDetail100123 from "../assets/products/accessories/crystal-infinity-necklace-green-detail-100123.webp";
+import pinkHero100123 from "../assets/products/accessories/crystal-infinity-necklace-pink-hero-100123.webp";
+import pinkModel100123 from "../assets/products/accessories/crystal-infinity-necklace-pink-model-100123.webp";
+import pinkDetail100123 from "../assets/products/accessories/crystal-infinity-necklace-pink-detail-100123.webp";
+import hero100124 from "../assets/products/accessories/gold-crystal-butterfly-necklace-hero-100124.webp";
+import model100124 from "../assets/products/accessories/gold-crystal-butterfly-necklace-model-100124.webp";
+import detail100124 from "../assets/products/accessories/gold-crystal-butterfly-necklace-detail-100124.webp";
 import hero100126 from "../assets/products/accessories/clear-crystal-infinity-necklace-hero-100126.webp";
 import model100126 from "../assets/products/accessories/clear-crystal-infinity-necklace-model-100126.webp";
 import detail100126 from "../assets/products/accessories/clear-crystal-infinity-necklace-detail-100126.webp";
@@ -3710,14 +3710,14 @@ const websiteProducts: Product[] = [
   },
 
   {
-    id: "crystal-halo-teardrop-necklace",
-    name: "Crystal Halo Teardrop Necklace",
+    id: "horizontal-crystal-infinity-necklace",
+    name: "Crystal Infinity Necklace",
     sku: 100122,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
     color: "Gold",
-    shortDescription: "A delicate gold-tone necklace with a crystal halo linked to a smooth teardrop loop.",
+    shortDescription: "A delicate bead-station gold-tone chain with a horizontal infinity pendant combining clear crystals and polished gold.",
     price: null,
     availability: "in-stock",
     material: "Stainless steel",
@@ -3725,21 +3725,21 @@ const websiteProducts: Product[] = [
     setContents: "1 necklace",
     offerAvailable: false,
     images: [
-      { src: hero100122, alt: "Gold-tone necklace with a crystal halo and smooth teardrop pendant." },
-      { src: model100122, alt: "Adult woman wearing a gold-tone crystal halo teardrop necklace." },
-      { src: detail100122, alt: "Macro detail of the crystal halo and polished teardrop pendant." },
+      { src: hero100122, alt: "Gold-tone necklace with a horizontal infinity pendant, clear crystal loop and smooth gold loop." },
+      { src: model100122, alt: "Adult woman wearing a horizontal gold-tone infinity necklace with clear crystals." },
+      { src: detail100122, alt: "Macro detail of the horizontal infinity pendant with one crystal loop and one polished gold loop." },
     ],
   },
 
   {
-    id: "green-crystal-infinity-necklace",
-    name: "Green Crystal Infinity Necklace",
+    id: "colored-crystal-infinity-necklace",
+    name: "Colored Crystal Infinity Necklace",
     sku: 100123,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
-    color: "Gold and green",
-    shortDescription: "A bead-station gold-tone chain with a polished infinity pendant and square green crystal.",
+    color: "Green, Pink",
+    shortDescription: "A bead-station gold-tone chain with a polished infinity pendant, available with a square green or pink crystal.",
     price: null,
     availability: "in-stock",
     material: "Stainless steel",
@@ -3747,21 +3747,24 @@ const websiteProducts: Product[] = [
     setContents: "1 necklace",
     offerAvailable: false,
     images: [
-      { src: hero100123, alt: "Gold-tone infinity necklace with a square green crystal and bead-station chain." },
-      { src: model100123, alt: "Adult woman wearing a gold-tone infinity necklace with a green crystal." },
-      { src: detail100123, alt: "Macro detail of the polished infinity pendant and square green crystal." },
+      { src: greenHero100123, alt: "Gold-tone infinity necklace with a square green crystal and bead-station chain.", color: "Green" },
+      { src: pinkHero100123, alt: "Gold-tone infinity necklace with a square pink crystal and bead-station chain.", color: "Pink" },
+      { src: greenModel100123, alt: "Adult woman wearing a gold-tone infinity necklace with a green crystal.", color: "Green" },
+      { src: pinkModel100123, alt: "Adult woman wearing a gold-tone infinity necklace with a pink crystal.", color: "Pink" },
+      { src: greenDetail100123, alt: "Macro detail of the polished infinity pendant and square green crystal.", color: "Green" },
+      { src: pinkDetail100123, alt: "Macro detail of the polished infinity pendant and square pink crystal.", color: "Pink" },
     ],
   },
 
   {
-    id: "black-crystal-butterfly-necklace",
-    name: "Black Crystal Butterfly Necklace",
+    id: "gold-crystal-butterfly-necklace",
+    name: "Gold Crystal Butterfly Necklace",
     sku: 100124,
     category: "accessories",
     productType: "necklace",
     audience: ["women", "kids"],
-    color: "Gold and black",
-    shortDescription: "A gold-tone paperclip chain with a black butterfly pendant accented by clear crystals.",
+    color: "Gold",
+    shortDescription: "A gold-tone paperclip chain with a polished gold butterfly pendant accented by clear crystals.",
     price: null,
     availability: "in-stock",
     material: "Stainless steel",
@@ -3769,33 +3772,13 @@ const websiteProducts: Product[] = [
     setContents: "1 necklace",
     offerAvailable: false,
     images: [
-      { src: hero100124, alt: "Gold-tone paperclip-chain necklace with a black and clear-crystal butterfly pendant." },
-      { src: model100124, alt: "Adult woman wearing a black crystal butterfly pendant on a gold-tone paperclip chain." },
-      { src: detail100124, alt: "Macro detail of the black butterfly pendant with clear crystal wings." },
+      { src: hero100124, alt: "Gold-tone paperclip-chain necklace with a gold butterfly pendant and clear crystals." },
+      { src: model100124, alt: "Adult woman wearing a gold crystal butterfly pendant on a gold-tone paperclip chain." },
+      { src: detail100124, alt: "Macro detail of the polished gold butterfly pendant with clear crystal accents." },
     ],
   },
 
-  {
-    id: "pink-crystal-infinity-necklace",
-    name: "Pink Crystal Infinity Necklace",
-    sku: 100125,
-    category: "accessories",
-    productType: "necklace",
-    audience: ["women", "kids"],
-    color: "Gold and pink",
-    shortDescription: "A bead-station gold-tone chain with a polished infinity pendant and square pink crystal.",
-    price: null,
-    availability: "in-stock",
-    material: "Stainless steel",
-    occasionTags: ["Everyday", "special occasions"],
-    setContents: "1 necklace",
-    offerAvailable: false,
-    images: [
-      { src: hero100125, alt: "Gold-tone infinity necklace with a square pink crystal and bead-station chain." },
-      { src: model100125, alt: "Adult woman wearing a gold-tone infinity necklace with a pink crystal." },
-      { src: detail100125, alt: "Macro detail of the polished infinity pendant and square pink crystal." },
-    ],
-  },
+
 
   {
     id: "clear-crystal-infinity-necklace",
